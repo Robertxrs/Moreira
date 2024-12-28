@@ -1,36 +1,37 @@
-.header-bg {
-  background-color: var(--cor-12);
-}
 
 .header {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; /* Alinha verticalmente os itens */
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-.header-menu {
+/* Alinhamento do logo e conteúdo */
+.header-logo {
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
+
+}
+.header-content h2{
+  padding-top: 35px;
+}
+/* Estilo do menu */
+.header-menu {
+  display: flex; /* Coloca os itens do menu na horizontal */
 }
 
-.header-menu a {
-  display: inline-block;
-  padding: 16px 0px;
-  position: relative;
+.header-menu .menu {
+  display: flex; /* Alinha os itens da lista em linha */
+  list-style: none; /* Remove os marcadores da lista */
+  gap: 20px; /* Espaço entre os itens */
+  margin: 0;
+  padding: 0;
 }
 
-.header-menu a:after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0px;
-  background: var(--cor-0);
-  margin-top: 4px;
-  transition: 0.3s;
-  position: absolute;
+.header-menu .menu li a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: var(--cor-1); /* Cor do texto */
+  font-weight: bold; /* Negrito para destaque */
+  font-size: 1rem;
 }

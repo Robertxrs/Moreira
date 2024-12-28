@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'NeueKabel';
+    src: url('./assets/fonts/NeueKabel-Black.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NeueKabel';
+    src: url('./assets/fonts/NeueKabel-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NeueKabel';
+    src: url('./assets/fonts/NeueKabel-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NeueKabel';
+    src: url('./assets/fonts/NeueKabel-Book.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'NeueKabel';
+    src: url('./assets/fonts/NeueKabel-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+.font-logo{
+  font:500 40px/1 "NeueKabel", sans-serif;
+  letter-spacing: 8px;
+  color:#174E5B;
+}
+.font-logo-text{
+  font:500 12px/1 "NeueKabel", sans-serif;
+  color:#174E5B;
+  padding-top: 2px;
+
+} 
+
+
+
+.font-menu {
+    font: 400 35px/1 "NeueKabel", sans-serif;
+    color:#9D9D9D;
+  }
+  
+  .font-2-xs {
+    font: 400 0.875rem/1.43 "NeueKabel", sans-serif;
+  }
+  
+  .font-1-s {
+    font: 500 1rem/1.5 "NeueKabel", sans-serif;
+  }
+  
+  .font-2-s {
+    font: 400 1rem/1.5 "NeueKabel", sans-serif;
+  }
+  
+  .font-1-m,
+  .font-1-m-b {
+    font: 700 1.125rem/1.35 "NeueKabel", sans-serif;
+  }
+  
