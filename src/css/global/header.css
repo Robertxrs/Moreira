@@ -2,36 +2,43 @@
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Alinha verticalmente os itens */
+  align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/* Alinhamento do logo e conteúdo */
 .header-logo {
   display: flex;
   gap: 20px;
-
+  flex: 4;
 }
 .header-content h2{
   padding-top: 35px;
 }
-/* Estilo do menu */
+
 .header-menu {
-  display: flex; /* Coloca os itens do menu na horizontal */
+  display: flex; 
+  flex: 7.8;
 }
 
 .header-menu .menu {
-  display: flex; /* Alinha os itens da lista em linha */
-  list-style: none; /* Remove os marcadores da lista */
-  gap: 20px; /* Espaço entre os itens */
+  display: flex;
+  list-style: none;
+  gap: 40px; 
   margin: 0;
   padding: 0;
 }
 
-.header-menu .menu li a {
-  text-decoration: none; /* Remove o sublinhado */
-  color: var(--cor-1); /* Cor do texto */
-  font-weight: bold; /* Negrito para destaque */
-  font-size: 1rem;
+.selected{
+  background-color: #0D4253;
+  padding: 8px 16px;
+  border-radius: 16px;
+  color: #FFFFFF;
+}
+
+.agendamento{
+  background-color: #04878E;
+  padding: 8px 16px;
+  border-radius: 12px;
+  color: #FFFFFF;
 }

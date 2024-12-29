@@ -1,9 +1,9 @@
 body {
-    margin: 0px;
-    font-family: "NeueKabel", sans-serif;
-    color: #111111;
-  }
-  
+  margin: 0px;
+  font-family: 'Neue Kabel', sans-serif;
+  color: #111111;
+}
+
   h1,
   h2,
   h3,
@@ -19,12 +19,7 @@ body {
     padding: 0px;
     list-style: none;
   }
-  
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  
+
   img {
     max-width: 100%;
     height: auto;
