@@ -1,0 +1,131 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #04878E;
+    margin-top: 150px;
+}
+
+.footer-info {
+    flex: 0 0 45%;
+    background-color: #04878E;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    padding: 30px 0px 50px 50px;
+}
+
+
+.footer-info__options h1,
+.footer-contact h2 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.54px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.footer-info__options ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.footer-info__options ul li {
+    margin-bottom: 15px;
+}
+
+.footer-info__options ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.32px;
+}
+
+.footer-info__options p {
+    margin-top: 60px;
+    font-size: 18px;
+    color: #fff;
+    
+}
+
+.footer-contact h2{
+    margin-top: 15px;
+}
+
+.footer-contact p{
+    font-size: 20px;
+    letter-spacing: 2.64px;
+    font-weight: 300;
+}
+
+
+.footer-message {
+    flex: 0 0 45%;
+    background-color: #1F6868;
+}
+
+
+.footer-message h2 {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+.form-columns {
+    display: flex;
+    gap: 40px;
+    padding-left: 100px;
+}
+.form-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-column input,
+.form-column textarea,
+.form-column button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #646464;
+}
+
+.form-column input{
+    padding-bottom: 40px;
+    margin-bottom: 30px;
+
+}
+
+.form-column textarea {
+    height: 155px;
+    resize: none;
+}
+
+.form-column button {
+    margin-top: 60px;
+    width: 120px;
+    height: 60px;
+    background-color: #04878E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.form-column button:hover {
+    background-color: #0d5c74;
+}
+
+.bttn-up__div{
+    display: flex;
+    justify-content: end;
+}

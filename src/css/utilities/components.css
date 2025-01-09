@@ -6,7 +6,7 @@
     margin-right: auto;
   }
   
-  .bg {
+.bg {
     background: linear-gradient(to right, white 65%, #0D4253 35%);
     min-height: 100vh;
     position: relative;
