@@ -1,0 +1,177 @@
+.bg__s{
+    background: linear-gradient(to right, white 54%, #0D4253 35%);
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.bg__s::before {
+    content: '';
+    background-size: contain;
+    background-image: url("../../assets/icons/Aneis.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 77%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 120%;
+}
+
+
+.main-content__s h1{
+    font-size:76px;
+    letter-spacing: 1.52px;
+    color: #062938;
+    font-weight: 500;
+}
+.main-content__s span{
+    color: #062938;
+}
+
+
+.main-content__s h2{
+    font-size:76px;
+    letter-spacing: 1.52px;
+    color: #797979;
+    font-weight: 500;
+}
+.main-content__s p{
+    font-size:43px;
+    letter-spacing: 0.86px;
+    color: #797979;
+    font-weight: 400;
+    padding-right: 1100px;
+    padding-top: 50px;
+}
+
+
+.main-img__s{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.main-img__s img {
+    max-width:  556px;
+    height: 100%;
+
+}
+
+#text__s-two{
+    padding-right: 1050px;
+    padding-bottom: 38px;
+}
+
+
+#text__s-three{
+    font-size: 43px;
+    padding-right: 0px;
+    letter-spacing: 0.86px;
+    color: #797979;
+    padding-left: 50px;
+    padding-right: 300px;
+    padding-top: 30px;
+}
+#text__s-three span{
+    font-size: 43px;
+    padding-right: 0px;
+    color: #797979;
+}
+
+.nav-agendar__s{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.nav-agendar__s h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    color: #0D4253;
+    padding: 100px 30% 0px 30%;
+}
+
+.procurar-bg h1{
+    font-size: 76px;
+    font-weight: 500;
+    color: #0D4253;
+    letter-spacing: 1.52px;
+}
+
+.procurar-bg h2{
+    color: #9D9D9D;
+    font-size: 76px;
+    font-weight: 400;
+    padding-bottom: 100px;
+}
+
+.procurar-img{
+    display: flex;
+}
+
+.procurar-img p{
+    color: #0D4253;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 55px;
+    margin: 0px 200px;
+    font-weight: 500;
+}
+
+
+.procurar-servicos{
+    display: flex;
+    padding-top: 150px;
+}
+.procurar-servicos p{
+    font-size: 43px;
+    letter-spacing: 0.86px;
+    color: #797979;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+
+.procurar-servicos span{
+    font-size: 43px;
+    font-weight: 500;
+    color: #797979;
+}
+
+.medic-bg h1{
+    font-size: 76px;
+    color: #0D4253;
+    font-weight: 500;
+}
+
+.medic-bg h2{
+    font-size: 76px;
+    color: #9D9D9D;
+    letter-spacing: 1.52px;
+    font-weight: 500;
+}
+
+.medic-bg p{
+    font-size: 43px;
+    color: #797979;
+    letter-spacing: 0.86px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+
+}
+
+#span-medic{
+    font-size: 43px;
+    letter-spacing: 0.86px;
+    color: #797979;
+    padding-right: 100px;
+}
+

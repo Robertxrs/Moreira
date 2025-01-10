@@ -38,6 +38,13 @@
   color: #FFFFFF;
 }
 
+.selected-green{
+  background-color: #999895;
+  padding: 8px 16px;
+  border-radius: 16px;
+  color: #FFFFFF;
+}
+
 .agendamento{
   background-color: #04878E;
   padding: 8px 16px;
