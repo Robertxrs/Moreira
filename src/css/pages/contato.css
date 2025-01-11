@@ -1,0 +1,239 @@
+.bg__c{
+    background: linear-gradient(to right, white 54%, #0D4253 35%);
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.bg__c::before {
+    content: '';
+    background-size: contain;
+    background-image: url("../../assets/icons/Aneis.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 55%;
+    left: 70.1%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80%;
+}
+
+.main-img__c{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.main-img__c img {
+    max-width: 886px;
+    height: 80%;
+}
+
+
+.main-content__c h1{
+    font-size:76px;
+    letter-spacing: 1.52px;
+    color: #062938;
+    font-weight: 500;
+}
+.main-content__c span{
+    color: #062938;
+}
+
+
+.main-content__c h2{
+    font-size:76px;
+    letter-spacing: 1.52px;
+    color: #797979;
+    font-weight: 500;
+    padding-right: 900px;
+}
+
+
+.contact-tel{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.contact-tel img{
+    padding-right: 120px;
+}
+
+.contact-tel p {
+    padding: 0;
+    margin: 0;
+    font-size: 56px;
+    letter-spacing: 1.52px;
+    color: #062938;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.contact-bg{
+    padding-top: 300px;
+}
+
+.contact-info {
+    position: relative;
+}
+
+.marca-dagua {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    height: auto; 
+}
+
+
+.contact-tel h1 {
+    position: relative;
+    padding-bottom: 40px;
+    font-size: 56px;
+    color: #062938;
+    z-index: 1;
+}
+
+.contact-info-c {
+    position: relative; 
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+.marca-dagua-two {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    height: auto;
+    min-width: 156px;
+}
+
+.contact-info-c h1 {
+    position: relative;
+    padding-bottom: 20px;
+    font-size: 56px;
+    color: #062938;
+    z-index: 1;
+}
+
+.contact-info-c p {
+    padding: 0;
+    margin: 0;
+    font-size: 56px;
+    letter-spacing: 1.52px;
+    color: #062938;
+    font-weight: 500;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+
+#contact-address{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-agendar__c{
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-left: 50px;
+}
+.nav-agendar__c h2{
+    text-align: center;
+    font-size: 55px;
+    font-weight: 500;
+    color: #0D4253;
+    padding: 100px 30% 0px 30%;
+}
+
+
+.contact-info-c img{
+    border-radius: 56px;
+    margin-right: 120px;
+}
+
+
+
+
+.contact-form {
+    color: #062938;
+}
+
+.contact-form h2 {
+    font-size: 57px;
+    font-weight: 500;
+    letter-spacing: 6.84px;
+    color: #062938;
+    margin-bottom: 20px;
+
+}
+
+
+.form-columns-c {
+    display: flex;
+    gap: 100px;
+}
+
+.form-column-c {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 300px;
+
+}
+
+.form-column-c input,
+.form-column-c textarea,
+.form-column-c button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #EDEDED; 
+    background-color: #EDEDED;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #646464;
+}
+
+.form-column-c input {
+    display: flex;
+    font-size: 23px;
+    margin-bottom: 50px;
+    height: 120px;
+}
+
+.form-column-c textarea {
+    font-size: 24px;
+    height: 310px;
+    resize: none;
+
+}
+
+.form-column-c button {
+    width: 190px;
+    height: 70px;
+    background-color: #04878E;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 26px;
+    letter-spacing: 2px;
+    margin-top: 130px;
+
+}
+
+.form-column-c button:hover {
+    background-color: #0d5c74;
+}
+
+.lupa-b{
+    background-color: #0d4252;
+    border: none;
+    cursor: pointer;
+}
