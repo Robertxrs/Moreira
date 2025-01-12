@@ -1,0 +1,107 @@
+.main-content__p h1{
+    font-size:76px;
+    letter-spacing: 1.52px;
+    color: #062938;
+    font-weight: 500;
+    margin-left: 150px;
+}
+.main-content__p span{
+    color: #062938;
+    margin-left: 150px;
+}
+.main-content__p span{
+    color: #062938;
+}
+
+
+.main-content__p h2{
+    font-size:76px;
+    letter-spacing: 1.52px;
+    color: #797979;
+    font-weight: 500;
+}
+
+
+.main-content__s h2{
+    font-size:76px;
+    letter-spacing: 1.52px;
+    color: #797979;
+    font-weight: 500;
+}
+
+
+.problem-bg-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 100px;
+    margin: 0px 200px;
+}
+
+.problem-row-p {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+    margin: 0px; 
+    width: 100%;
+}
+
+.problem-card-p {
+    width: 100%;
+    overflow: hidden;
+    background-color: #062938;
+    border-radius: 46px;
+    margin-bottom: 40px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.problem-card-up-p {
+    background-color: #04878E; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 46px 46px 0 0; 
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+
+.problem-card-up-p img {
+    width: 256px;
+    height: 256px;
+
+}
+
+.problem-card-p p {
+    font-size: 43px;
+    color: #ffffff;
+    padding: 50px;
+    line-height: 1.3;
+    letter-spacing: 0.86px;
+    padding-top: 100px;
+}
+
+.problem-card-p a {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.problem-card-p a img {
+    width: 103px;
+    height: 103px;
+    transition: transform 0.3s ease;
+    transform: rotate(90deg);
+}
+
+.problem-card-p a img:hover {
+    transform: rotate(95deg) scale(1.1); 
+}

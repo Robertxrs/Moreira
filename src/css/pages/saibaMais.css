@@ -77,6 +77,11 @@
     text-align: center;
     padding: 20px;
     border-radius: 46px;
+    height: 220px; 
+}
+
+#problem-peso{
+    height: 300px;
 }
 
 .problem-card-up h1 {

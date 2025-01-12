@@ -45,6 +45,13 @@
   color: #FFFFFF;
 }
 
+.selected-black{
+  background-color: #042938;
+  padding: 8px 16px;
+  border-radius: 16px;
+  color: #FFFFFF;
+}
+
 .agendamento{
   background-color: #04878E;
   padding: 8px 16px;
@@ -55,4 +62,16 @@
   display: flex;
   justify-content: end;
   padding: 0px 3% 0px 3%; 
+}
+
+.lupa-b{
+  background-color: #0d4252;
+  border: none;
+  cursor: pointer;
+}
+.lupa-w{
+  background-color: #e44141;
+  border: none;
+  cursor: pointer;
+  color: black;
 }
