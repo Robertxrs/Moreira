@@ -105,3 +105,77 @@
 .problem-card-p a img:hover {
     transform: rotate(95deg) scale(1.1); 
 }
+
+.depoimentos-b-p {
+    background-color: #fff;
+    padding: 50px 20px;
+    padding-right: 40px;
+}
+
+.depoimentos-header-p {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.depoimentos-content-p {
+    display: flex;
+    width: 100%;
+    overflow: hidden; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+}
+
+.depoimento-p {
+    flex: 0 0 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: start;
+    border-radius: 80px;
+    margin-right: 0; 
+    transition: transform 0.5s ease-in-out; 
+}
+
+.stars-p {
+    color: #FFD700;
+    font-size: 52px;
+    margin-bottom: 60px;
+    margin-left: 30px;
+}
+
+.depoimento-p p {
+    font-size: 38px;
+    color: #797979;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+
+.depoimentos-buttons-p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.depoimentos-buttons-p button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.depoimentos-buttons-p img {
+    width: 40px;
+    height: 40px;
+}
+
+#bttn-back {
+    transform: rotate(270deg);
+    width: 80px;
+    height: 40px;
+}
+
+#bttn-next {
+    transform: rotate(90deg);
+    width: 80px;
+    height: 40px;
+}
