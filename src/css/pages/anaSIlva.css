@@ -1,6 +1,6 @@
 .bg__a{
     background: linear-gradient(to right, white 56%, #0D4253 35%);
-    min-height: 100vh;
+    min-height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -201,5 +201,16 @@
 }
 #how-img__two{
     margin-right: 50px;
+}
+
+@media (max-width: 1700px){
+    
+    .bg__a::before {
+        top: 55%;
+        left: 75.9%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 80%;
+}
 }
 

@@ -210,8 +210,8 @@ footer {
     }
 
     .form-column {
-        width: 100%; /* Faz cada coluna ocupar toda a largura disponível */
-        align-items: stretch; /* Alinha os elementos para ocupar todo o espaço */
+        width: 100%; 
+        align-items: stretch;
         padding-right: 40px;
         margin-right: 40px;
     }
@@ -223,3 +223,19 @@ footer {
         align-items: center; 
     }
 }
+
+@media (max-width: 810px) {
+    div.footer-message h2{
+        margin-left: 15px;
+    }
+
+    .form-column input,
+    .form-column textarea{
+        width: 200px;
+    }
+    div.footer-info{
+        padding-left: 10px;
+    }
+
+}
+
