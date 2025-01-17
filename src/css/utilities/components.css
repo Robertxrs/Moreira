@@ -197,6 +197,14 @@
         height: 70%;
     }
   }
+  @media (max-width: 999px){
+    .bg::before {
+        top: 55%;
+        left: 71.8%;
+        height: 70%;
+    }
+    
+  }
   @media (max-width: 970px){
     .bg::before {
         top: 55%;
@@ -209,7 +217,7 @@
   @media (max-width: 950px){
     .bg::before {
         top: 55%;
-        left: 75.3%;
+        left: 72.3%;
         height: 70%;
     }
 }
@@ -224,10 +232,10 @@
     }
 }
 
-@media (max-width: 850px){
+@media (max-width: 860px){
     .bg::before {
         top: 55%;
-        left: 73.2%;
+        left: 74.2%;
         height: 55%;
     }
     .bg {
@@ -274,3 +282,5 @@
         height: 48%;
     }
 }
+/* mobile */
+

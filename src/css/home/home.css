@@ -1216,6 +1216,12 @@
     .contact-bg.container{
         padding-top: 100px;   
     }
+    div.contact-content p{
+        font-size: 30px;
+    }
+    img.contact-map{
+        width: 640px;
+    }
 }
 
 @media (max-width: 950px) {
@@ -1292,6 +1298,9 @@
 }
 
 @media (max-width: 905px) {
+    main.main h2{
+        font-size: 40px;
+    }
     .message-bg{
         margin-bottom: 0px;
     }
@@ -1301,6 +1310,13 @@
     }
     main.main{
         padding: 0px;
+    }
+    div.contact-content p{
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    img.contact-map{
+        margin-right: 20px;
     }
 
 }
@@ -1457,3 +1473,5 @@
         padding-right: 0px;
     }
 }
+
+/* mobile */
