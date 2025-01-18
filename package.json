@@ -13,6 +13,11 @@
     "lite-server": "^2.6.1"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "body-parser": "^1.20.3",
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16",
+    "sib-api-v3-sdk": "^8.5.0"
   }
 }
