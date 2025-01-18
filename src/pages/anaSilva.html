@@ -26,11 +26,15 @@
                     <span class="bar"></span>
                 </button>
                 <div class="header-search-m">
-                    <input type="text" class="search-input" placeholder="Pesquisar...">
-                    <button class="lupa-b" aria-label="Pesquisar">
-                        <img src="../assets/icons/Lupa.png" alt="Pesquisar" width="20" height="20">
-                    </button>
-                </div>
+                    <input 
+                      type="text" 
+                      id="search-input" 
+                      placeholder="Pesquisar..." 
+                      class="search-bar" 
+                    />
+                    <button id="search-button" class="search-button lupa-b"> <img src="../assets/icons/Lupa.png" alt=""></button>
+                    <div id="search-message" class="search-message"></div>
+                  </div>
                 <nav class="header-menu">
                     <ul class="menu">
                         <li><a href="../index.html" class="font-menu ">Home</a></li>
@@ -40,6 +44,7 @@
                         <li><a href="./contato.html" class="font-menu">Contato</a></li>
                         <li><a href="https://wa.me/5511917829372" target="_blank" class="font-menu agendamento">Agendamento</a></li>
                     </ul>
+                    <button class="close-menu" aria-label="Fechar menu">X</button>
                 </nav>
             </div>
             <div class="header-search">
@@ -293,6 +298,11 @@
             </form>
         </div>        
     </footer>
-    <script src="./js/depoimentos.js"></script>
+    <script src="../js/depoimentos.js"></script>
+    <script src="../js/menu.js"></script>
+    <script src="../js/utils.js"></script>
+    <script>
+        
+      </script>
 </body>
 </html>

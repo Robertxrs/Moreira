@@ -839,10 +839,19 @@
         margin: 0px 140px;
         font-size: 32px;
     }
-}@media (max-width: 672px) {
+    
+}@media (max-width: 732px) {
     .bg__sm::before {
         top: 60%;
         left: 74.9%;
+        width: 80%;
+        height: 60%;
+    }
+}
+@media (max-width: 672px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 75.9%;
         width: 80%;
         height: 60%;
     }
