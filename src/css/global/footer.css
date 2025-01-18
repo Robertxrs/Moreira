@@ -231,7 +231,7 @@ footer {
 
     .form-column input,
     .form-column textarea{
-        width: 200px;
+        width: 250px;
     }
     div.footer-info{
         padding-left: 10px;
@@ -240,4 +240,44 @@ footer {
 }
 
 /* mobile */
+@media (max-width: 754px) {
+    footer {
+        flex-direction: column; /* Alinha os itens verticalmente */
+    }
 
+    .footer-info {
+        flex: 0 0 auto;
+        display: flex;
+        flex-direction: column; /* Mantém o alinhamento vertical */
+        padding: 20px;
+    }
+
+    .footer-info__options {
+        flex: 2; /* Aumenta a proporção de espaço para opções */
+        padding-bottom: 20px; /* Dá mais espaçamento inferior */
+    }
+
+    .footer-contact {
+        flex: 1; /* Reduz o espaço alocado para contato */
+        padding: 10px 20px; /* Reduz o padding geral */
+    }
+
+    .footer-message {
+        flex: 0 0 auto;
+        padding: 20px;
+    }
+
+    .footer-message h2 {
+        margin-left: 0; /* Centraliza o texto */
+    }
+
+    .form-columns {
+        flex-direction: column; /* Alinha os campos em uma única coluna */
+        gap: 20px;
+        padding-left: 0;
+    }
+    div.footer-info__options{
+        padding-left: 20px;
+    }
+
+}

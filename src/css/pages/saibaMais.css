@@ -802,46 +802,186 @@
         left: 80.3%;
         height: 65.5%;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
 @media (max-width: 777px) {
     .bg__sm::before {
         top: 60%;
-        left: 75%;
-        width: 80%;
+        left: 73%;
+        width: 70%;
         height: 60%;
     }
     .main-img__sm{
         top: 84.5%;
-        left: 80.3%;
-        height: 62%;
+        left: 79.8%;
+        height: 70%;
+    }
+    div.main-content__s.container h1,div.main-content__s.container h2{
+        font-size: 30px;
+    }p#text__sm{
+        padding-right: 300px;
+    }p#text__sm__two{
+        padding-right: 300px;
     }
 }
 @media (max-width: 752px) {
     .bg__sm::before {
         top: 60%;
-        left: 75.9%;
+        left: 72.9%;
         width: 80%;
         height: 60%;
     }
     .main-img__sm{
         top: 85.6%;
-        left: 80.4%;
-        height: 57.5%;
+        left: 83.4%;
+        height: 64.5%;
     }
     div.lembrete-container p{
         margin: 0px 140px;
         font-size: 32px;
+    }
+}@media (max-width: 672px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 74.9%;
+        width: 80%;
+        height: 60%;
+    }
+    .main-img__sm{
+        top: 85.6%;
+        left: 83.4%;
+        height: 64.5%;
+    }
+    p#text__sm{
+        padding-right: 260px;
+    }p#text__sm__two{
+        padding-right: 260px;
+    }
+}@media (max-width: 606px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 76.5%;
+        width: 80%;
+        height: 60%;
+    }
+    .main-img__sm{
+        top: 85.6%;
+        left: 83.4%;
+        height: 64.5%;
+    }
+    div.main-content__s.container h1,div.main-content__s.container h2{
+        font-size: 24px;
+    }p#text__sm,p#text__sm span{
+        font-size: 18px;
+        padding-right: 220px;
+    }p#text__sm__two,p#text__sm__two span{
+        font-size: 18px;
+        padding-right: 220px;
+    }
+}@media (max-width: 546px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 78.5%;
+        width: 70%;
+        height: 60%;
+    }
+    .main-img__sm{
+        top: 85.6%;
+        left: 83.4%;
+        height: 58.5%;
+    }
+    div.problem-card p{
+        font-size: 20px;
+    }div.problem-row{
+        font-size: 20px;
+    } .problem-card {
+        width: 400px; 
+    }
+}@media (max-width: 536px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 77.5%;
+        width: 70%;
+        height: 50%;
+    }
+    .main-img__sm{
+        top: 86.9%;
+        left: 83.4%;
+        height: 52.5%;
+    }div.main-content__s.container h1,div.main-content__s.container h2{
+        font-size: 22px;
+    }p#text__sm,p#text__sm span{
+        font-size: 16px;
+        padding-right: 220px;
+    }p#text__sm__two,p#text__sm__two span{
+        font-size: 16px;
+        padding-right: 220px;
+    }div.problem-row-p p{
+        font-size: 24px;
+    }.problem-card-p p{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 22px !important;
+    }
+}
+@media (max-width: 482px) {
+    div.main-content__s.container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width: 455px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 80.5%;
+        width: 70%;
+        height: 50%;
+    }
+    div.main-content__s.container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }    .main-img__sm{
+        top: 88.9%;
+        left: 85.4%;
+        height: 48.5%;
+    }p#text__sm{
+        padding-right: 180px;
+    }p#text__sm__two{
+        padding-right: 180px;
+    }div.main-content__s.container h1,div.main-content__s.container h2{
+        margin-right: 160px;
+    }.problem-card-p p{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        font-size: 18px !important;
+    }
+}@media (max-width: 415px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 83.5%;
+        width: 70%;
+        height: 50%;
+    }
+    .main-img__sm{
+        top: 89.9%;
+        left: 85.4%;
+        height: 42.5%;
+    }
+    .problem-card {
+        width: 350px; 
+    }
+}@media (max-width: 392px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 84.5%;
+        width: 70%;
+        height: 40%;
+    }
+    .main-img__sm{
+        top: 92.9%;
+        left: 83.4%;
+        height: 30.5%;
+    }
+    .problem-card {
+        width: 320px; 
     }
 }
