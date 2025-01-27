@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchDropdown = document.getElementById('search-dropdown');
   const dropdownSearchInput = document.getElementById('dropdown-search-input');
   const dropdownSearchButton = document.getElementById('dropdown-search-button');
-  const searchMessage = document.getElementById('search-message'); // Para exibir a mensagem
+  const searchMessage = document.getElementById('search-message'); 
 
 
   function showMessage(message) {
