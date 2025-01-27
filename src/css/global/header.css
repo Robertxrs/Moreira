@@ -394,24 +394,6 @@
     margin-right: 30px;
   }
 }
-
-.search-message {
-  display: none;
-  position: absolute;
-  top: 50px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 10px 20px;
-  background-color: #f44336;
-  color: white;
-  border-radius: 4px;
-  font-size: 14px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-  z-index: 1000;
-}
-
 .search-message.show {
   display: block;
   opacity: 1;
@@ -455,46 +437,65 @@
   opacity: 1;
   transform: translateY(0);
 }
-/* Estilo base: o dropdown está escondido */
+
+
+.header-search {
+  display: flex;
+  justify-content: end;
+  padding: 0px 3% 0px 3%;
+  position: relative;
+}
+
+.lupa-b {
+  background-color: #0d4252;
+  border: none;
+  cursor: pointer;
+}
+
 .search-dropdown {
-  display: none;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 50px;
   right: 0;
-  background: white;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border-radius: 4px;
   padding: 10px;
-  z-index: 100;
-  width: 200px;
-}
-
-/* Quando a classe 'active' for aplicada, o dropdown aparece */
-.search-dropdown.active {
-  display: block;
-}
-
-/* Mensagem de feedback */
-.search-message {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #f44336;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 4px;
-  z-index: 200;
-  font-size: 14px;
-  font-weight: bold;
-  text-align: center;
+  width: 250px;
+  z-index: 10;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: scaleY(0);
+  transform-origin: top;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
 }
 
-/* Quando a mensagem estiver visível */
+.search-dropdown.show {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.hidden {
+  display: none;
+}
+
+.dropdown-search-bar {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.dropdown-search-button {
+  background-color: #0d4252;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .search-message.show {
   display: block;
-  opacity: 1;
 }

@@ -212,15 +212,15 @@
   @media (max-width: 950px){
     .bg::before {
         top: 55%;
-        left: 72.3%;
+        left: 69.5%;
         height: 70%;
     }
 }
 @media (max-width: 910px){
     .bg::before {
         top: 55%;
-        left: 77.2%;
-        height: 70%;
+        left: 73.5%;
+        height: 60%;
     }
     .bg {
         background: linear-gradient(to right, white 60%, #0D4253 40%);
@@ -273,7 +273,14 @@
 @media (max-width: 740px){
     .bg::before {
         top: 55%;
-        left: 76%;
+        left: 77%;
+        height: 48%;
+    }
+}
+@media (max-width: 700px){
+    .bg::before {
+        top: 55%;
+        left: 79%;
         height: 48%;
     }
 }
@@ -288,16 +295,22 @@
         left: 78%;
         height: 50%;
     }
+}@media (max-width: 675px){
+    .bg::before {
+        left: 80.2%;
+    }
 }
 @media (max-width: 635px){
     .bg::before {
-        left: 79.2%;
+        left: 82.2%;
     }
 }
 @media(max-width: 610px){
     .bg::before {
-        left: 77.2%;
-    } 
+        top: 60%;
+        left: 76%;
+        height: 40%;
+    }
 }
 @media(max-width: 577px){
     .bg::before {
@@ -310,7 +323,7 @@
 }
 @media(max-width: 535px){
     .bg::before {
-        left: 80.5%;
+        left: 71.5%;
     } 
 }@media(max-width: 589px){
     .bg::before {
@@ -322,7 +335,7 @@
 }
 @media(max-width: 492px){
     .bg::before {
-        left: 80%;
+        left: 78%;
     } div.main-content{
         margin-right: 180px;
     }

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moreira - Geriatria e Clínica Médica</title>
+    <link rel="preload" href="/src/css/style.min.css" as="style">
+    <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body class="body-bg">
+    <div class="bg">
+        <header class="header-bg">
+            <div class="header container">
+                <div class="header-logo">
+                    <img id="espiral" src="/src/assets/images/Verde_agua.png" width="120" height="32" alt="espiral">
+                    <div class="header-content">
+                        <h2 class="font-logo">Moreira</h2>
+                        <p class="font-logo-text">GERIATRIA E CLÍNICA MÉDICA</p>
+                    </div>
+                </div>
+
+                <button class="hamburger" aria-label="Abrir menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <div class="header-search-m">
+                    <input 
+                      type="text" 
+                      id="search-input" 
+                      placeholder="Pesquisar..." 
+                      class="search-bar" 
+                    />
+                    <button id="search-button" class="search-button lupa-b">
+                      <img src="/src/assets/icons/Lupa.png" alt="">
+                    </button>
+                    <div id="search-message" class="search-message"></div>
+                  </div>
+                  
+                <nav class="header-menu">
+                    <ul class="menu">
+                        <li><a href="#" class="font-menu selected">Home</a></li>
+                        <li><a href="/src/pages/anaSilva.html" class="font-menu">Dra. Ana Silvia</a></li>
+                        <li><a href="/src/pages/servicos.html" class="font-menu">Serviços</a></li>
+                        <li><a href="/src/pages/saibaMais.html" class="font-menu">Saiba Mais</a></li>
+                        <li><a href="/src/pages/contato.html" class="font-menu">Contato</a></li>
+                        <li><a href="https://wa.me/5511917829372" target="_blank" class="font-menu agendamento">Agendamento</a></li>
+                    </ul>
+                    <button class="close-menu" aria-label="Fechar menu">X</button>
+                </nav>
+            </div>
+            <div class="header-search">
+                <button class="lupa-b" id="toggle-search">
+                  <img src="/src/assets/icons/Lupa.png" alt="Buscar" width="60" height="22">
+                </button>
+                <div class="search-dropdown hidden" id="search-dropdown">
+                  <input 
+                    type="text" 
+                    id="dropdown-search-input" 
+                    placeholder="Digite para pesquisar..." 
+                    class="dropdown-search-bar" 
+                  />
+                  <button id="dropdown-search-button" class="dropdown-search-button">Pesquisar</button>
+                  <div id="search-message" class="search-message"></div>
+                </div>
+                <div id="instagram-bg">
+                  <a href="https://www.instagram.com/dra.ana.silvia">
+                    <img src="/src/assets/icons/Instagram.png" width="60" height="22" alt="">
+                  </a>
+                </div>
+              </div>
+              
+        </header>
+        
+
+        <main class="main">
+            <div class="main-content">
+                <h1>LONGEVIDADE COM QUALIDADE DE VIDA</h1>
+                <h2><span>|</span> Dra. Ana Silvia Moreira</h2>
+                <p>Consultas de rotina em geriatria, tratamento de doenças crônicas, planejamento de prevenção de doenças e complicações. Cuidados com idosos em São Paulo.</p>
+        
+                <div class="main-button">
+                    <a href="/src/pages/anaSilva.html" class="main-btn">Saiba mais</a>
+                    <a href="/src/pages/anaSilva.html"><img class="main-arrow" src="/src/assets/icons/Seta 1.png" width="59" height="33" alt=""></a>
+                </div>
+            </div>
+            <div class="main-img">
+                <img src="/src/assets/images/Home 1.1.png" alt="">
+            </div>
+        </main>
+    </div>
+    
+    <nav class="nav-agendar main-agendar">
+        <a href="https://wa.me/5511917829372" target="_blank" class="btn-agendar">Agende sua consulta hoje mesmo</a>
+        <h2 class="main-agendar-title">Envelhecimento saudável, qualidade de vida e autonomia são o nosso foco</h2>
+    </nav>
+    
+    <nav class="about-body">
+        <div class="about-bg">
+            <div class="about-content">
+                <h1>SOBRE NÓS</h1>
+                <h2><span>|</span>Dra. Ana Silvia Moreira</h2>
+                <p>Dra. Ana Silvia tem um olhar integrativo, carinhoso e único com cada paciente. 
+                    De forma amigável as consultas se transformam em um lugar agradável, 
+                    onde a parceria com o paciente torna o resultado do tratamento mais efetivo.
+                </p>
+                <div class="about-button">
+                    <a href="/src/pages/anaSilva.html" class="about-bttn">Saiba mais</a>
+                    <a href="/src/pages/anaSilva.html"><img class="main-arrow" src="/src/assets/icons/Seta 1.png" width="59" height="33" alt=""></a>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="/src/assets/images/Home 2.jpg" alt="Imagem sobre nós">
+            </div>
+        </div>
+        <nav class="nav-agendar">
+            <a href="https://wa.me/5511917829372" target="_blank" class="btn-agendar" id="btn-agenda">Agende sua consulta hoje mesmo</a>
+        </nav>
+    </nav>
+
+    <div class="service-bg">
+        <div class="service-content container">
+            <h1>QUAIS SERVIÇOS</h1>
+            <p>você enconta aqui</p>
+
+            <div class="service-specialism">
+                <div class="specialism">
+                    <img src="/src/assets/icons/Home_Geriatria.png" alt="">
+
+                    <h1>GERIATRIA</h1>
+
+                    <h2>Especialidade médica dedicada aos cuidados com a saúde dos 60+.</h2>
+                    <p>Nosso objetivo é promover o bem-estar e a qualidade de vida, prevenindo e tratando doenças, além de oferecer suporte para uma vida mais saudável e ativa.</p>
+                
+                    <div class="service-button">
+                        <a href="/src/pages/servicos.html" class="service-bttn">Saiba mais</a>
+                        <a href="/src/pages/servicos.html"><img class="service-arrow" src="/src/assets/icons/Seta 1.png" alt=""></a>
+                    </div>
+                </div>   
+                <div class="specialism">
+                    <img src="/src/assets/icons/Home_Clinica.png" alt="">
+
+                    <h1>CLÍNICA MÉDICA</h1>
+
+                    <h2>Especialidade médica com ampla formação para diagnosticar, tratar , previnir e coordenar a saúde em adultos. </h2>
+                    <p id="service-second-text">Somos a base para uma saúde preventiva integral, garantindo um cuidado contínuo e abrangente.</p>
+                    
+                    <div class="service-button">
+                        <a href="" class="service-bttn">Saiba mais</a>
+                        <a href=""><img class="service-arrow" src="/src/assets/icons/Seta 1.png"  alt=""></a>
+                    </div>
+                </div>     
+            </div>
+
+            <nav class="nav-agendar" id="service-agendar">
+                <a href="https://wa.me/5511917829372" target="_blank" id="service-agendar" class="btn-agendar">Agende sua consulta hoje mesmo</a>
+            </nav>
+        </div>
+
+    </div>
+
+    <div class="depoimentos-b container">
+        <div class="depoimentos-bg">
+            <div class="depoimentos-header">
+                <h1>O que nossos clientes falam sobre nós</h1>
+                <div class="depoimentos-buttons">
+                    <button id="bttn-back">
+                        <img src="/src/assets/icons/Seta 2.png" alt="Anterior">
+                    </button>
+                    <button id="bttn-next">
+                        <img src="/src/assets/icons/Seta 1.png" alt="Próximo">
+                    </button>
+                </div>
+            </div>
+            <div class="depoimentos-content" id="depoimentos-content">
+                <!-- Depoimento 1 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>“Recomendamos”</h2>
+                    <p>Minha mãe, Cristina, ficou muito feliz com a Dra. Ana Silvia. Foi a primeira consulta e com certeza minha mãe foi bem acolhida. A Dra. é atenciosa, gentil, dedicada e procura ajudar os pacientes. Recomendamos!</p>
+                    <p class="author">Paulo Henrique Soares Junior</p>
+                </div>
+                <!-- Depoimento 2 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★★</div>
+                    <h2>Atendimento Excelente</h2>
+                    <p>A Dra. Ana Silvia foi muito atenciosa e profissional. Minha avó se sentiu confortável e bem cuidada. Recomendo para todos que buscam um atendimento de qualidade.</p>
+                    <p class="author">Maria Clara Santos</p>
+                </div>
+                <!-- Depoimento 3 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★★</div>
+                    <h2>Otima Acessibilidade</h2>
+                    <p>Fui muito bem recebida, local agradável.  A Dra Ana Silvia é  extremamente acessível  e competente.  Sou paciente assidua dela já  há  tempos; tem me entendido e ajudado muito.</p>
+                    <p class="author">Antonia Prada Mato</p>
+                </div>
+                <!-- Depoimento 4 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Muito Atenciosa</h2>
+                    <p>A Dra. Ana Silvia foi muito atenciosa e profissional. Minha avó se sentiu confortável e bem cuidada. Recomendo para todos que buscam um atendimento de qualidade.</p>
+                    <p class="author">Sirley Campezzi</p>
+                </div>
+                <!-- Depoimento 5 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Conforto</h2>
+                    <p>Gostei muito do atendimento, desde a recepção até a consulta com a doutora. Muito tranquila e acolhedora! Foi a primeira consulta que fizemos e já senti segurança e confiança no que foi explicado e orientado. Seguiremos realizando os exames solicitados, retornando para nova avaliação...</p>
+                    <p class="author">Marcia Bassani Vieira</p>
+                </div>
+                <!-- Depoimento 6 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Muito boa!</h2>
+                    <p>Médica maravilhosa! Atenciosa com os idosos e o melhor tratamento efetivo onde em 10 dias alterado a medicação minha sogra que antes acordava várias vezes a noite está dormindo a noite toda! Qualidade de vida é tudo.</p>
+                    <p class="author">Samara Ferreira</p>
+                </div>
+                <!-- Depoimento 7 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Excelente médica</h2>
+                    <p>A Dra Ana Silvia é, antes de tudo, uma especialista em "gente". Sempre atualizada, consegue transmitir seu conhecimento nas últimas descobertas sobre a saúde global do idoso com didática, clareza e carinho.</p>
+                    <p class="author">Eliane manini</p>
+                </div>
+                <!-- Depoimento 8 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Boa Profissional</h2>
+                    <p>A Dra. Ana Silvia foi muito atenciosa e profissional. Minha avó se sentiu confortável e bem cuidada. Recomendo para todos que buscam um atendimento de qualidade.</p>
+                    <p class="author">Sirley Campezzi</p>
+                </div>
+                <!-- Depoimento 9 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Bom Atendimento</h2>
+                    <p>Gostei muito do atendimento, desde a recepção até a consulta com a doutora. Muito tranquila e acolhedora! Foi a primeira consulta que fizemos e já senti segurança e confiança no que foi explicado e orientado. Seguiremos realizando os exames solicitados, retornando para nova avaliação...</p>
+                    <p class="author">Marcia Bassani Vieira</p>
+                </div>
+                <!-- Depoimento 9 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Gostei</h2>
+                    <p>Dra. Ana Silvia profissional excelente, dedicada e amorosa c seus pacientes. Adorei seu novo endereço. Muito grata por tudo🥰</p>
+                    <p class="author">Marli Calado</p>
+                </div>
+                <!-- Depoimento 10 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Bom apoio</h2>
+                    <p>Já sou paciente da Dra Ana Silvia há uns três anos , e ela sempre  atenciosa e carinhosa .
+                        Não tem pressa para atender, sempre atenta às minhas queixas e questionamentos.
+                        Super recomendo!</p>
+                    <p class="author">Mara Lúcia Mara54</p>
+                </div>
+                <!-- Depoimento 11 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Excelente</h2>
+                    <p>Excelente!!! A Dra Ana Silvia é muito atenciosa, competente e nos passa muita tranquilidade. Parabéns Dra ! Obrigada por podermos contar com sua ajuda e carinho ,para uma melhor qualidade de vida!!!</p>
+                    <p class="author">Marilvia e Waldeir Hauers</p>
+                </div>
+                <!-- Depoimento 12 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>bom atendimento</h2>
+                    <p>Satisfeita com o atendimento solícito  e acolhedor  da Dra. Ana Silvia,com  cuidadosa  Orientação  e  pedido  de exames  de rotina. Agradeço e voltarei após  ter tudo  realizado.🙏</p>
+                    <p class="author">Maria Aparecida Marques Barbosa</p>
+                </div>
+                <!-- Depoimento 13 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Muito Atenciosa</h2>
+                    <p>A Dra Silva é muito profissional e extremamente atenciosa e muito alegre deixando a consulta sempre leve. Eu tenho muita confiança no que ela fala.</p>
+                    <p class="author">Mario Apicella</p>
+                </div>
+                <!-- Depoimento 14 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Recomendo</h2>
+                    <p>Dra Ana é  uma excelente medica muito,amorosa e tem uma impatia enorme,eu recomendo</p>
+                    <p class="author">Ivone Dias Barbosa</p>
+                </div>
+                <!-- Depoimento 15 -->
+                <div class="depoimento">
+                    <div class="stars">★★★★</div>
+                    <h2>Otima medica</h2>
+                    <p>A Dra Ana Sílvia é muito competente e me esclareceu várias questões e situações por ser idosa.Agradeço a sua atenção!!!</p>
+                    <p class="author">magdalena geraldi</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <nav class="message-bg">
+        <div class="message-content">
+            <h2>Newsletter</h2>
+            <h1>Se inscreva para receber nossas novidades</h1>
+            <p>Mensagens periódicas com atualidades, dicas e novidades da nossa clínica</p>
+        </div>
+        <div class="message-button">
+            <a id="message-bttn" href="">Clique aqui</a>
+        </div>
+    </nav>
+
+    <div class="answer-bg container"> 
+        <h1>VEM ENTENDER MAIS</h1>
+        <h2><span>| </span>perguntas frequentes e suas explicações</h2>
+    
+        <p>Diante do desafio de envelhecer com autonomia e independência, alguns problemas de saúde podem surgir. Veja alguns exemplos e clique para saber mais:</p>
+    
+        <ul class="answer-options">
+            <li><a href="/src/pages/saibaMais/constipacao.html">Constipação Intestinal</a></li>
+            <li><a href="/src/pages/saibaMais/depressao.html">Depressão</a></li>
+            <li><a href="./pages/saibaMais/dificuldadeCaminhar.html">Dificuldade para caminhar</a></li>
+    
+            <li><a href="/src/pages/saibaMais/incontinencia.html">Incontinência urinária</a></li>
+            <li><a href="/src/pages/saibaMais/osteoporose.html">Osteoporose</a></li>
+            <li><a href="/src/pages/saibaMais/perdaMemoria.html">Perda De Memória</a></li>
+    
+            <li><a href="/src/pages/saibaMais/dificuldadeManter.html">Dificuldade para manter o equilibrio</a></li>
+            <li><a href="/src/pages/saibaMais/dificuldadeDormir.html">Dificuldade para dormir</a></li>
+            <li><a href="/src/pages/saibaMais/doresArticulares.html">Dores articulares</a></li>
+    
+            <li><a href="/src/pages/saibaMais/quedas.html">Quedas</a></li>
+            <li><a href="/src/pages/saibaMais/tremores.html">Tremores</a></li>
+            <li><a href="/src/pages/saibaMais/usoExcessivo.html">Uso Excessivo de Medicamentos</a></li>
+    
+            <li><a href="/src/pages/saibaMais/tonturas.html">Tonturas, vertigens e zumbido</a></li>
+            <li><a href="/src/pages/saibaMais/perdaPeso.html">Perda de peso ou fraqueza sem causa</a></li>
+            <li><a href="/src/pages/saibaMais/ansiedade.html">Ansiedade</a></li>
+        </ul>
+    
+        <p id="answer-lembre">Lembre-se: estes problemas, apesar de mais comuns nos idosos, não são “normais da idade”. São distúrbios que precisam de diagnóstico correto e tratamento.</p>
+    
+        <nav class="nav-agendar" id="service-agendar">
+            <a href="https://wa.me/5511917829372" target="_blank" id="service-agendar" class="btn-agendar">Agende sua consulta hoje mesmo</a>
+        </nav>
+    </div>
+    
+
+    <div class="contact-bg container">
+            <h1>CONTATO| <span>Atendimento</span></h1>
+            <h2>Presencial e On-line</h2>
+
+        <div class="contact-content">    
+            <div class="contact-img">
+                <img class="contact-map" src="/src/assets/icons/Mapa.png" alt="" width="805px" height="800px">
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-andress">
+                    <p>Rua Teodoro Sampaio 352 - cj 103</p>
+                    <p>SP - São Paulo</p>
+                </div>
+                <p>(11) 91782-9372</p>
+                <p>@dra.ana.silvia</p>
+            </div>
+        </div>        
+    </div>
+
+    <div class="bttn-up__div container">
+        <a href="">
+            <img id="bttn-up" src="/src/assets/icons/Seta 1.png" alt="" width="59" height="33">
+        </a>
+    </div>
+
+    <footer>
+        <div class="footer-info">
+            <div class="footer-info__options">
+                <h1>MAPA DO SITE</h1>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Dra. Ana Silvia - Sobre</a></li>
+                    <li><a href="">Serviços</a></li>
+                    <li><a href="">Saiba Mais</a></li>
+                    <li><a href="">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h2>Consultório</h2>
+                <p>Rua Teodoro Sampaio</p>
+                <p>352 cj 103</p>
+                <p>São Paulo</p>
+    
+                <h2>Telefones</h2>
+                <p>(11) 91782-9372</p>
+    
+                <h2>E-mail</h2>
+                <p>consultorio@moreirageriatria.com.br</p>
+
+                <p id="footer-info__c">(c) 2025. Todos os direitos reservados.</p>
+            </div>
+        </div>
+        <div class="footer-message">
+            <h2>Fale conosco</h2>
+            <form>
+                <div class="form-columns">
+                    <div class="form-column">
+                        <input type="text" name="name" placeholder="Nome" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-column">
+                        <textarea name="message" placeholder="Mensagem" required></textarea>
+                    </div>
+                    <div class="form-column" id="form-bttn">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>   
+             
+    </footer>
+
+    <script src="/src/js/depoimentos.js"></script>
+    <script src="/src/js/menu.js"></script>
+    <script src="/src/js/form.js"></script>
+    <script src="/src/server.js"></script>
+    <script src="/src/js/utils.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+        const pages = {
+    contato: 'src/pages/contato.html',
+    'saiba mais': '/src/pages/saibaMais.html',
+    home: '/index.html',
+    servicos: '/src/pages/servicos.html',
+    'ana silvia': '/src/pages/anaSilva.html'
+  };
+
+  const searchButton = document.getElementById('search-button');
+  const searchInput = document.getElementById('search-input');
+  const searchMessage = document.getElementById('search-message');
+
+  function showMessage(message) {
+    searchMessage.textContent = message;
+    searchMessage.classList.add('show');
+
+    setTimeout(() => {
+      searchMessage.classList.remove('show');
+    }, 2000);
+  }
+
+  function handleSearch() {
+    const query = searchInput.value.trim().toLowerCase();
+
+    if (pages[query]) {
+      window.location.href = pages[query];
+    } else {
+      showMessage('Página não encontrada.');
+    }
+  }
+
+  searchButton.addEventListener('click', handleSearch);
+
+  searchInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      handleSearch();
+    }
+  });
+});
+
+      </script>
+      
+</body>
+
+</html>
