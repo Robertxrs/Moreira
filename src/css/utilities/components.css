@@ -29,6 +29,24 @@
 }
 
 
+@media (max-width: 1815px) {
+    .bg::before {
+        left: 79.2%;
+    }
+}
+@media (max-width: 1795px) {
+    .bg::before {
+        left: 81%;
+    }
+}@media (max-width: 1738px) {
+    .bg::before {
+        left: 82.5%;
+    }
+  }@media (max-width: 1675px) {
+    .bg::before {
+        left: 84%;
+    }
+  }
 
 @media (max-width: 1670px) {
     .bg{
@@ -58,7 +76,7 @@
     }
     .bg::before {
         top: 55%;
-        left: 71.3%;
+        left: 70%;
         height: 80%;
     }
     }
@@ -170,10 +188,23 @@
     
   @media (max-width: 1190px) {
     .bg::before {
-        left: 67.9%;
+        left: 68%;
     }
   }
-
+  @media (max-width: 1178px) {
+    .bg::before {
+        left: 68.5%;
+    }
+  }
+  @media (max-width: 1145px) {
+    .bg::before {
+        left: 67.5%;
+    }
+  }  @media (max-width: 1125px) {
+    .bg::before {
+        left: 68%;
+    }
+  }
   @media (max-width: 1080px) {
     .bg::before {
         top: 55%;
@@ -195,42 +226,47 @@
         left: 68.9%;
         height: 70%;
     }
+  }  @media (max-width: 1040px) {
+    .bg::before {
+        left: 67.5%;
+    }
+  }@media (max-width: 1016px) {
+    .bg::before {
+        left: 68%;
+    }
   }
   @media (max-width: 999px){
     .bg::before {
         left: 68.8%;
     }
     
-  }
-  @media (max-width: 970px){
-    .bg::before {
-        left: 69.8%;
+  }  @media (max-width: 960px){
+    .bg {
+        background: linear-gradient(to right, white 60%, #0D4253 40%);
     }
-    
-  }
-
-  @media (max-width: 950px){
-    .bg::before {
-        top: 55%;
-        left: 69.5%;
-        height: 70%;
-    }
-}
-@media (max-width: 910px){
     .bg::before {
         top: 55%;
         left: 73.5%;
         height: 60%;
     }
-    .bg {
-        background: linear-gradient(to right, white 60%, #0D4253 40%);
-    }
-}
+  }
 
-@media (max-width: 860px){
+@media (max-width: 950px){
     .bg::before {
         top: 55%;
-        left: 74.2%;
+        left: 72.5%;
+        height: 60%;
+    }
+}
+@media (max-width: 898px){
+    .bg::before {
+        left: 73.4%;
+    }
+}
+@media (max-width: 863px){
+    .bg::before {
+        top: 55%;
+        left: 73.2%;
         height: 55%;
     }
     .bg {
@@ -258,32 +294,45 @@
         background: linear-gradient(to right, white 60%, #0D4253 40%);
     }
 }
+@media (max-width: 825px){
+    .bg::before {
+        left: 73%;
+    }
+}
 
-@media (max-width: 758px){
+@media (max-width: 761px){
     .bg::before {
         top: 55%;
-        left: 76%;
+        left: 74%;
         height: 48%;
     }
     .bg {
         background: linear-gradient(to right, white 60%, #0D4253 40%);
+    }
+}@media (max-width: 754px){
+    .bg::before {
+        left: 75%;
     }
 }
 
 @media (max-width: 740px){
     .bg::before {
         top: 55%;
-        left: 77%;
+        left: 75.7%;
         height: 48%;
+    }
+}@media (max-width: 710px){
+    .bg::before {
+        left: 77%;
     }
 }
 @media (max-width: 700px){
     .bg::before {
         top: 55%;
-        left: 79%;
         height: 48%;
     }
 }
+
 /* mobile */
 
 @media (max-width: 690px){
@@ -292,76 +341,124 @@
     }
     .bg::before {
         top: 50%;
-        left: 78%;
+        left: 76.6%;
         height: 50%;
     }
 }@media (max-width: 675px){
     .bg::before {
-        left: 80.2%;
+        left: 77.7%;
     }
 }
-@media (max-width: 635px){
+@media (max-width: 640px){
     .bg::before {
-        left: 82.2%;
+        left: 79.2%;
+    }
+}@media (max-width: 620px){
+    .bg::before {
+        left: 80.2%;
     }
 }
 @media(max-width: 610px){
     .bg::before {
         top: 60%;
-        left: 76%;
+        left: 74.6%;
         height: 40%;
     }
 }
-@media(max-width: 577px){
-    .bg::before {
-        left: 78.2%;
-    } 
-}@media(max-width: 556px){
-    .bg::before {
-        left: 81%;
-    } 
-}
-@media(max-width: 535px){
-    .bg::before {
-        left: 71.5%;
-    } 
-}@media(max-width: 589px){
+@media(max-width: 589px){
     .bg::before {
         top: 60%;
-        left: 78.8%;
+        left: 74.6%;
     } div.main-content{
         margin-right: 200px;
     }
 }
+@media(max-width: 552px){
+    .bg::before {
+        top: 60%;
+        left: 75.6%;
+    }
+}
+
+
+@media(max-width: 535px){
+    .bg::before {
+        left: 71.5%;
+    } 
+}
+@media(max-width: 541px){
+    .bg::before {
+        left: 76.5%;
+    } 
+}
+
+
 @media(max-width: 492px){
     .bg::before {
-        left: 78%;
+        left: 76%;
     } div.main-content{
         margin-right: 180px;
     }
 }@media(max-width: 467px){
-    .bg::before {
-        left: 81%;
-    } div.main-content{
-        margin-right: 150px;
+    div.main-content{
+        margin-right: 180px;
     }
 }
-@media(max-width: 444px){
+@media(max-width: 460px){
     .bg::before {
-        left: 83%;
+        left: 77%;
+    }
+}
+@media(max-width: 435px){
+    .bg::before {
+        left: 79%;
     } 
-}@media(max-width: 404px){
+}
+@media(max-width: 415px){
     .bg::before {
-        left: 85%;
+        left: 80%;
+    } 
+}
+@media(max-width: 404px){
+    .bg::before {
+        left: 81%;
     } input.search-input{
         width: 70px;
     }
-}@media(max-width: 387px){
-
+}
+@media(max-width: 391px){
+    .bg::before {
+        left: 80%;
+    } 
+}
+@media(max-width: 387px){
+    .bg {
+        background: linear-gradient(to right, white 68%, #0D4253 40%);
+    }
     .bg::before {
         left: 82%;
         height: 40%;
     } input.search-input{
         width: 70px;
+    }
+}
+@media(max-width: 376px){
+    .bg {
+        background: linear-gradient(to right, white 65%, #0D4253 40%);
+    }
+    .bg::before {
+        left: 79.9%;
+    }
+}
+@media(max-width: 360px){
+
+    .bg::before {
+        left: 81.5%;
+    }
+}
+@media(max-width: 344px){
+
+    .bg::before {
+        left: 83.5%;
     }
 }

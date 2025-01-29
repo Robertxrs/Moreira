@@ -1214,6 +1214,10 @@
         margin-right: 300px;
         padding-top: 0px; 
     }
+    .main-img img {
+        max-width: 350px;
+        height: 80%;
+    }
 }
 
 @media (max-width: 905px) {
@@ -1242,10 +1246,7 @@
         top: 58%;
         left: 77%;
         transform: translate(-50%, -50%); 
-}    .main-img img {
-    max-width: 350px;
-    height: 80%;
-} 
+}    
 
 }
 @media (max-width: 850px) {

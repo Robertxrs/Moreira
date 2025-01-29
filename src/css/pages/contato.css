@@ -228,7 +228,17 @@
 .form-column-c button:hover {
     background-color: #0d5c74;
 }
-
+@media (max-width: 1870px) {
+    .bg__c::before {
+        left: 70.6%;
+    }}
+@media (max-width: 1812px) {
+    .bg__c::before {
+        left: 71%;
+}}@media (max-width: 1777px) {
+    .bg__c::before {
+        left: 72%;
+}}
 @media (max-width: 1670px) {
     .bg__c {
         background: linear-gradient(to right, white 58%, #0D4253 42%);
@@ -236,7 +246,7 @@
     }
     .bg__c::before {
         top: 55%;
-        left: 74.9%;
+        left: 74.3%;
         transform: translate(-50%, -50%);
         width: 100%;
         height: 70%;
@@ -254,7 +264,10 @@
         color: #797979;
     }
 }
-
+@media (max-width: 1600px) {
+    .bg__c::before {
+        left: 75%;
+}}
 @media (max-width: 1530px) {
     .bg__c::before {
         left: 75.9%;
@@ -292,9 +305,9 @@
     }
 }
 
-@media (max-width: 1410px) {
+@media (max-width: 1415px) {
     .bg__c::before {
-        left: 74.8%;
+        left: 74.6%;
     }
     .main-content__c h1, .main-content__c h2 {
         font-size: 62px;
@@ -540,7 +553,11 @@
         font-size: 32px;
         margin-left: 0px;
     }
-}
+}@media (max-width: 875px) {
+    .bg__c::before {
+        left: 76%;
+        height: 55%;
+    }}
 
 @media (max-width: 760px) {
     .bg__c::before {
@@ -686,13 +703,15 @@
     }
 }@media(max-width:412px){
     div.main-content__c.container h1{
-        font-size: 28px;
+        font-size: 24px;
         padding-right: 150px;
     }div.main-content__c.container h2{
-        font-size: 28px;
+        font-size: 24px;
         padding-right: 110px;
     }div.main-img__c img{
         width: 200px;
     }
-
+    .bg__c::before {
+        left: 83%;
+    }
 }
