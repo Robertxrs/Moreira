@@ -1301,7 +1301,8 @@
 }
 .main-img img {
     max-width: 350px;
-    height: 80%;
+    height: auto;
+    max-height: 450px;
 }  
 
 div.main-content{
