@@ -263,7 +263,7 @@
         left: 73.4%;
     }
 }
-@media (max-width: 863px){
+@media (max-width: 865px){
     .bg::before {
         top: 55%;
         left: 73.2%;
@@ -428,7 +428,7 @@
 }
 @media(max-width: 391px){
     .bg::before {
-        left: 80%;
+        left: 81.2%;
     } 
 }
 @media(max-width: 387px){
@@ -450,13 +450,13 @@
         left: 79.9%;
     }
 }
-@media(max-width: 360px){
+@media(max-width: 365px){
 
     .bg::before {
         left: 81.5%;
     }
 }
-@media(max-width: 344px){
+@media(max-width: 350px){
 
     .bg::before {
         left: 83.5%;

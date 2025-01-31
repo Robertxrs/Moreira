@@ -814,18 +814,22 @@
 }
 
 @media (max-width: 439px) {
+    .bg__s{
+        background: linear-gradient(to right, white 60%, #0D4253 48%);
+    }
     .bg__s::before {
-        left: 73%;
-        height: 40%;
+        left: 78%;
+        height: 35%;
     }.main-img__s{
-        top: 82%;
+        top: 85%;
         left: 77%;
-        height: 38%;
-    }p#text__s-two{
+        height: 33%;
+    }p#text__s{
+        padding-right: 200px;
+    }
+    p#text__s-two{
         font-size: 22px;
-        padding-right: 224px;
-    }div.main-content__s.container{
-        padding-left: 0px !important;
+        padding-right: 200px;
     }div.procurar-img{
         display: block;
     }div.procurar-img img{
@@ -833,29 +837,54 @@
     }
     p#text__s-three,p#text__s-three span{
         padding-right: 20px;
+    }div.main-content__s.container h1, div.main-content__s.container h2 {
+        margin-right: 0px;
+        padding-left: 20px !important;
     }
-}@media (max-width: 420px) {
+}@media (max-width: 436px) {
     .bg__s::before {
-        left: 75%;
+        left: 80%;
         height: 40%;
-    }}
-
-@media (max-width: 409px) {
+    }p#text__s{
+        padding-right: 180px;
+    }
+    p#text__s-two{
+        font-size: 22px;
+        padding-right: 180px;
+    }
+}@media (max-width: 431px) {
+    .bg__s::before {
+        left: 81%;
+        height: 40%;
+    }
+}@media (max-width: 425px) {
+    .bg__s::before {
+        left: 80.5%;
+        height: 40%;
+    }p#text__s{
+        padding-right: 140px;
+    }
+    p#text__s-two{
+        font-size: 22px;
+        padding-right: 160px;
+    }
+}
+@media (max-width: 411px) {
     .bg__s{
         background: linear-gradient(to right, white 60%, #0D4253 38%);
     }
     .bg__s::before {
-        left: 84%;
+        left: 82%;
     }.main-img__s{
         top: 85%;
         left: 77%;
         height: 32%;
     }p#text__s-two{
         font-size: 20px;
-        padding-right: 184px;
+        padding-right: 160px;
     }p#text__s{
         font-size: 20px;
-        padding-right: 180px;
+        padding-right: 140px;
     }div.procurar-img img{
         margin-left: 50px;
     }nav.medic-bg.container p{
@@ -867,14 +896,45 @@
     }
 }@media (max-width: 390px) {
     .bg__s::before {
-        left: 85%;
+        left: 82%;
     }
-}@media (max-width: 380px) {
+}
+@media (max-width: 382px) {
     .bg__s::before {
+        left: 78%;
+        height: 30%;
+    }.main-img__s{
+        top: 86.5%;
         left: 80%;
         height: 30%;
     }
-}@media (max-width: 338px) {
+}@media (max-width: 369px) {
+    .bg__s::before {
+        left: 78%;
+    }p#text__s{
+        padding-top: 30px;
+    }p#text__s-two{
+        padding-top: 30px;
+        padding-right: 140px;
+    }
+} @media (max-width: 351px) {
+    .bg__s::before {
+        left: 79.9%;
+    }p#text__s{
+        padding-top: 30px;
+    }p#text__s-two{
+        padding-top: 30px;
+        padding-right: 120px;
+    }    div.main-content__s.container h1, div.main-content__s.container h2 {
+        margin-right: 100px !important;
+        padding-left: 0px;
+    }.main-img__s{
+        top: 87.5%;
+        left: 80%;
+        height: 26%;
+    }
+}    
+@media (max-width: 338px) {
     .bg__s::before {
         left: 82%;
         height: 30%;

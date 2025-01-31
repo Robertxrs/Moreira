@@ -933,7 +933,15 @@
         font-size: 18px;
         padding-right: 220px;
     }
-}@media (max-width: 546px) {
+}@media (max-width: 560px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 78.5%;
+        width: 70%;
+        height: 60%;
+    }
+}
+@media (max-width: 546px) {
     .bg__sm::before {
         top: 60%;
         left: 78.5%;
@@ -1030,16 +1038,20 @@
         padding-right: 20px !important;
         font-size: 18px !important;
     }
-}@media (max-width: 437px) {
+}@media (max-width: 439px) {
     .bg__sm::before {
         top: 60%;
         left: 79%;
         width: 70%;
         height: 50%;
     }div.main-content__s.container{
-        padding-left: 10px !important;
-        margin-right: 20px;
-    }
+        padding-left: 20px !important;
+        margin-right: 0px;
+    }div.main-content__s.container h1,div.main-content__s.container h2{
+        padding-left: 0px !important;
+        margin-right: 180px;
+    } 
+
     .main-img__sm{
         top: 89.9%;
         left: 81%;
@@ -1056,6 +1068,17 @@
         left: 80.8%;
         height: 39%;
     }
+}@media (max-width: 424px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 82%;
+        width: 70%;
+        height: 50%;
+    }.main-img__sm{
+        top: 91%;
+        left: 81.8%;
+        height: 39%;
+    }
 }
 @media (max-width: 415px) {
     .bg__sm::before {
@@ -1065,28 +1088,45 @@
         height: 50%;
     }
     .main-img__sm{
-        top: 89.9%;
-        left: 83.4%;
-        height: 42.5%;
+        top: 91%;
+        left: 82%;
+        height: 39%;
     }
     .problem-card {
         width: 350px; 
+    }
+}@media (max-width: 400px) {
+    .bg__sm::before {
+        top: 60%;
+        left: 83.5%;
+        width: 70%;
+        height: 50%;
+    }
+    .main-img__sm{
+        top: 91%;
+        left: 84%;
+        height: 39%;
     }
 }
 @media (max-width: 392px) {
     .bg__sm::before {
         top: 60%;
-        left: 80%;
+        left: 78%;
         width: 70%;
         height: 40%;
     }
     .main-img__sm{
         top: 92.9%;
-        left: 80%;
-        height: 30.5%;
+        left: 83.7%;
+        height: 39.5%;
     }
     .problem-card {
         width: 320px; 
+    }p#text__sm, p#text__sm span {
+        font-size: 16px;
+        padding-right: 160px;
+    }p#text__sm__two{
+        padding-top: 20px;
     }
 }@media (max-width: 375px) {
     .bg__sm::before {
@@ -1113,4 +1153,9 @@
     div.lembrete-container p{
         margin: 0px 40px !important;
     }
+}@media (max-width: 352px) {
+    div.main-content__s.container h1,div.main-content__s.container h2{
+        padding-left: 0px;
+        margin-right: 200px !important;
+    } 
 }

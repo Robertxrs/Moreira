@@ -499,3 +499,34 @@
 .search-message.show {
   display: block;
 }
+@media (max-width: 756px) {
+  .lupa-b {
+    width: 60px;
+    height: 100px;
+}
+}
+@media (max-width: 535px) {
+  .lupa-b {
+    width: 50px;
+    height: 70px;
+}
+}@media (max-width: 460px) {
+  .lupa-b {
+    width: 40px;
+    height: 50px;
+}
+input#search-input.search-bar {
+  width: 80px;
+}
+}
+
+@media (max-width: 370px) {
+  .lupa-b {
+    width: 35px;
+    height: 40px;
+}
+input#search-input.search-bar {
+  width: 80px;
+  height: 15px;
+  }
+}

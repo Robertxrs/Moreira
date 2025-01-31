@@ -1112,21 +1112,52 @@ p#how-text__two{
     div.qualify-bg.container h1, div.qualify-bg.container h2, div.qualify-bg.container span {
         font-size: 40px;
     }
-}@media (max-width: 398px){
+}
+
+@media (max-width: 420px){
+    main.main__a {
+        padding-right: 0px;
+        padding-left: 10px;
+    }
+    .bg__a{
+        background: linear-gradient(to right, white 67%, #0D4253 35%);
+    }.bg__a::before {
+        left: 81%;
+    }.main-img__a{
+        left: 82%;
+        width: 30%;
+        top: 75%;
+    }div.main-content__a h1, div.main-content__a span {
+        font-size: 24px;
+    }p#text__a {
+        font-size: 16px;
+    }div.main-content__a {
+        margin-right: 135px;
+    }div.main__a-code p {
+        margin-right: 0px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 412px){
+    .bg__a::before {
+        left: 81.4%;
+    }
+}
+
+@media (max-width: 398px){
     div.main-content__a{
         margin-right: 126px;
     }.bg__a::before {
         left: 82%;
+    }div.main-content__a {
+        margin-right: 140px;
     }.main-img__a{
-        left: 86.2%;
+        left: 82%;
+        width: 30%;
     }
 }@media (max-width: 382px){
-    div.main-content__a{
-        margin-right: 116px;
-    }.bg__a::before {
-        left: 82%;
-    }.main-img__a{
-        left: 86.2%;
+    .bg__a::before {
+        left: 82.5%;
     }
     p#how-text__two::before{
         width: 330px;
@@ -1134,17 +1165,36 @@ p#how-text__two{
         top: 42%;
         left: 0%;
     }
-}@media (max-width: 360px){
+}@media (max-width: 370px){
+    .bg__a::before {
+        left: 83.8%;
+    }
+    p#how-text__two::before{
+        width: 330px;
+        height: 220px;
+        top: 42%;
+        left: 0%;
+    }
+}
+@media (max-width: 360px){
     div.main-content__a{
         margin-right: 126px;
     }.bg__a::before {
-        left: 86.6%;
+        left: 83.4%;
     }.main-img__a{
-        left: 86.2%;
+        left: 82%;
         top: 80%;
     }
 }
-
+@media (max-width: 355px){
+    .bg__a::before {
+        left: 84.2%;
+    }
+}@media (max-width: 349px){
+    .bg__a::before {
+        left: 85.2%;
+    }
+}
 @media (max-width: 340px){
     p#how-text__two::before{
         width: 310px;

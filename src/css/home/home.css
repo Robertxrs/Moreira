@@ -1646,7 +1646,24 @@ div.main-content{
         padding-top: 30px;
         gap: 10px;
     }
+}@media(max-width: 420px){
+    .main-img {
+        left: 79%;
+        top: 70%;
+    }
+}@media(max-width: 405px){
+    .main-img {
+        left: 79%;
+        top: 72%;
+    }
+}@media(max-width: 390px){
+    .main-img {
+        left: 79%;
+        top: 74%;
+    }
 }
+
+
 @media(max-width: 387px){
     .main-img img {
         max-width: 120px;
@@ -1676,6 +1693,11 @@ div.main-content{
         width: 340px;
     }.contact-bg.container {
         padding-left: 20px;
+    }
+}@media(max-width: 365px){
+    .main-img {
+        left: 79%;
+        top: 78%;
     }
 }
 @media(max-width: 363px){

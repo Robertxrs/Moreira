@@ -710,9 +710,6 @@
     }
 }
 
-
-
-
 @media(max-width:415px){
     div.main-content__c.container h1{
         font-size: 24px;
@@ -742,8 +739,8 @@
             padding-right: 0px;
             width: 180px;
     }
-    nav.contact-bg.container p {
-        font-size: 20px;
+    nav.contact-bg.container p#text-email{
+        font-size: 16px !important;
     }
     .nav-agendar__c{
         display: none;
@@ -752,7 +749,9 @@
         padding-top: 10px;
         display: flex;
     }
-}@media(max-width:400px){
+}
+
+@media(max-width:400px){
     div.contact-img-contato2 img {
         width: 200px !important;
         height: 250px;
