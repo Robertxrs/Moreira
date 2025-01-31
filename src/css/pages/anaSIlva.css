@@ -1014,6 +1014,12 @@ p#how-text__two{
     }.main-img__a img{
         max-width: 265px;
     }
+
+    p#how-img_text{
+        padding-left: 20px;
+        padding-top: -200px;
+        margin-top: -100px;
+    }
 }
 
 @media (max-width: 485px){
@@ -1052,6 +1058,12 @@ p#how-text__two{
     }div.how-bg.container p{
         font-size: 22px;
     }
+    p#how-text__two::before{
+        width: 410px;
+        height: 200px;
+        top: 46%;
+        left: 0%;
+    }
 }@media (max-width: 446px){
     .bg__a::before {
         left: 85%;
@@ -1081,10 +1093,24 @@ p#how-text__two{
         left: 81%;
         height: 40%;
     }
-    
-}@media (max-width: 412px){
+    p#how-text__two::before{
+        width: 390px;
+        height: 200px;
+        top: 46%;
+        left: 0%;
+    }
+}@media (max-width: 420px){
     div.main-content__a{
         margin-right: 136px;
+    }
+    p#how-text__two::before{
+        width: 360px;
+        height: 200px;
+        top: 46%;
+        left: 0%;
+    }
+    div.qualify-bg.container h1, div.qualify-bg.container h2, div.qualify-bg.container span {
+        font-size: 40px;
     }
 }@media (max-width: 398px){
     div.main-content__a{
@@ -1102,6 +1128,12 @@ p#how-text__two{
     }.main-img__a{
         left: 86.2%;
     }
+    p#how-text__two::before{
+        width: 330px;
+        height: 220px;
+        top: 42%;
+        left: 0%;
+    }
 }@media (max-width: 360px){
     div.main-content__a{
         margin-right: 126px;
@@ -1112,3 +1144,31 @@ p#how-text__two{
         top: 80%;
     }
 }
+
+@media (max-width: 340px){
+    p#how-text__two::before{
+        width: 310px;
+        height: 220px;
+        top: 42%;
+        left: 0%;
+    }
+    div.qualify-bg.container h1, div.qualify-bg.container h2, div.qualify-bg.container span {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 322px){
+    p#how-text__two::before{
+        width: 310px;
+        height: 260px;
+        top: 40%;
+        left: 0%;
+    }
+}
+
+@media (max-width: 310px){
+    p#how-text__two::before{
+        display: none;
+    }
+}
+

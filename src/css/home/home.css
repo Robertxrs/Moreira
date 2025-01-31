@@ -1627,14 +1627,24 @@ div.main-content{
     nav.message-bg{
         margin: 0px 10px;
     }div.answer-bg.container{
-        padding-left: 4px;
-    }p#answer-lembre{
+        padding-left: 15px;
+
+    }
+    p#answer-lembre{
         padding: 0px 20px 0px;
     }div.answer-bg.container{
         padding-right: 0px;
     }.answer-options {
         display: grid;
         grid-template-columns: repeat(2, 1fr); 
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    ul.answer-options li {
+        padding: 0px;
+    }ul.answer-options {
+        padding-top: 30px;
+        gap: 10px;
     }
 }
 @media(max-width: 387px){
@@ -1652,4 +1662,27 @@ div.main-content{
         transform: translate(-50%, -50%); 
     }
 
+}
+@media(max-width: 391px){
+    div.answer-bg.container h1{
+        font-size: 38px;
+    }div.answer-bg.container h2 , div.answer-bg.container span{
+        font-size: 28px !important;
+    }div.contact-info p{
+        padding-top: 20px
+    }    div.contact-bg.container h1, div.contact-bg.container h2, div.contact-bg.container span {
+        font-size: 36px;
+    }    img.contact-map {
+        width: 340px;
+    }.contact-bg.container {
+        padding-left: 20px;
+    }
+}
+@media(max-width: 363px){
+    div.contact-bg.container h1, div.contact-bg.container h2, div.contact-bg.container span {
+        font-size: 30px;
+    } 
+    img.contact-map {
+        width: 300px;
+    }
 }

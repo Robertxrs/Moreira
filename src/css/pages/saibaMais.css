@@ -1,6 +1,6 @@
 .bg__sm{
     background: linear-gradient(to right, white 54%, #0D4253 35%);
-    min-height: 100vh;
+    min-height: 100%;
     position: relative;
     overflow: hidden;
 }
@@ -15,7 +15,7 @@
     background-position: center;
     position: absolute;
     top: 69%;
-    left: 70%;
+    left: 71%;
     transform: translate(-50%, -50%);
     width: 100%;
     height: 100%;
@@ -1097,9 +1097,7 @@
         left: 83%;
         height: 32.5%;
     }
-    .problem-card {
-        width: 350px; 
-    }
+
 }
 @media (max-width: 370px) {
     .bg__sm::before {
@@ -1111,5 +1109,8 @@
         top: 92.9%;
         left: 81.9%;
         height: 30.5%;
+    }
+    div.lembrete-container p{
+        margin: 0px 40px !important;
     }
 }
