@@ -1473,8 +1473,8 @@ div.main-content{
         max-width: 240px;
     }
     a.btn-agendar{
-        font-size: 14px !important;
-        padding: 12px 20px !important;
+        font-size: 18px;
+        padding: 12px 20px;
     }
     div.about-content{
         margin-left: 20px;

@@ -230,6 +230,10 @@
 .form-column-c button:hover {
     background-color: #0d5c74;
 }
+.contact-img-contato2_two{
+    display: none;
+}
+
 @media (max-width: 1870px) {
     .bg__c::before {
         left: 70.6%;
@@ -589,7 +593,7 @@
     }
     a.btn-agendar{
         padding: 12px 28px;
-        font-size: 18px;
+        font-size: 20px;
     }
     .contact-form h2 {
         font-size: 38px !important; 
@@ -608,7 +612,12 @@
         width: 300px;
     }
 
-}@media(max-width:650px){
+}@media(max-width:668px){
+    #agendar-c{
+        font-size: 18px;
+    }
+}
+@media(max-width:650px){
     .main-img__c img{
         width: 300px;
     }div.main-content__c.container h2{
@@ -661,14 +670,25 @@
         font-size: 28px;
         padding-right: 180px;
     }
+}@media(max-width:564px){
+    #agendar-c{
+        font-size: 16px;
+    }
 }
-@media(max-width:510px){
+@media(max-width:520px){
     nav.contact-bg.container img {
         margin-right: 0px;
         padding-right: 10px;
         width: 220px;
     }
-}@media(max-width:482px){
+}@media(max-width:500px){
+    nav.contact-bg.container img {
+        width: 180px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:482px){
     nav.contact-bg.container img {
         width: 180px;
         padding: 2px;
@@ -695,15 +715,45 @@
     }div.main-img__c img{
         width: 250px;
     }
+}@media(max-width:445px){
+    .nav-agendar__c{
+        display: none;
+    }
+    .nav-agendar__c-two{
+        padding-top: 10px;
+        display: flex;
+        justify-content: end;
+        padding-right: 5px;
+    }
+    
 }
 
+@media(max-width:438px){
+  div.contact-info-c h1{
+        font-size: 30px !important;
+    }
+    nav.contact-bg.container h1 {
+        font-size: 28px;
+    }
+    div.contact-img-contato2 img{
+        width: 240px !important;
+        height: 280px;
+    }
+    .nav-agendar__c{
+        display: none;
+    }
+    .nav-agendar__c-two{
+        padding-top: 10px;
+        display: flex;
+        justify-content: end;
+        padding-right: 5px;
+    }
+}
 @media(max-width:438px){
     div.contact-info-c h1{
         font-size: 30px !important;
     } div.contact-info-c p{
         font-size: 20px !important;
-    } div.contact-info-c img{
-
     }
     div.depoimentos-b-p.container{
         padding-bottom: 0px;
@@ -749,6 +799,15 @@
         padding-top: 10px;
         display: flex;
     }
+    nav.contact-bg.container p {
+        font-size: 20px;
+    }.nav-agendar__c-two{
+        padding-top: 10px;
+        display: flex;
+        justify-content: end;
+        padding-right: 20px;
+    }
+
 }
 
 @media(max-width:400px){
@@ -758,7 +817,7 @@
     }
     a.btn-agendar {
         padding: 12px 28px;
-        font-size: 12px !important;
+        font-size: 18px;
     }
 }
 @media(max-width:380px){
@@ -766,10 +825,45 @@
         font-size: 30px !important;
     } div.contact-info-c p{
         font-size: 20px !important;
-    } div.contact-info-c img{
-
     }
     div.depoimentos-b-p.container{
         padding-bottom: 0px;
     }
+} @media(max-width:391px){
+    nav.contact-bg.container p{
+        padding-bottom: 0px;
+        font-size: 20px;
+    }
+}@media(max-width:361px){
+    .nav-agendar__c-two{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+        padding-right: 10px;
+    }#agendar-c{
+        font-size: 18px;
+    }
+    .contact-img-contato2{
+        display: none;
+    }
+    .contact-img-contato2_two{
+        padding-top: 20px;
+        display: flex;
+    }
+    #contact-img_two img{
+        display: flex;
+    }
+    nav.contact-bg.container p {
+        padding-bottom: 10px;
+        font-size: 24px;
+    }
+}
+
+
+
+@media(max-width:330px){
+a.btn-agendar {
+    padding: 12px 28px;
+    font-size: 16px;
+}
 }

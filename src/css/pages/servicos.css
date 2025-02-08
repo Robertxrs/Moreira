@@ -244,8 +244,10 @@
         font-size: 66px;
     }
     nav.medic-bg.container span{
-        font-size: 38px;
-    }span#span-medic{
+        font-size: 66px;
+    }
+    
+    span#span-medic{
         font-size: 38px;
     }
     div.procurar-servicos p, div.procurar-servicos span{
@@ -391,7 +393,7 @@
     #text__s-three{
         padding-left: 20px;   
     }
-} @media (max-width: 1254px) {
+} @media (max-width: 1258px) {
     .bg__s::before {
         left: 66%;
     }
@@ -404,10 +406,14 @@
     .bg__s::before {
         left: 67.5%;
     }
-} 
+} @media (max-width: 1205px) {
+    .bg__s::before {
+        left: 67%;
+    }
+}
 @media (max-width: 1200px) {
     .bg__s::before {
-        left: 66%;
+        left: 65.5%;
     }
     .main-img__s{
         top: 72%;
@@ -428,10 +434,14 @@
     .bg__s::before {
         left: 65.6%;
     }
-}  
+} @media (max-width: 1155px) {
+    .bg__s::before {
+        left: 66.6%;
+    }
+} 
 @media (max-width: 1150px) {
     .bg__s::before {
-        left: 67%;
+        left: 66.7%;
     }
     nav.procurar-bg.container h1{
         font-size: 58px;
@@ -445,20 +455,25 @@
         font-size: 58px;
     }
     nav.medic-bg.container span{
-        font-size: 32px;
+        font-size: 58px;
     }span#span-medic{
         font-size: 32px;
     }
     div.procurar-servicos p, div.procurar-servicos span{
         font-size: 32px;
     }
-}  @media (max-width: 1140px) {
+}  @media (max-width: 1141px) {
     .bg__s::before {
         left: 68%;
     }
-}@media (max-width: 1085px) {
+}@media (max-width: 1108px) {
     .bg__s::before {
-        left: 69%;
+        left: 68.3%;
+    }
+}
+@media (max-width: 1090px) {
+    .bg__s::before {
+        left: 68.8%;
     }
 }@media (max-width: 1068px) {
     .bg__s::before {
@@ -503,7 +518,7 @@
         font-size: 48px;
     }
     nav.medic-bg.container span{
-        font-size: 26px;
+        font-size: 48px;
     }span#span-medic{
         font-size: 38px;
     }
@@ -513,15 +528,32 @@
     nav.medic-bg.container p{
         font-size: 38px;
     }
-}  @media (max-width: 1052px) {
+}
+
+
+@media (max-width: 1052px) {
     .bg__s::before {
            left: 69.6%;
     }
     }
-@media (max-width: 990px) {
+@media (max-width: 1040px) {
+        .bg__s::before {
+               left: 68%;
+        }
+} @media (max-width: 1039px) {
     .bg__s::before {
-        left: 69.6%;
+           left: 68.8%;
     }
+}@media (max-width: 1020px) {
+    .bg__s::before {
+           left: 69%;
+    }
+} @media (max-width: 1010px) {
+    .bg__s::before {
+           left: 69.4%;
+    }
+} 
+@media (max-width: 990px) {
     p#text__s-three{
         padding-right: 200px; 
     }
@@ -535,15 +567,18 @@
 }
 @media (max-width: 990px) {
     .bg__s::before {
-        left: 71%;
-    }}
+        left: 69.7%;
+}}@media (max-width: 974px) {
+    .bg__s::before {
+        left: 70.9%;
+}}
+
 @media (max-width: 960px) {
         .bg__s::before {
             left: 72%;
-}}
-@media (max-width: 960px) {
-        .bg__s::before {
-            left: 73%;
+}}@media (max-width: 953px) {
+    .bg__s::before {
+        left: 73%;
 }}
 @media (max-width: 940px) {
 
@@ -570,15 +605,23 @@
     .bg__s::before {
         left: 70.5%;
     }
-}@media (max-width: 935px) {
+}@media (max-width: 936px) {
     .bg__s::before {
-        left: 71.8%;
+        left: 71.5%;
     }}
-@media (max-width: 885px) {
+@media (max-width: 917px) {
+        .bg__s::before {
+            left: 72%;
+}} @media (max-width: 895px) {
+    .bg__s::before {
+        left: 72.2%;
+}}
+    
+@media (max-width: 887px) {
 .bg__s::before {
     left: 73%;
 }}
-@media (max-width: 869px) {
+@media (max-width: 872px) {
     .bg__s::before {
         left: 74%;
 }}
@@ -591,7 +634,7 @@
     }
     .bg__s::before {
         top: 55%;
-        left: 67.6%;
+        left: 66.3%;
         height: 60%;
     }
     p#text__s-two{
@@ -689,6 +732,12 @@
         left: 71%;
         height: 46%;
     }
+    nav.medic-bg.container p {
+        padding-right: 30px;
+    }span#span-medic {
+        padding-right: 10px;
+    }
+
 }@media (max-width: 653px) {
     .bg__s::before {
         left: 72.8%;
@@ -888,12 +937,23 @@
     }div.procurar-img img{
         margin-left: 50px;
     }nav.medic-bg.container p{
-        font-size: 20px;
+        font-size: 22px;
         padding-top: 40px;
         padding-right: 0px;
     }span#span-medic{
+        font-size: 22px;
         padding-right: 0px;
     }
+    nav.medic-bg.container h1,nav.medic-bg.container h2,nav.medic-bg.container span{
+        font-size: 42px;
+    }nav.medic-bg.container{
+       padding: 0px 20px; 
+    }
+    div.procurar-servicos p, div.procurar-servicos span {
+        padding-right: 0px;
+        padding-left: 20px;
+    }
+
 }@media (max-width: 390px) {
     .bg__s::before {
         left: 82%;
@@ -917,7 +977,11 @@
         padding-top: 30px;
         padding-right: 140px;
     }
-} @media (max-width: 351px) {
+    nav.medic-bg.container h1, nav.medic-bg.container h2, nav.medic-bg.container span {
+        font-size: 38px;
+    }
+}
+@media (max-width: 351px) {
     .bg__s::before {
         left: 79.9%;
     }p#text__s{
@@ -933,6 +997,7 @@
         left: 80%;
         height: 26%;
     }
+
 }    
 @media (max-width: 338px) {
     .bg__s::before {

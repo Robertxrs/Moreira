@@ -44,6 +44,9 @@
     height: 100%;
     transform:scaleX(-1);
 }
+.nav-agendar__as{
+    display: none;
+}
 
 .main-content__a h1 {
     font-size: 76px; 
@@ -933,7 +936,17 @@ p#how-text__two{
         left: 78.2%;
     }
 }
-
+@media (max-width: 641px){
+    .nav-agendar__a{
+        display: none;
+    }.nav-agendar__as{
+        display: flex;
+        padding-left: 20px;
+        
+    }#btn-agendar__a{
+        font-size: 16px;
+    }
+}
 @media (max-width: 664px){
     .bg__a::before {
         left: 74%;

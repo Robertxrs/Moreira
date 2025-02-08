@@ -886,6 +886,7 @@
         width: 80%;
         height: 60%;
     }
+    
 }
 @media (max-width: 672px) {
     .bg__sm::before {
@@ -954,7 +955,7 @@
         height: 58.5%;
     }
     div.problem-card p{
-        font-size: 20px;
+        font-size: 24px;
     }div.problem-row{
         font-size: 20px;
     } .problem-card {
@@ -1057,6 +1058,9 @@
         left: 81%;
         height: 42.5%;
     }
+    .problem-card {
+        width: 360px; 
+    }
 }@media (max-width: 432px) {
     .bg__sm::before {
         top: 60%;
@@ -1092,8 +1096,9 @@
         left: 82%;
         height: 39%;
     }
-    .problem-card {
-        width: 350px; 
+
+    div.problem-card p {
+        font-size: 24px;
     }
 }@media (max-width: 400px) {
     .bg__sm::before {
