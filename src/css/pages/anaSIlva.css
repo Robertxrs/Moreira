@@ -872,6 +872,9 @@ p#how-text__two{
         left: 1%;
     }img#how-img__two{
         width: 500px;
+    }div.qualify-bg.container img {
+        width: 80px;
+        height: 80px;
     }
 }@media (max-width: 752px){
     .bg__a::before {
@@ -1149,6 +1152,9 @@ p#how-text__two{
     }div.main__a-code p {
         margin-right: 0px;
         font-size: 18px;
+    }div.qualify-bg.container img {
+        width: 70px;
+        height: 70px;
     }
 }
 @media (max-width: 412px){
