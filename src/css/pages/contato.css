@@ -269,14 +269,29 @@
         padding-right: 800px;
         color: #797979;
     }
-}
+}@media (max-width: 1618px) {
+    .bg__c::before {
+        left: 74.6%;
+}}
 @media (max-width: 1600px) {
     .bg__c::before {
+        left: 74.7%;
+}}@media (max-width: 1595px) {
+    .bg__c::before {
+        left: 74.9%;
+}}@media (max-width: 1574px) {
+    .bg__c::before {
         left: 75%;
+}}@media (max-width: 1563px) {
+    .bg__c::before {
+        left: 75.2%;
+}}@media (max-width: 1547px) {
+    .bg__c::before {
+        left: 75.4%;
 }}
 @media (max-width: 1530px) {
     .bg__c::before {
-        left: 75.9%;
+        left: 75.5%;
     }
     .main-content__c h1, .main-content__c h2 {
         font-size: 70px;
@@ -284,11 +299,14 @@
     .main-content__c span {
         color: #062938;
     }
-}
-
-@media (max-width: 1510px) {
+}@media (max-width: 1521px) {
     .bg__c::before {
-        left: 75.1%;
+        left: 75.6%;
+}}
+
+@media (max-width: 1511px) {
+    .bg__c::before {
+        left: 74.5%;
     }
     .main-content__c h1, .main-content__c h2 {
         font-size: 66px;
@@ -309,11 +327,29 @@
         max-width: 700px;
         height: 80%;
     }
-}
-
-@media (max-width: 1415px) {
+}@media (max-width: 1497px) {
     .bg__c::before {
         left: 74.6%;
+}}@media (max-width: 1486px) {
+    .bg__c::before {
+        left: 74.7%;
+}}@media (max-width: 1474px) {
+    .bg__c::before {
+        left: 75%;
+}}@media (max-width: 1451px) {
+    .bg__c::before {
+        left: 75.2%;
+}}@media (max-width: 1436px) {
+    .bg__c::before {
+        left: 75.4%;
+}}@media (max-width: 1419px) {
+    .bg__c::before {
+        left: 75.6%;
+}
+}
+@media (max-width: 1415px) {
+    .bg__c::before {
+        left: 74.3%;
     }
     .main-content__c h1, .main-content__c h2 {
         font-size: 62px;
@@ -325,12 +361,21 @@
         max-width: 600px;
         height: 80%;
     }
-}
-
-@media (max-width: 1340px) {
+}@media (max-width: 1396px) {
     .bg__c::before {
-        left: 75.4%;
-    }
+        left: 74.4%;
+}}@media (max-width: 1387px) {
+    .bg__c::before {
+        left: 74.6%;
+}}@media (max-width: 1370px) {
+    .bg__c::before {
+        left: 74.9%;
+}}@media (max-width: 1346px) {
+    .bg__c::before {
+        left: 75.1%;
+}}
+@media (max-width: 1340px) {
+
     .main-content__c h1, .main-content__c h2 {
         font-size: 58px;
     }
@@ -362,15 +407,24 @@
         left: 4%;
         min-width: 120px;
     }
-}
+}@media (max-width: 1317px) {
+    .bg__c::before {
+        left: 75.4%;
+}}@media (max-width: 1295px) {
+    .bg__c::before {
+        left: 75.6%;
+}}@media (max-width: 1282px) {
+    .bg__c::before {
+        left: 75.8%;
+}}
+
+
+
 
 @media (max-width: 1280px) {
     .bg__c {
         background: linear-gradient(to right, white 59%, #0D4253 41%);
         min-height: 100%;
-    }
-    .bg__c::before {
-        left: 75.4%;
     }
     div.main-content__c.container h1, div.main-content__c.container span, div.main-content__c.container h2 {
         font-size: 50px;
@@ -389,7 +443,42 @@
         left: 6%;
         max-width: 80px;
     }
-}
+    .bg__c::before {
+            left: 74.7%;
+    }
+}@media (max-width: 1262px) {
+    .bg__c::before {
+        left: 74.9%;
+}}@media (max-width: 1244px) {
+    .bg__c::before {
+        left: 75.2%;
+}}@media (max-width: 1228px) {
+    .bg__c::before {
+        left: 75.4%;
+}}@media (max-width: 1208px) {
+    .bg__c::before {
+        left: 75.6%;
+}}@media (max-width: 1205px) {
+    .bg__c::before {
+        left: 75.2%;
+}}@media (max-width: 1191px) {
+    .bg__c::before {
+        left: 75.4%;
+}}@media (max-width: 1179px) {
+    .bg__c::before {
+        left: 75.6%;
+}}@media (max-width: 1162px) {
+    .bg__c::before {
+        left: 75.8%;
+}}
+
+
+
+
+
+
+
+
 
 @media (max-width: 1150px) {
     .bg__c {
@@ -397,7 +486,7 @@
         max-height: 100%;
     }
     .bg__c::before {
-        left: 75.4%;
+        left: 74.6%;
         height: 60%;
     }
     a.btn-agendar {
@@ -427,7 +516,28 @@
         padding-right: 500px;
     }
 }
-
+@media (max-width: 1132px) {
+    .bg__c::before {
+        left: 74.7%;
+}}@media (max-width: 1122px) {
+    .bg__c::before {
+        left: 74.9%;
+}}@media (max-width: 1110px) {
+    .bg__c::before {
+        left: 75%;
+}}@media (max-width: 1100px) {
+    .bg__c::before {
+        left: 75.2%;
+}}@media (max-width: 1093px) {
+    .bg__c::before {
+        left: 75.4%;
+}}@media (max-width: 1072px) {
+    .bg__c::before {
+        left: 75.6%;
+}}@media (max-width: 1060px) {
+    .bg__c::before {
+        left: 75.8%;
+}}
 @media (max-width: 1050px) {
     div.main-content__c.container {
         padding-left: 20px;
@@ -478,25 +588,49 @@
         font-size: 22px;
         margin-top: 100px;
     }
-}
+}@media (max-width: 1040px) {
+    .bg__c::before {
+        left: 74.3%;
+}}@media (max-width: 1030px) {
+    .bg__c::before {
+        left: 74.5%;
+}}@media (max-width: 1020px) {
+    .bg__c::before {
+        left: 74.7%;
+}}@media (max-width: 1004px) {
+    .bg__c::before {
+        left: 74.9%;
+}}@media (max-width: 993px) {
+    .bg__c::before {
+        left: 75.1%;
+}}@media (max-width: 982px) {
+    .bg__c::before {
+        left: 75.3%;
+}}
 @media (max-width: 970px) {
     .bg__c {
         background: linear-gradient(to right, white 60%, #0D4253 40%);
         max-height: 100%;
     }
     .bg__c::before {
-        left: 76%;
+        left: 75.4%;
         height: 60%;
     }
 }
-
+@media (max-width: 960px) {
+    .bg__c::before {
+        left: 76.3%;
+}}@media (max-width: 941px) {
+    .bg__c::before {
+        left: 76.5%;
+}}
 @media (max-width: 930px) {
     .bg__c {
         background: linear-gradient(to right, white 60%, #0D4253 40%);
         max-height: 100%;
     }
     .bg__c::before {
-        left: 75%;
+        left: 74.5%;
         height: 55%;
     }
     div.main-content__c.container h1{
@@ -509,16 +643,28 @@
         max-width: 450px;
         height: 70%;
     }
-
     .form-column-c {
         max-width: 700px;
     }
-
-}
-@media (max-width: 870px) {
+}@media (max-width: 913px) {
+    .bg__c::before {
+        left: 74.8%;
+}}@media (max-width: 895px) {
+    .bg__c::before {
+        left: 75%;
+}}@media (max-width: 883px) {
+    .bg__c::before {
+        left: 75.4%;
+}}@media (max-width: 877px) {
     .bg__c::before {
         left: 76%;
-        height: 55%;
+}}@media (max-width: 873px) {
+    .bg__c::before {
+        left: 76.2%;
+}}
+@media (max-width: 870px) {
+    .bg__c::before {
+        left: 74.4%;
     }
     div.main-content__c.container h1{
         font-size: 36px;
@@ -559,15 +705,38 @@
         font-size: 32px;
         margin-left: 0px;
     }
-}@media (max-width: 875px) {
+}
+@media (max-width: 861px) {
     .bg__c::before {
-        left: 76%;
-        height: 55%;
-    }}
-
+        left: 74.6%;
+}}@media (max-width: 851px) {
+    .bg__c::before {
+        left: 74.9%;
+}}@media (max-width: 833px) {
+    .bg__c::before {
+        left: 75%;
+}}@media (max-width: 825px) {
+    .bg__c::before {
+        left: 75.2%;
+}}@media (max-width: 811px) {
+    .bg__c::before {
+        left: 75.5%;
+}}@media (max-width: 810px) {
+    .bg__c::before {
+        left: 75.2%;
+}}@media (max-width: 797px) {
+    .bg__c::before {
+        left: 75.5%;
+}}@media (max-width: 784px) {
+    .bg__c::before {
+        left: 75.7%;
+}}@media (max-width: 770px) {
+    .bg__c::before {
+        left: 75.9%;
+}}
 @media (max-width: 760px) {
     .bg__c::before {
-        left: 84%;
+        left: 83%;
         height: 55%;
     }
     div.main-content__c.container h1{
@@ -611,8 +780,14 @@
         margin-right: 0px;
         width: 300px;
     }
+}@media (max-width: 760px) {
+    .bg__c::before {
+        left: 83%;
+        height: 55%;
+    }
+}
 
-}@media(max-width:668px){
+@media(max-width:668px){
     #agendar-c{
         font-size: 18px;
     }
@@ -858,9 +1033,6 @@
         font-size: 24px;
     }
 }
-
-
-
 @media(max-width:330px){
 a.btn-agendar {
     padding: 12px 28px;

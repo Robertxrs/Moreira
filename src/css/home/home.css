@@ -543,6 +543,9 @@
 .info-andress p{
     padding: 0;
 }
+.header-search img {
+    padding-left: 20px;
+}
 
 @media (max-width: 1670px) {
     .main {
@@ -1141,6 +1144,11 @@
     img.contact-map{
         width: 640px;
     }
+}@media (max-width: 1115px) {
+    .header-search img {
+        width: 50px;
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 950px) {
@@ -1212,6 +1220,9 @@
     }
     .main-img img {
         max-width: 350px;
+    } .header-search img {
+        width: 40px;
+        padding-left: 10px;
     }
 }
 
@@ -1322,9 +1333,6 @@ div.main-content{
 }
 
 @media (max-width: 810px) {
-    .header-search img{
-        width: 44px;
-    }
     h2.main-agendar-title{
         font-size: 36px;
         padding-top: 50px;

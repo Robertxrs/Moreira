@@ -41,7 +41,6 @@
 
 .main-img__a img {
     max-width: 836px;
-    height: 100%;
     transform:scaleX(-1);
 }
 .nav-agendar__as{
