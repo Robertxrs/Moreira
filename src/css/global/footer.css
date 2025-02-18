@@ -242,25 +242,24 @@ footer {
 /* mobile */
 @media (max-width: 754px) {
     footer {
-        flex-direction: column; /* Alinha os itens verticalmente */
+        flex-direction: column;
     }
 
     .footer-info {
         flex: 0 0 auto;
         display: flex;
-        flex-direction: column; /* Mantém o alinhamento vertical */
+        flex-direction: column; 
         padding: 20px;
     }
 
     .footer-info__options {
-        flex: 2; /* Aumenta a proporção de espaço para opções */
-        padding-bottom: 20px; /* Dá mais espaçamento inferior */
+        flex: 2; 
+        padding-bottom: 20px;
     }
 
     .footer-contact {
-        flex: 1; /* Reduz o espaço alocado para contato */
-        padding: 10px 20px; /* Reduz o padding geral */
-    }
+        flex: 1; 
+        padding: 10px 20px;
 
     .footer-message {
         flex: 0 0 auto;
@@ -268,11 +267,11 @@ footer {
     }
 
     .footer-message h2 {
-        margin-left: 0; /* Centraliza o texto */
+        margin-left: 0; 
     }
 
     .form-columns {
-        flex-direction: column; /* Alinha os campos em uma única coluna */
+        flex-direction: column; 
         gap: 20px;
         padding-left: 0;
     }
@@ -280,4 +279,5 @@ footer {
         padding-left: 20px;
     }
 
+}
 }
