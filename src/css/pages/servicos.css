@@ -4,9 +4,6 @@
     position: relative;
     overflow: hidden;
 }
-
-
-
 .bg__s::before {
     content: '';
     background-size: contain;
@@ -14,8 +11,8 @@
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
-    top: 77%;
-    left: 71.2%;
+    top: 79%;
+    left: 68.75%;
     transform: translate(-50%, -50%);
     width: 100%;
     height: 120%;
@@ -47,11 +44,13 @@
     padding-right: 1100px;
     padding-top: 50px;
 }
-
+div.main-content__s{
+    padding-top: 0px;
+}
 
 .main-img__s{
     position: absolute;
-    top: 61%;
+    top: 70%;
     left: 60%;
     transform: translate(-50%, -50%);
 }
@@ -174,11 +173,24 @@
     color: #797979;
     padding-right: 100px;
 }
-@media (max-width: 1877px) {
+
+
+@media (max-width: 1894px) {
     .bg__s::before {
-        left: 72.4%;
+        left: 68.9%;
     }
 }
+@media (max-width: 1893px) {
+    p#text__s{
+        padding-right: 900px;
+    }p#text__s-two{
+        padding-right: 950px;
+    }
+    .bg__s::before {
+        left: 68.9%;
+    }
+}
+
 @media (max-width: 1850px) {
     .bg__s::before {
         left: 73%;
