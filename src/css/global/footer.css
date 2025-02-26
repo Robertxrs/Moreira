@@ -184,7 +184,7 @@ footer {
         margin-right: 50px;
     }
     .footer-info {
-        flex: 0 0 25%;
+        flex: 0 0 50%;
         padding: 30px 0px 50px 50px;
     }
     .footer-message {
@@ -198,6 +198,10 @@ footer {
     .form-column textarea,
     .form-column button {
     font-size: 16px;
+    }
+}@media (max-width: 1120px) {
+    .footer-info {
+        padding: 30px 0px 50px 30px;
     }
 }
 @media (max-width: 900px) {
@@ -254,13 +258,15 @@ footer {
 
     .footer-info__options {
         flex: 2; 
-        padding-bottom: 20px;
+        padding-left: 20px;
     }
-
+    #footer-info__c {
+        padding-top: 0px;
+    }
     .footer-contact {
         flex: 1; 
         padding: 10px 20px;
-
+    }
     .footer-message {
         flex: 0 0 auto;
         padding: 20px;
@@ -278,6 +284,17 @@ footer {
     div.footer-info__options{
         padding-left: 20px;
     }
-
-}
+    .footer-contact h2 {
+        margin-top: 25px !important;
+    }.footer-info__options ul li a {
+        font-size: 18px !important;
+    }    .footer-contact p {
+        font-size: 16px !important;
+    }
+}@media (max-width: 390px) {
+    .footer-contact p {
+        font-size: 14px !important;
+    }div.footer-info {
+        padding-left: 0px;
+    }
 }

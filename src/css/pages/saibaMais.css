@@ -69,7 +69,7 @@
     text-align: center;
     padding: 20px;
     border-radius: 46px;
-    height: 220px; 
+    height: 210px; 
 }
 
 #problem-peso{
@@ -185,6 +185,12 @@
     div.main-content__s.container h1, div.main-content__s.container h2 {
         font-size: 68px;
     }
+    .problem-card-up {
+        height: 165px;
+    }div#problem-peso.problem-card-up{
+        height: 220px;
+    }
+
 }
 @media (max-width: 1480px) {
     .problem-card {
@@ -678,6 +684,8 @@
         width: 360px; 
     }h1#title__sm, h2#title__sm {
         padding-left: 0px !important;
+    }.problem-card-up {
+        height: 214px;
     }
 }@media (max-width: 432px) {
     .main-img__sm{
