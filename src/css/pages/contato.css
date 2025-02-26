@@ -1,35 +1,39 @@
-.bg__c::before {
-    content: '';
-    background-size: contain;
-    background-image: url("../../assets/icons/Aneis.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    top: 55%;
-    left: 68.8%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 80%;
-}
 .bg__c{
-    background: linear-gradient(to right, white 54.7%, #0D4253 35%);
-    min-height: 100%;
+    --gradient-split: 54.5%;
+    background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
+    min-height: 100vh;
     position: relative;
     overflow: hidden;
 }
+.bg__c::before {
+    content: '';
+    background-image: url("../../assets/icons/Aneis.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: absolute;
+    top: 57.5%;
+    left: var(--gradient-split + 5vw);
+    transform: translate(215.9%, -56%);
+    width: 25vw;
+    height: 100%;
+    max-width: 600px;
+}
+
+.main-img__c {
+    padding-left: 3vw;
+}
+/* arrumar a unidade de medida para se ajustar ao responsivo */
+.main-img__c img { 
+    max-width: 100%; 
+    height: auto;    
+    width: 100%; 
+    max-width: 977px;
+}
+
 div.main-content__c{
     padding-top: 0px;
 }
-.main-img__c{
-    padding-left: 50px;
-}
-.main-img__c img {
-    max-width: 986px;
-    height: 761.91px;
-    width: 986px;
-}
-
-
 .main-content__c h1{
     font-size:76px;
     letter-spacing: 1.52px;
@@ -230,20 +234,7 @@ div.main-content__c{
 }
 .contact-img-contato2_two{
     display: none;
-}
-
-@media (max-width: 1870px) {
-    .bg__c::before {
-        left: 70.6%;
-    }}
-@media (max-width: 1812px) {
-    .bg__c::before {
-        left: 71%;
-}}@media (max-width: 1777px) {
-    .bg__c::before {
-        left: 72%;
-}}
-@media (max-width: 1670px) {
+}@media (max-width: 1670px) {
     .bg__c {
         background: linear-gradient(to right, white 58%, #0D4253 42%);
         min-height: 100%;
