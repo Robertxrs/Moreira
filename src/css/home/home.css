@@ -1556,9 +1556,6 @@ div.main-content{
 }
 
 @media(max-width:535px){
-    img#espiral{
-      padding-left: 20px;
-    }
     .header-logo {
       display: block;
     }
@@ -1732,7 +1729,7 @@ div.main-content{
     div.main-content h1, div.main-content h2, div.main-content span {
             font-size: 20px;
     }div.main-content {
-        margin-right: 150px !important;
+        margin-right: 150px;
     }
 }@media(max-width: 405px){
     .main-img {
@@ -1744,17 +1741,18 @@ div.main-content{
     .main-img img {
         max-width: 200px;
     }div.main-content{
-        margin-right: 125px !important;
+        margin-right: 145px;
     }h2.main-agendar-title{
         padding: 30px 20px 0px;
     }
     .main-img {
         position: absolute;
         top: 55%;
-        left: 90%;
+        left: 85%;
         transform: translate(-50%, -50%); 
+    }div.main-content p {
+        font-size: 14px;
     }
-
 }
 @media(max-width: 391px){
     div.answer-bg.container h1{
@@ -1770,16 +1768,10 @@ div.main-content{
     }.contact-bg.container {
         padding-left: 20px;
     }
-}@media(max-width: 379px){
-    .main-img {
-        left: 90%;
-        top: 60%;
-    }
 }
-
-@media(max-width: 365px){
+@media(max-width: 371px){
     .main-img {
-        left: 90%;
+        left: 86%;
         top: 62%;
     }
     .main-img img {
@@ -1792,30 +1784,18 @@ div.main-content{
     } 
     img.contact-map {
         width: 300px;
+    }div.main-content {
+        margin-right: 140px !important;
+        margin-left: 15px !important;
     }
 }
-@media(max-width: 345px){
+@media(max-width: 338px){
+    div.main-content {
+        margin-right: 130px !important;
+    }
+}@media(max-width: 328px){
     .main-img {
-        left: 90%;
-        top: 65%;
-    }
-    .main-img img {
-        max-width: 190px;
-    }
-}@media(max-width: 335px){
-    .main-img {
-        left: 90%;
-        top: 68%;
-    }
-    .main-img img {
-        max-width: 180px;
-    }
-}@media(max-width: 331px){
-    .main-img {
-        left: 90%;
-        top: 70%;
-    }
-    .main-img img {
-        max-width: 180px;
+        left: 86%;
+        top: 64%;
     }
 }

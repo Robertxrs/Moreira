@@ -601,6 +601,11 @@
     } .problem-card {
         width: 400px; 
     }
+    div.problem-card-up{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }@media (max-width: 538px) {
     div.main-content__s.container h1,div.main-content__s.container h2{
         font-size: 22px;
@@ -660,6 +665,8 @@
 }@media (max-width: 465px) {
     p#text__sm__two, p#text__sm {
         padding-right: 210px;
+    }.card-small{
+        padding-bottom: 0px;   
     }
 }@media (max-width: 455px) {
     #span__sm{
@@ -686,6 +693,9 @@
         padding-left: 0px !important;
     }.problem-card-up {
         height: 214px;
+    }.card-small{
+        width: 320px;
+        height: 180px;
     }
 }@media (max-width: 432px) {
     .main-img__sm{
@@ -737,7 +747,12 @@
     }.main-img__sm{
         top: 80%;
         left: 85.5%;
+    }div#problem-peso.problem-card-up{
+        height: 275px;
+    }div.problem-card-up.card-small{
+        padding-left: 0px;
     }
+
 }@media (max-width: 382px) {
     .main-img__sm{
         top: 80.6%;

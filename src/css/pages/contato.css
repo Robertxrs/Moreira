@@ -16,7 +16,7 @@
     left: var(--gradient-split + 5vw);
     transform: translate(215.9%, -56%);
     width: 25vw;
-    height: 100%;
+    height: 78%;
     max-width: 600px;
 }
 
@@ -292,6 +292,8 @@ div.main-content__c{
     }
     .main-content__c h2 {
         padding-right: 700px;
+    }.bg__c::before {
+        height: 75%;
     }
 }@media (max-width: 1340px) {
 
@@ -337,6 +339,8 @@ div.main-content__c{
         max-width: 80px;
     }div.main-content__c {
         padding-top: 100px;
+    }.bg__c::before {
+        height: 68%;
     }
 }@media (max-width: 1150px) {
     a.btn-agendar {

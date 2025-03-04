@@ -534,7 +534,10 @@
   .lupa-b {
     width: 50px;
     height: 70px;
+} p.font-logo-text{
+  font-size: 10px;
 }
+
 }@media (max-width: 460px) {
   .lupa-b {
     width: 40px;
