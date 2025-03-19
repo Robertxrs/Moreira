@@ -67,8 +67,23 @@
   font-style: normal;
   font-display: swap;
 }
+.font-ti{
+  font: 500 4.75rem/1.5 "Neue Kabel", sans-serif;
+}
+.font-t{
+  font: 400 2.7rem/1.5 "Neue Kabel", sans-serif;
+}  
+.font-b{
+  font: 400 2.4rem/1.5 "Neue Kabel", sans-serif;
+}
+.font-menu{
+  font: 500 2rem/1.5 "Neue Kabel", sans-serif;
+  color: var(--color-h2-subtitle);
+}
+.font-span{
+  font: 500 3.3rem/1.5 "Neue Kabel", sans-serif;
+}
 
-  
 .font-logo{
   font-size: 40px;
   font-weight: 500;
@@ -82,9 +97,3 @@
   color:#174E5B;
 } 
 
-.font-menu{
-  font-size: 35px;
-  font-weight: 500;
-    color:#9D9D9D;
-    text-decoration: none;
-  }

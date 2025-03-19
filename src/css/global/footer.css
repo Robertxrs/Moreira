@@ -22,6 +22,7 @@ footer {
     letter-spacing: 0.54px;
     margin-bottom: 10px;
     margin-top: 20px;
+    color: #fff;
 }
 
 .footer-info__options ul {
@@ -35,7 +36,7 @@ footer {
 }
 
 .footer-info__options ul li a {
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     color: #fff;
     letter-spacing: 0.32px;
@@ -55,6 +56,7 @@ footer {
     font-size: 20px;
     letter-spacing: 2.64px;
     font-weight: 300;
+    color: #fff;
 }
 
 

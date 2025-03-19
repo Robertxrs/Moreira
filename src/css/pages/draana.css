@@ -65,12 +65,7 @@
 .main-button{
     display: flex;
 }
-.main-btn{
-    font-size: 43px;
-    display: inline-block;
-    text-decoration: none;
-    color: #797979;
-}
+
 .main-arrow{
     padding-left: 20px;
     transform: rotate(90deg);

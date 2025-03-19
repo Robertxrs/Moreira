@@ -1,19 +1,45 @@
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .container {
     box-sizing: border-box;
     max-width: 100%;
-    padding: 55px 3% 0px 3%; 
+    padding: 55px 5% 0px 5%; 
     margin-left: auto;
     margin-right: auto;
   }
   
-  .bg {
-    --gradient-split: 64.3%;
-    background: linear-gradient(to right, white var(--gradient-split), #0D4253 0);
-    min-height: 100%;
+.bg{
+    --gradient-split: 63%;
+    background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
+    min-height: 100vh;
     position: relative;
     overflow: hidden;
 }
-
 .bg::before {
     content: '';
     background-image: url("../../assets/icons/Aneis.png");
@@ -21,11 +47,11 @@
     background-repeat: no-repeat;
     background-position: right center;
     position: absolute;
-    top: 62%;
-    right: calc(100% - var(--gradient-split));
-    transform: translateY(-50%) translateX(74.5%);
-    width: 45%;
-    height: 90%;
+    top: 57.5%;
+    left: var(--gradient-split + 5vw);
+    transform: translate(215.2%, -45%);
+    width: 29vw;
+    height: 100%;
     max-width: 600px;
 }
 .bg__s{
@@ -36,301 +62,50 @@
     overflow: hidden;
 }@media (max-width: 1900px) {
     .main-content{
-        margin-right: 590px;
+        margin-right: 700px;
     }
 }
 @media (max-width: 1811px) {
     .main-content{
-        margin-right: 560px;
+        margin-right: 600px;
     }
 }@media (max-width: 1711px) {
-    .main-content{
-        margin-right: 500px;
+    .bg::before {
+        transform: translate(215.8%, -50%);
     }
 }
-
 @media (max-width: 1670px) {
     .main-content{
         margin-right: 580px;
+    }.bg::before {
+        height: 88%;
     }
-    .bg::before {
-        transform: translateY(-50%) translateX(79.9%);
-    }
+
 }@media (max-width: 1600px) {
     .bg::before {
-        transform: translateY(-50%) translateX(77.7%);
+        transform: translate(177.9%, -42%);
+        width: 30vw;
+        height: 100%;
     }
-}
-@media (max-width: 1581px) {
-    .main-content{
-        margin-right: 520px;
-    }
-}
-
-@media (max-width: 1501px) {
-    .main-content{
-        margin-right: 460px;
-    }
-}
-
-@media (max-width: 1460px) {
-    .main-content {
-        margin-right: 530px;
-    } .bg::before {
-        transform: translateY(-50%) translateX(79.2%);
-    }
-}
-
-
-@media (max-width: 1375px) {
-    .main-content {
-        margin-right: 440px;
-    }
-    .bg::before {
-        height: 86%;
-        transform: translateY(-50%) translateX(75.8%);
-    }
-}
-
-@media (max-width: 1340px) {
-    .bg {
-        background: linear-gradient(to right, white 58%, #0D4253 45%);
-        min-height: 100%;
+    .bg{
+        --gradient-split: 54%;
+        background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
+        min-height: 100vh;
         position: relative;
         overflow: hidden;
-    } 
-    .bg::before {
-        content: '';
-        background-image: url("../../assets/icons/Aneis.png");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        position: absolute;
-        top: 66%;
-        left: 78.06%;
-        transform: translate(-50%, -50%);
-        width: 100%;
-        height: 85%;
     }
+}@media (max-width: 1440px){
     .bg::before {
-        top: 55%;
-        left: 71.2%;
+        transform: translate(179.7%, -48%);
+        width: 30vw;
+        height: 91%;
+    }
+}
+@media (max-width: 1320px){
+    .bg::before {
+        transform: translate(179.7%, -54%);
+        width: 30vw;
         height: 80%;
-    }.bg::before {
-        left: 73.8%;
-    }
-  }
-@media (max-width: 1318px) {
-    .bg::before {
-        left: 74%;
-    }
-  }
-@media (max-width: 1307px) {
-    .bg::before {
-        left: 74.2%;
-    }
-  }
-@media (max-width: 1302px) {
-    .bg::before {
-        left: 74.2%;
-    }
-  }    
-@media (max-width: 1296px) {
-    .bg::before {
-        left: 74.2%;
-    }
-  } 
-@media (max-width: 1282px) {
-    .bg::before {
-        left: 75.2%;
-    }
-  }
-@media (max-width: 1280px) {
-    .bg::before {
-        left: 74%;
-    }
-  }
-@media (max-width: 1270px) {
-    .bg::before {
-        left: 74.1%;
-    }
-  }
-@media (max-width: 1267px) {
-    .bg::before {
-        left: 74.1%;
-    }
-  }@media (max-width: 1261px) {
-    .bg::before {
-        left: 74.4%;
-        top: 57%;
-    }
-  }
-  @media (max-width: 1254px) {
-    .bg::before {
-        left: 74.3%;
-    }
-  }
-  @media (max-width: 1240px) {
-    .bg::before {
-        left: 75.4%;
-    }
-  }  @media (max-width: 1229px) {
-    .bg::before {
-        left: 75.4%;
-    }
-  }
-@media (max-width: 1225px) {
-    .bg::before {
-        top: 70%;
-        left: 72.3%;
-        height: 83%;
-    }.main-content {
-        margin-right: 500px;
-    }
-  } 
-@media (max-width: 1202px) {
-    .main-content {
-        margin-right: 480px;
-    }.bg::before {
-        left: 72.1%;
-    }
-}
- @media (max-width: 1183px) {
-    .bg::before {
-        left: 72.4%;
-    }.main-content {
-        margin-right: 460px;
-    }
-  }
-@media (max-width: 1164px) {
-    .bg::before {
-        left: 72.6%;
-    }
-}@media (max-width: 1162px) {
-    .bg::before {
-        left: 73.2%;
-    }
-  }
-@media (max-width: 1146px) {
-    .bg::before {
-        left: 73.4%;
-    }
-}  @media (max-width: 1128px) {
-    .bg::before {
-        left: 73.8%;
-    }
-  } @media (max-width: 1125px) {
-    .bg::before {
-        left: 73.8%;
-    }
-  }@media (max-width: 1098px) {
-    .bg::before {
-        left: 73.9%;
-    }
-  }@media (max-width: 1083px) {
-    .bg::before {
-        left: 74%;
-        top: 62%;
-    } 
-  }@media (max-width: 1070px) {
-    .bg::before {
-        left: 74.2%;
-    } .main-content {
-        margin-right: 380px;
-    }
-  }
-@media (max-width: 1060px) {
-    .bg::before {
-        left: 74.5%;
-    }
-}@media (max-width: 1040px) {
-    .bg::before {
-        left: 74.8%;
-    }
-  }@media (max-width: 1016px) {
-    .bg::before {
-        left: 75.1%;
-    }
-  }@media (max-width: 1000px) {
-    .bg::before {
-        left: 75.3%;
-    }
-} @media (max-width: 990px) {
-    .bg::before {
-        left: 75.7%;
-    }
-}@media (max-width: 980px) {
-    .bg::before {
-        left: 76%;
-    }
-    .main-content {
-        margin-right: 340px;
-    }
-}@media (max-width: 964px) {
-    .bg::before {
-        left: 76.2%;
-    }
-  }
-  @media (max-width: 960px){
-    .bg {
-        background: linear-gradient(to right, white 60%, #0D4253 40%);
-    }
-    .bg::before {
-        top: 60%;
-        left: 75.2%;
-        height: 70%;
-    }
-  }
-
-@media (max-width: 940px){
-    .bg::before {
-        left: 76%;
-    }
-}@media (max-width: 930px){
-    .bg::before {
-        left: 76%;
-    }
-}@media (max-width: 905px){
-    div.main-content {
-       margin-left: 50px;
-    }.bg::before {
-        left: 74.2%;
-    }
-}
-@media (max-width: 900px){
-    .bg::before {
-        left: 74.4%;
-    }
-}@media (max-width: 890px){
-    .bg::before {
-        left: 75%;
-    }
-}@media (max-width: 880px){
-    .bg::before {
-        left: 75.3%;
-    }
-}
-@media (max-width: 868px){
-    .bg::before {
-        top: 55%;
-        left: 74.5%;
-        height: 65%;
-    }
-}@media (max-width: 854px){
-    .bg::before {
-        top: 55%;
-        left: 75.3%;
-        height: 65%;
-    }
-}
-@media (max-width: 850px){
-    .bg::before {
-        top: 55%;
-        left: 72.5%;
-        height: 58%;
-    }
-    .bg {
-        background: linear-gradient(to right, white 60%, #0D4253 40%);
     }
 }
 

@@ -20,7 +20,7 @@
 
 .header-menu {
   display: flex; 
-  flex: 7.8;
+  flex: 10;
 }
 
 .header-menu .menu {
@@ -467,7 +467,7 @@
 .header-search {
   display: flex;
   justify-content: end;
-  padding: 0px 3% 0px 3%;
+  padding: 0px 9.9% 0px 3%;
   position: relative;
 }
 
