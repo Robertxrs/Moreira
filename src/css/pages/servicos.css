@@ -14,36 +14,18 @@
     position: absolute;
     top: 57.5%;
     left: var(--gradient-split + 5vw);
-    transform: translate(215.9%, -35%);
-    width: 25vw;
-    height: 100%;
+    transform: translate(180%, -35%);
+    width: 30vw;
+    height: 120%;
     max-width: 600px;
 }
 
-
-.main-content__s h1{
-    font-size:76px;
-    letter-spacing: 1.52px;
-    color: #062938;
-    font-weight: 500;
-}
 .main-content__s span{
     color: #062938;
 }
-
-
-.main-content__s h2{
-    font-size:76px;
-    letter-spacing: 1.52px;
-    color: #797979;
-    font-weight: 500;
-}
 .main-content__s p{
-    font-size:43px;
     letter-spacing: 0.86px;
-    color: #797979;
-    font-weight: 400;
-    padding-right: 1100px;
+    padding-right: 1000px;
     padding-top: 50px;
 }
 div.main-content__s{
@@ -62,24 +44,17 @@ div.main-content__s{
 }
 
 #text__s-two{
-    padding-right: 1050px;
+    padding-right: 1000px;
     padding-bottom: 38px;
 }
-
-
 #text__s-three{
-    font-size: 43px;
-    padding-right: 0px;
-    letter-spacing: 0.86px;
-    color: #797979;
-    padding-left: 50px;
+    padding-left: 5%;
     padding-right: 300px;
     padding-top: 30px;
 }
 #text__s-three span{
-    font-size: 43px;
-    padding-right: 0px;
     color: #797979;
+    font-weight: 500;
 }
 
 .nav-agendar__s{
@@ -88,24 +63,7 @@ div.main-content__s{
     justify-content: center;
     padding-bottom: 100px;
 }
-.nav-agendar__s h2{
-    text-align: center;
-    font-size: 55px;
-    font-weight: 500;
-    color: #0D4253;
-    padding: 100px 30% 0px 30%;
-}
-
-.procurar-bg h1{
-    font-size: 76px;
-    font-weight: 500;
-    color: #0D4253;
-    letter-spacing: 1.52px;
-}
-
 .procurar-bg h2{
-    color: #9D9D9D;
-    font-size: 76px;
     font-weight: 400;
     padding-bottom: 100px;
 }
@@ -120,57 +78,32 @@ div.main-content__s{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 55px;
-    margin: 0px 200px;
     font-weight: 500;
+    margin: 0px 220px;
 }
-
-
 .procurar-servicos{
     display: flex;
     padding-top: 150px;
 }
 .procurar-servicos p{
-    font-size: 43px;
-    letter-spacing: 0.86px;
-    color: #797979;
     padding-left: 40px;
     padding-right: 150px;
 }
 
 .procurar-servicos span{
-    font-size: 43px;
     font-weight: 500;
     color: #797979;
-}
-
-.medic-bg h1{
-    font-size: 76px;
-    color: #0D4253;
-    font-weight: 500;
-}
-
-.medic-bg h2{
-    font-size: 76px;
-    color: #9D9D9D;
-    letter-spacing: 1.52px;
-    font-weight: 500;
 }
 
 .medic-bg p{
-    font-size: 43px;
-    color: #797979;
-    letter-spacing: 0.86px;
     padding-top: 100px;
     padding-bottom: 50px;
     padding-right: 100px;
-
 }
 #span-medic{
-    font-size: 43px;
-    letter-spacing: 0.86px;
     color: #797979;
     padding-right: 100px;
+    font-weight: 500;
 }
 @media (max-width: 1893px) {
     p#text__s{
