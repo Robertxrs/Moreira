@@ -14,30 +14,28 @@
     position: absolute;
     top: 57.5%;
     left: var(--gradient-split + 5vw);
-    transform: translate(215.9%, -56%);
-    width: 25vw;
-    height: 78%;
+    transform: translate(192.9%, -44%);
+    width: 28vw;
+    height: 100%;
     max-width: 600px;
 }
 
 .main-img__c {
-    padding-left: 3vw;
-}
-.main-img__c img { 
-    max-width: 100%; 
-    height: auto;    
-    width: 100%; 
-    max-width: 51.06vw;
+    position: absolute;
+    top: 64.6%;
+    left: 64%;
+    transform: translate(-50%, -50%); 
 }
 
+.main-img__c img {
+    max-width: 790px;
+    height: 100%;
+}
 div.main-content__c{
     padding-top: 0px;
 }
 .main-content__c h1{
-    font-size:76px;
-    letter-spacing: 1.52px;
-    color: #062938;
-    font-weight: 500;
+    padding-top: 50px;
 }
 .main-content__c span{
     color: #062938;
@@ -45,11 +43,7 @@ div.main-content__c{
 
 
 .main-content__c h2{
-    font-size:76px;
-    letter-spacing: 1.52px;
-    color: #797979;
-    font-weight: 500;
-    padding-right: 900px;
+    padding-right: 920px;
 }
 
 
@@ -123,14 +117,10 @@ div.main-content__c{
 }
 
 .contact-info-c p {
-    padding: 0;
-    margin: 0;
-    font-size: 56px;
-    letter-spacing: 1.52px;
     color: #062938;
-    font-weight: 500;
     padding-bottom: 10px;
     z-index: 1;
+    font-weight: 500;
 }
 
 #contact-address{
@@ -141,9 +131,8 @@ div.main-content__c{
 .nav-agendar__c{
     display: flex;
     padding-top: 100px;
-    justify-content: center;
-    padding-bottom: 100px;
-    padding-left: 50px;
+    justify-content: start;
+    padding-left: 100px;
 }
 .nav-agendar__c h2{
     text-align: center;
@@ -171,8 +160,6 @@ div.main-content__c{
     margin-bottom: 20px;
 
 }
-
-
 .form-columns-c {
     display: flex;
     gap: 100px;

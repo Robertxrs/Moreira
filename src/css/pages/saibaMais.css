@@ -71,7 +71,7 @@ div#sm.main-content__s{
     text-align: center;
     padding: 20px;
     border-radius: 46px;
-    height: 210px; 
+    height: auto; 
 }
 
 #problem-peso{
@@ -79,7 +79,8 @@ div#sm.main-content__s{
 }
 
 .problem-card-up h1 {
-    font-size: 58px;
+    color: var(--color-t);
+    font-size: 3.5rem;
     margin: 0;
     line-height: 1.2;
     font-weight: 400;
@@ -93,6 +94,10 @@ div#sm.main-content__s{
     justify-content: center;
     align-items: center;
     margin: 0px auto;
+}
+
+.card-small{
+    padding: 10.8% 0%;
 }
 
 .problem-card p {
@@ -119,14 +124,6 @@ div#sm.main-content__s{
 .problem-card a img:hover {
     transform: rotate(95deg) scale(1.1); 
 }
-
-
-#card-up-small{
-
-}
-
-
-
 
 .lembrete-container p{
     display: flex;
