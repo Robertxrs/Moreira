@@ -220,10 +220,6 @@ div.main-content__c{
 }
 .contact-img-contato2_two{
     display: none;
-}@media (max-width: 1780px) {
-    .main-content__c h1 {
-        font-size: 70px;
-    }
 }
 @media (max-width: 1670px) {
     .main-content__c span {
