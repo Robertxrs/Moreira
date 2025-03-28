@@ -211,6 +211,10 @@ nav.nav-agendar__as{
         top: 55%;
         left: 78.2%;
 }
+.bg__a::before {
+    height: 73%;
+
+}
 .main__a{
     position: relative;
     display: flex;
@@ -364,6 +368,9 @@ p#how-img_text{
 }
 .bg__a::before {
     top: 40%;
+}.bg__a::before {
+    height: 66%;
+
 }
 }@media (max-width: 1495px){
     .main-img__a{
@@ -411,7 +418,7 @@ p#how-text__two{
         top: 41%;
         transform: translate(186.5%, -42%);
         width: 30vw;
-        height: 80%;
+        height: 68%;
 }.main-content__a h1 {
     margin-right:110px;
 }
@@ -502,9 +509,9 @@ p#how-text__two{
         width: 580px;
     }    .bg__a::before {
         top: 36%;
-        transform: translate(186.5%, -42%);
+        transform: translate(186.5%, -38%);
         width: 30vw;
-        height: 80%;
+
 }
 }@media (max-width: 1312px){
     .main-img__a img{

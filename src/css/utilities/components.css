@@ -88,12 +88,14 @@ img {
 }@media (max-width: 1440px){
     .bg::before {
         transform: translate(210%, -46%);
+        height: 93%;
     }
    .main-content {
         margin-right: 480px;
     }.bg{
         min-height: 100%;
-    }.nav-agendar {
+    }
+    .nav-agendar {
         display: block;
         padding-left: 80px;
     }.font-t{
@@ -148,6 +150,7 @@ img {
         margin-right: auto;
     }.bg::before {
         transform: translate(209.8%, -49.2%);
+        height: 80%;
     }
 }@media (max-width: 930px){
     .font-ti{

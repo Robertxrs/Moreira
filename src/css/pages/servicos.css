@@ -16,7 +16,7 @@
     left: var(--gradient-split + 5vw);
     transform: translate(180%, -35%);
     width: 30vw;
-    height: 120%;
+    height: 110%;
     max-width: 600px;
 }
 
@@ -176,6 +176,7 @@ div.main-content__s{
     .bg__s::before {
         transform: translate(170%, -46%);
         width: 32vw;
+        height: 90%;
     }
     p#text__s {
         font-size: 38px;
@@ -420,7 +421,7 @@ div.main-content__s{
     }.bg__s::before {
         transform: translate(126%, -50%);
         width: 38vw;
-        height:100%;
+
     }
 }@media (max-width: 800px) {
     .main-img__s{
