@@ -120,6 +120,13 @@
   }.header-search img{
     width: 45px;
   }
+}@media (max-width: 1555px) {
+  .header-menu {
+    display: flex; 
+    flex: 10;
+  }div.header.container{
+    padding-right: 0px;
+  }
 }
 
 @media (max-width: 1485px) {
@@ -165,7 +172,7 @@
 @media (max-width: 1205px) {
   .header-menu {
     display: flex; 
-    flex: 9;
+    flex: 11;
   }
 
    .menu a {
@@ -189,7 +196,9 @@
   }
   div.header.container{
     padding-right: 0px;
-  }
+  }a.font-menu {
+     padding-right: 15px;
+}
 }
 @media (max-width: 1180px) {
   .header-search {
@@ -206,7 +215,7 @@
 @media (max-width: 1185px) {
   .header-menu {
     display: flex; 
-    flex: 10;
+    flex: 12;
   }
 
 }
@@ -245,7 +254,31 @@
     font-size: 32px;
   }
 }
-
+@media (max-width: 930px) {
+  .header-menu {
+    display: flex; 
+    flex: 1;
+  }
+  .header-logo{
+    display: none;
+  }.header-logo-m{
+    display: flex;   
+  }
+  img#espiral{
+    width: 120px;
+    height: 120px;
+  }ul.menu{
+    padding-left: 60px !important;
+  }
+}@media (max-width: 900px) {
+  ul.menu{
+    padding-left: 30px !important;
+  }
+}@media (max-width: 850px) {
+  ul.menu{
+    padding-left: 5px !important;
+  }
+}
 @media (max-width: 820px) {
   
   .header-logo h2 {
@@ -259,17 +292,6 @@
   }
   a.font-menu{
     font-size: 18px;
-  }.header-logo{
-    display: none;
-  }.header-logo-m{
-    display: flex;   
-  }
-  .header-menu {
-    flex: 1;
-}
-  img#espiral{
-    width: 120px;
-    height: 120px;
   }
 }
 
@@ -311,7 +333,16 @@
   cursor: pointer;
   display: none;
 }
-
+@media (max-width: 818px) {
+  a.font-menu {
+    padding-right: 0px;
+  }
+  a.font-menu.selected,a.font-menu.agendamento{
+    padding-right: 16px;
+  }ul.menu {
+    padding-left: 20px !important;
+}
+}
 @media (max-width: 788px) {
   a.font-menu {
     font-size: 16px;
@@ -527,7 +558,7 @@
   .header-search {
      display: flex;
      justify-content: end;
-     padding: 0px 6% 0px 3%;
+     padding: 0px 3% 0px 3%;
      position: relative;
    }.header-search img{
      width: 45px;
@@ -536,12 +567,16 @@
   .header-search {
     display: flex;
     justify-content: end;
-    padding: 0px 6% 0px 3%;
+    padding: 0px 2% 0px 3%;
     position: relative;
   }.header-search img{
     width: 30px;
   }
 }
+
+
+
+
 @media (max-width: 756px) {
   .lupa-b {
     width: 60px;

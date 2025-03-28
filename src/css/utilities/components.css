@@ -100,7 +100,16 @@ img {
         font: 400 2.2rem/1.5 "Neue Kabel", sans-serif !important;
     }.font-ti{
         font: 500 3.8rem/1.5 "Neue Kabel", sans-serif !important;
-      }
+    }h2#service-text.font-t{
+        font-weight: 600 !important;
+        margin-bottom: 0px;
+    }p#service-text.font-t,p#service-second-text.font-t{
+        font-weight: 400 !important;
+        padding-bottom: 40px;
+    }.service-bttn {
+        font-size: 43px;
+        margin-left: 20px;
+    }
 
 }
 @media (max-width: 1320px){
@@ -122,9 +131,14 @@ img {
         font: 400 1.8rem/1.5 "Neue Kabel", sans-serif !important;
     }.font-ti{
         font: 500 3.4rem/1.5 "Neue Kabel", sans-serif !important;
-    }.bg::before {
+    }.font-span{
+        font: 500 3rem/1.5 "Neue Kabel", sans-serif !important;
+      }
+    
+    .bg::before {
         transform: translate(209.8%, -46%);
     }
+
 }@media (max-width: 1005px){
     .container {
         box-sizing: border-box;
@@ -140,7 +154,10 @@ img {
         font: 500 3.2rem/1.5 "Neue Kabel", sans-serif !important;
     }#main-p {
         margin-right: 0px;
-    }
+    }.font-span{
+        font: 500 2.6rem/1.5 "Neue Kabel", sans-serif !important;
+      }
+    
 }
 @media (max-width: 930px){
     .font-ti{
@@ -152,8 +169,18 @@ img {
     #main-p {
         margin-right:40px;
     }
+}@media (max-width: 880px){
+    h1#title__a{
+        font-size: 40px !important;
+    }
 }
 
+
+@media (max-width: 830px){
+    .font-span{
+        font: 500 2.3rem/1.5 "Neue Kabel", sans-serif !important;
+      }
+}
 
 @media (max-width: 820px){
     .bg::before {

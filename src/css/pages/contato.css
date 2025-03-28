@@ -220,7 +220,13 @@ div.main-content__c{
 }
 .contact-img-contato2_two{
     display: none;
+}@media (max-width: 1720px) {
+    .main-content__c h1 {
+       padding-right: 700px;
+    }
 }
+
+
 @media (max-width: 1670px) {
     .main-content__c span {
         color: #062938;
@@ -229,15 +235,19 @@ div.main-content__c{
         font-size: 70px;
     }
     .main-content__c h2 {
-        letter-spacing: 1.52px;
-        font-weight: 500;
-        padding-right: 800px;
-        color: #797979;
+        padding-right: 700px;
+    }    .main-content__c h1 {
+        padding-right: 200px;
     }
 }@media (max-width: 1600px){
-    .main-content__c h1, .main-content__c h2 {
+    .main-content__c h1, .main-content__c h2,div.contact-info__main h1 {
         font-size: 66px;
+    }p.font-ti-c{
+        font-size: 56px;
+    }nav.contact-bg{
+        padding-top: 80px;
     }
+
 }
 
 @media (max-width: 1530px) {
@@ -268,16 +278,18 @@ div.main-content__c{
         max-width: 51.55vw;
     }.main-content__c h2 {
         padding-bottom: 22px;
+    } p.font-ti-c {
+        font-size: 46px;
     }
 }@media (max-width: 1415px) {
     .main-content__c h1, .main-content__c h2 {
-        font-size: 52px;
+        font-size: 52px !important; 
     }
     .main-content__c h2 {
         padding-right: 700px;
     }.bg__c::before {
         height: 75%;
-    }
+    }   
 }@media (max-width: 1340px) {
 
     .main-content__c h1, .main-content__c h2 {
@@ -324,8 +336,33 @@ div.main-content__c{
         padding-top: 100px;
     }.bg__c::before {
         height: 68%;
+    }.main-img__c {
+        left: 68%;
+    }.nav-agendar__c {
+        display: flex;
+        padding-top: 50px;
+        justify-content: start;
+        padding-left: 50px;
     }
-}@media (max-width: 1150px) {
+}@media (max-width: 1185px) {
+    .main-content__c h1 {
+        padding-right: 490px;
+    }.main-img__c img {
+        max-width: 60.55vw;
+    }.bg__c::before {
+        height: 100%;
+    }.bg__c::before {
+        transform: translate(151%, -51%);
+        width: 36vw;
+    }.main-img__c {
+       top: 63%;
+    }p.font-ti-c {
+        font-size: 42px;
+    }
+}
+
+
+@media (max-width: 1150px) {
     a.btn-agendar {
         font-size: 23px;
     }
@@ -355,7 +392,15 @@ div.main-content__c{
     div.main-content__c.container h1{
         padding-right: 500px;
     }
-}@media (max-width: 1050px) {
+}@media (max-width: 1110px) {
+    div.main-content__c {
+        padding-top: 50px;
+    }    div.main-content__c.container h1 {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 1050px) {
     div.main-content__c.container {
         padding-left: 20px;
         padding-right: 0px;
@@ -401,6 +446,27 @@ div.main-content__c{
         height: 60px;
         font-size: 22px;
         margin-top: 100px;
+    }.bg__c{
+         min-height: 100%;
+    }    div.main-content__c.container {
+        padding-left: 40px;
+        padding-right: 0px;
+        padding-top: 0px;
+    }div.contact-info__main{
+        padding-left: 40px;
+        padding-top: 20px;
+    }div.main-content__c.container h1{
+        padding-right: 200px;
+    }
+   .bg__c::before {
+        transform: translate(170%, -40%);
+        width: 32vw;
+    }.main-img__c img {
+        max-width: 50.55vw;
+    }.main-content__c h1, .main-content__c h2, div.contact-info__main h1 {
+        font-size: 40px !important;
+    }    p.font-ti-c {
+        font-size: 38px;
     }
 }@media (max-width: 970px) {
     div.main-content__c.container h1 {
@@ -425,18 +491,24 @@ div.main-content__c{
 }
 @media (max-width: 870px) {
     div.main-content__c.container h1{
-        font-size: 36px;
+        font-size: 36px !important;
     }
     div.main-content__c.container h2{
-        font-size: 36px;
-        padding-right: 370px;
+        font-size: 32px !important;
     }    
     nav.contact-bg.container img{
         width: 360px;
     }
     nav.nav-agendar__c{
-        padding-left: 0px;
+        padding-left:20px;
         padding-top: 40px;
+    }    div.contact-info__main {
+        padding-left: 20px;
+        padding-top: 20px;
+    }    div.main-content__c.container {
+        padding-left: 20px;
+        padding-right: 0px;
+        padding-top: 0px;
     }
     a.btn-agendar{
         font-size: 20px;
@@ -450,7 +522,6 @@ div.main-content__c{
     div.contact-form.container h2{
         font-size: 46px;
     }
-
     div.stars-p{
         font-size: 46px;
         margin-bottom: 20px;
@@ -458,6 +529,13 @@ div.main-content__c{
     div.depoimento-p p{
         font-size: 32px;
         margin-left: 0px;
+    }    div.main-content__c.container h1 {
+        padding-right: 0px;
+    }.bg__c::before {
+        transform: translate(170%, -48%);
+        width: 32vw;
+    }    div.main-content__c.container h2 {
+        padding-right: 420px;
     }
 }@media (max-width: 760px) {
     div.main-content__c.container h1{
