@@ -80,7 +80,7 @@
     display: flex;
 }
 .speciality-content p{
-    padding-right: 270px;
+    padding-right: 120px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-top: 20px;
@@ -309,14 +309,7 @@ div.how-bg.container span{
 }
 p#how-img_text{
     padding-right: 150px;
-}}@media (max-width: 1560px){
-    .bg__a::before {
-        top: 48%;
-        transform: translate(180%, -42%);
-        width: 30vw;
-        height: 80%;
-    }
-}@media (max-width: 1556px){
+}}@media (max-width: 1556px){
     .bg__a::before {
         top: 47.5%;
         transform: translate(184.5%, -42%);
