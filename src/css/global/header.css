@@ -42,14 +42,14 @@
 .selected{
   background-color: #0D4253;
   padding: 8px 16px;
-  border-radius: 16px;
+  border-radius: 26px;
   color: #FFFFFF;
 }
 
 .selected-green{
   background-color: #999895;
   padding: 8px 16px;
-  border-radius: 16px;
+  border-radius: 26px;
   color: #FFFFFF;
 }
 
@@ -198,6 +198,8 @@
     padding-right: 0px;
   }a.font-menu {
      padding-right: 15px;
+}    div.header.container {
+  padding-left: 40px;
 }
 }
 @media (max-width: 1180px) {
@@ -492,12 +494,10 @@
   opacity: 1;
   transform: translateY(0);
 }
-
-
 .header-search {
   display: flex;
   justify-content: end;
-  padding: 0px 9.9% 0px 3%;
+  padding: 0px 11.5% 0px 3%;
   position: relative;
 }
 

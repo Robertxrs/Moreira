@@ -32,9 +32,15 @@ img {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .main {
+    position: relative;
+    display: flex;  
+    padding-top: 0px;
+}
   
 .bg{
-    --gradient-split: 63%;
+    --gradient-split: 59%;
     background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
     min-height: 100vh;
     position: relative;
@@ -49,10 +55,9 @@ img {
     position: absolute;
     top: 57.5%;
     left: var(--gradient-split + 5vw);
-    transform: translate(215.2%, -45%);
-    width: 29vw;
+    transform: translate(216.4%, -42%);
+    width: 27vw;
     height: 100%;
-    max-width: 600px;
 }
 .bg__s{
     --gradient-split: 54.5%;
@@ -64,31 +69,24 @@ img {
     .main-content{
         margin-right: 700px;
     }
-}@media (max-width: 1880px) {
-    .bg::before {
-        transform: translate(215.2%, -44.4%);
-    }
 }
-@media (max-width: 1711px) {
-    .bg::before {
-        transform: translate(215%, -45.4%);
-    }
-}
+
 @media (max-width: 1670px) {
     .main-content{
         margin-right: 580px;
     }.bg::before {
         height: 88%;
     }.bg::before {
-        transform: translate(208%, -42%);
+        transform: translate(194.4%, -41%);
         width: 30vw;
         height: 100%;
     }
-
-}@media (max-width: 1440px){
+}
+@media (max-width: 1440px){
     .bg::before {
-        transform: translate(210%, -46%);
-        height: 93%;
+        transform: translate(256.5%, -45%);
+        height: 86%;
+        width: 23vw; 
     }
    .main-content {
         margin-right: 480px;
@@ -98,10 +96,6 @@ img {
     .nav-agendar {
         display: block;
         padding-left: 80px;
-    }.font-t{
-        font: 400 2.2rem/1.5 "Neue Kabel", sans-serif !important;
-    }.font-ti{
-        font: 500 3.8rem/1.5 "Neue Kabel", sans-serif !important;
     }h2#service-text.font-t{
         font-weight: 600 !important;
         margin-bottom: 0px;
@@ -111,37 +105,50 @@ img {
     }.service-bttn {
         font-size: 43px;
         margin-left: 20px;
+    }.main-img img {
+        max-width: 500px;
     }
-
+    .main-content p {
+        font-size: 30px;
+    }a.btn-agendar{
+        font-size: 35px;
+    }p.font-t{
+        font-size: 30.4px;
+    }div.service-content{
+        padding-top: 0px;
+    }h1.font-ti,h2.font-ti,span.font-ti{
+        font-size: 54.4px;
+    }.answer-options li {
+        padding: 14px;
+    }
 }
 @media (max-width: 1320px){
     .bg::before {
-        transform: translate(209.6%, -49.3%);
+        transform: translate(256.4%, -52%);
+        height: 80%;
     }.nav-agendar {
         padding-left: 60px;
     }
-}
-@media (max-width: 1225px){
-    .bg::before {
-        transform: translate(209.8%, -48%);
-    }.nav-agendar {
-        padding-left: 60px;
+}@media (max-width: 1280px){
+    h1.font-ti,h2.font-ti,span.font-ti{
+        font-size: 48px;
+    }p.font-t, span.font-t,h2#service-text.font-t{
+        font-size: 28.8px;
+    }a.btn-agendar{
+        font-size: 30px;
+    }a.c-main-btn{
+        font-size: 35px;
+    }h2.main-agendar-title{
+        font-size: 38.8px;
+    }.depoimentos-header h1 {
+       font-size: 38px;
+    }.main-img img {
+        max-width: 400px;
     }
 }
-@media (max-width: 1180px){
-    .font-t{
-        font: 400 1.8rem/1.5 "Neue Kabel", sans-serif !important;
-    }.font-ti{
-        font: 500 3.4rem/1.5 "Neue Kabel", sans-serif !important;
-    }.font-span{
-        font: 500 3rem/1.5 "Neue Kabel", sans-serif !important;
-      }
-    
-    .bg::before {
-        transform: translate(209.8%, -46%);
-    }
 
-}@media (max-width: 1005px){
+
+@media (max-width: 1005px){
     .container {
         box-sizing: border-box;
         max-width: 100%;

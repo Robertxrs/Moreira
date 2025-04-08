@@ -68,12 +68,12 @@
   font-display: swap;
 }
 .font-ti{
-  font: 500 4.75rem/1.5 "Neue Kabel", sans-serif;
+  font: 500 4.4rem/1.5 "Neue Kabel", sans-serif;
 }.font-ti-c{
   font: 500 4rem/1.5 "Neue Kabel", sans-serif;
 }
 .font-t{
-  font: 400 2.7rem/1.5 "Neue Kabel", sans-serif;
+  font: 400 2.2rem/1.5 "Neue Kabel", sans-serif;
 }  
 .font-b{
   font: 400 2.4rem/1.5 "Neue Kabel", sans-serif;
@@ -83,7 +83,7 @@
   color: var(--color-h2-subtitle);
 }
 .font-span{
-  font: 500 3.3rem/1.5 "Neue Kabel", sans-serif;
+  font: 500 2.8rem/1.5 "Neue Kabel", sans-serif;
 }
 
 .font-logo{
