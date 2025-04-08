@@ -38,7 +38,11 @@ img {
     display: flex;  
     padding-top: 0px;
 }
-  
+#next-arrow{
+    background-color: #a7d3d6;
+    padding: 40px;
+    border-radius: 50%;
+}
 .bg{
     --gradient-split: 59%;
     background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));

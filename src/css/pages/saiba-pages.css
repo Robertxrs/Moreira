@@ -168,17 +168,6 @@
     height: 40px;
 }
 
-#bttn-back {
-    transform: rotate(270deg);
-    width: 80px;
-    height: 40px;
-}
-
-#bttn-next {
-    transform: rotate(90deg);
-    width: 80px;
-    height: 40px;
-}
 @media (max-width: 1360px){
     div.main-content__p.container h1{
         font-size: 66px;
