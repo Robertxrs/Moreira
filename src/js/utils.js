@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'saiba mais': '/src/pages/saibaMais.html',
     home: 'index.html',
     servicos: '/src/pages/servicos.html',
-    'ana silvia': '/src/pages/anasilva.html'
+    'ana silvia': '/src/pages/draanasilva.html'
   };
 
   const toggleSearch = document.getElementById('toggle-search');
