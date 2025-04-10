@@ -1597,16 +1597,6 @@ nav#service-agendar{
         gap: 10px;
     }
 
-}@media(max-width: 420px){
-    .main-img {
-        left: 84%;
-        top: 52%;
-    }
-    div.main-content h1, div.main-content h2, div.main-content span {
-            font-size: 20px;
-    }div.main-content {
-        margin-right: 150px;
-    }
 }@media(max-width: 405px){
     .main-img {
         left: 87%;
