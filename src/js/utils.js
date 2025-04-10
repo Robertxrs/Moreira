@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     'saiba mais': '/src/pages/saibaMais.html',
     home: 'index.html',
     servicos: '/src/pages/servicos.html',
-    'ana silvia': '/src/pages/anaSilva.html'
+    'ana silvia': '/src/pages/anasilva.html'
   };
 
   const toggleSearch = document.getElementById('toggle-search');
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   function showMessage(message) {
-    searchMessage.textContent = message;
+    searchMessage.textContent = message;ß
     searchMessage.classList.add('show');
 
     setTimeout(() => {
