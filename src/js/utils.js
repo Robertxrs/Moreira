@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const pages = {
     contato: '/src/pages/contato.html',
     'saiba mais': '/src/pages/saibaMais.html',
-    home: '/index.html',
+    home: 'index.html',
     servicos: '/src/pages/servicos.html',
     'ana silvia': '/src/pages/anaSilva.html'
   };
