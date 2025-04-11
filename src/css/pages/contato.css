@@ -47,7 +47,7 @@ div.main-content__c{
 .contact-info {
     position: relative;
 }
-.marca-dagua {
+.marca-dagua{
     position: absolute;
     top: 15%;
     left: 18%;
@@ -55,6 +55,7 @@ div.main-content__c{
     z-index: -1;
     height: auto; 
 }
+
 
 .contact-info-c {
     position: relative; 
@@ -232,8 +233,8 @@ div.main-content__c{
     }a#agendar-c.btn-agendar{
         font-size: 35px;
     }.bg__c::before {
-        transform: translate(194.5%, -55%);
-         height: 80%;
+        transform: translate(194.5%, -50%);
+
     }.contact-info-c img {
         margin-right: 0px;
     }
@@ -241,12 +242,11 @@ div.main-content__c{
     .bg__c{
         --gradient-split: 58%;
     }.bg__c::before {
-        transform: translate(206.7%, -60%);
-         height: 70%;
+        transform: translate(206.9%, -50%);
     }.main-img__c {
         left: 74%;
     }.main-content__c h2 {
-        padding-right:450px;
+        padding-right:480px;
     }
 }@media (max-width: 1180px) {
     nav.nav-agendar__c {
@@ -254,8 +254,7 @@ div.main-content__c{
     }div.main-content__c,.contact-info__main{
         padding-left: 20px;
     }.bg__c::before {
-        transform: translate(200.8%, -66%);
-         height: 63%;
+        transform: translate(206.8%, -55%);
     }.main-img__c {
         left: 78%;
     }.form-columns-c {
@@ -288,8 +287,6 @@ div.main-content__c{
         font-size:42px;
     }a#agendar-c.btn-agendar{
         font-size: 30px;
-    }.bg__c::before {
-        transform: translate(194.5%, -55%);
     }.contact-bg.container {
         padding-top: 30px;
     }nav.contact-bg p{
@@ -302,9 +299,9 @@ div.main-content__c{
     }.main-img__c img{
         max-width: 550px;
     }.bg__c::before {
-        transform: translate(187%, -49%);
+        transform: translate(193%, -49%);
         width: 30vw;
-        height: 80%;
+        height: 88%;
     }
 
 }@media (max-width: 970px) {

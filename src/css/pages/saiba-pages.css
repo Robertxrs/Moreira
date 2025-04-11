@@ -167,7 +167,11 @@
     width: 40px;
     height: 40px;
 }
-
+@media (max-width: 1440px){
+    .main-content__s h2 {
+        font-size: 60.8px;
+    }
+}
 @media (max-width: 1360px){
     div.main-content__p.container h1{
         font-size: 66px;

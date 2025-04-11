@@ -375,7 +375,8 @@
     justify-content: center;
     align-items: center;
     padding: 50px;
-    border-radius: 56px;
+    border-radius: 16px;
+    min-height: 115px;
 }
 
 
@@ -947,7 +948,7 @@ nav#service-agendar{
         
     }
     .answer-options li{
-        padding: 20px 20px;
+        min-height: 80px;
     }
     #answer-lembre{
        margin-bottom: 50px;
@@ -1245,9 +1246,9 @@ nav#service-agendar{
         font-size: 24px !important;
     }
 }
-@media (max-width: 805px) {
-    .main-img {
-        top: 57%;
+@media (max-width: 800px) {
+    .answer-options li {
+        padding: 0px !important;
     }
 }
 
