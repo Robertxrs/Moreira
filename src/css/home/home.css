@@ -1433,9 +1433,6 @@ nav#service-agendar{
 }
 
 @media(max-width:535px){
-    .header-logo {
-      display: block;
-    }
     div.main-content p{
         margin-right:0px;
         font-size: 18px;
