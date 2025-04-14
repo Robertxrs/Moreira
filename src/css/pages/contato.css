@@ -27,7 +27,7 @@
     transform: translate(-50%, -50%); 
 }
 .main-img__c img {
-    max-width: 790px;
+    max-width: 600px;
 }
 div.main-content__c{
     padding-top: 0px;
@@ -49,7 +49,7 @@ div.main-content__c{
 }
 .marca-dagua{
     position: absolute;
-    top: 15%;
+    top: 50%;
     left: 18%;
     transform: translate(-50%, -50%);
     z-index: -1;
@@ -192,7 +192,7 @@ div.main-content__c{
         left: 66%;
     }
     .main-img__c img {
-        max-width: 720px;
+        max-width: 550px;
     }
     .marca-dagua {
         left: 16%;
@@ -237,6 +237,8 @@ div.main-content__c{
 
     }.contact-info-c img {
         margin-right: 0px;
+    }    .main-img__c img {
+        max-width: 450px;
     }
 }@media (max-width: 1310px) {
     .bg__c{
@@ -268,6 +270,10 @@ div.main-content__c{
     }
     input#name,input#email{
         padding-left: 5px;
+        width: 300px;
+    }.form-column-c textarea {
+        height: 280px;
+        width: 500px;
     }
     .form-column-c button {
         margin-top: 15px;
@@ -297,7 +303,7 @@ div.main-content__c{
     }.bg__c{
         min-height: 100%;
     }.main-img__c img{
-        max-width: 550px;
+        max-width: 380px;
     }.bg__c::before {
         transform: translate(193%, -49%);
         width: 30vw;
@@ -308,351 +314,187 @@ div.main-content__c{
     div.main-content__c.container h1 {
         padding-right: 450px;
     }
-}@media (max-width: 930px) {
-    div.main-content__c.container h1{
-        font-size: 40px;
-    }
-    div.main-content__c.container h2{
-        font-size: 40px;
-    }    
-    .form-column-c {
-        max-width: 700px;
-    }
-}@media (max-width: 900px) {
-    .bg__c{
-      min-height: 100%;
-    }div.main-content__c {
-        padding-top: 0px;
-    }
-}
-@media (max-width: 870px) {
-    div.main-content__c.container h1{
-        font-size: 36px !important;
-    }
-    div.main-content__c.container h2{
-        font-size: 32px !important;
-    }    
-    nav.contact-bg.container img{
-        width: 360px;
-    }
-    nav.nav-agendar__c{
-        padding-left:20px;
-        padding-top: 40px;
-    }    div.contact-info__main {
-        padding-left: 20px;
-        padding-top: 20px;
-    }    div.main-content__c.container {
-        padding-left: 20px;
-        padding-right: 0px;
-        padding-top: 0px;
-    }
-    a.btn-agendar{
-        font-size: 20px;
-    }
-    nav.contact-bg.container p{
-        font-size: 30px;
-    }
-    nav.contact-bg.container img{
-        margin-right: 20px;
-    }
-    div.contact-form.container h2{
-        font-size: 46px;
-    }
-    div.stars-p{
-        font-size: 46px;
-        margin-bottom: 20px;
-    }
-    div.depoimento-p p{
-        font-size: 32px;
-        margin-left: 0px;
+}@media (max-width: 960px) {
+    .main-content__c h1, .main-content__c h2, .contact-info__main h1, .contact-info-c h1, .contact-form h2 {
+        font-size: 35.2px;
+    }.font-ti-c {
+        font-size: 35px;
     }    div.main-content__c.container h1 {
         padding-right: 0px;
+        padding-top: 0px;
+    }    a#agendar-c.btn-agendar {
+        font-size: 20px;
+    }    .contact-map img {
+        width: 350px;
+        padding-right: 0px;
+    }.contact-info-c {
+        margin-top: 100px;
+    }    .main-img__c img {
+        max-width: 300px;
     }.bg__c::before {
-        transform: translate(170%, -48%);
-        width: 32vw;
-    }    div.main-content__c.container h2 {
-        padding-right: 420px;
+        transform: translate(193%, -42%);
+    }.marca-dagua-two {
+        min-width: 60px !important;
+    }
+    .marca-dagua-two {
+        width: 100px;
+    }
+}@media (max-width: 950px) {
+    .marca-dagua-two {
+        width: 100px !important;
+    }
+}@media (max-width: 822px) {
+    .main-content__c h2 {
+        padding-right: 350px;
+    }.contact-map img {
+        width: 350px;
+    }.marca-dagua-two {
+        position: absolute;
+        top: 10%;
+        left: 4%;
     }
 }@media (max-width: 760px) {
-    div.main-content__c.container h1{
-        font-size: 32px;
-    }
-    div.main-content__c.container h2{
-        font-size: 28px;
-        padding-right: 320px;
-    }    
-    nav.contact-bg.container img{
-        width: 360px;
-    }
-    a.btn-agendar{
-        padding: 12px 28px;
-        font-size: 20px;
-    }
-    .contact-form h2 {
-        font-size: 38px !important; 
-        letter-spacing: 4px;
-        margin-bottom: 15px;
-    }
-    .form-columns-c {
-        gap: 20px;
-        flex-direction: column; 
-    }
-    .form-column-c {
-        max-width: 560px;
-    }
-    nav.contact-bg.container img {
-        margin-right: 0px;
-        width: 300px;
-    }
-}@media(max-width:668px){
-    #agendar-c{
-        font-size: 18px;
-    }
-}
-@media(max-width:650px){
-    div.main-content__c.container h2{
-        padding-right: 290px;
-    }nav.contact-bg.container{
-        padding-left: 10px;
-    }nav.contact-bg.container h1{
-        font-size: 34px;
-    }nav.contact-bg.container p{
-        font-size: 24px;
-    }nav.contact-bg.container img {
-        margin-right: 0px;
-        width: 240px;
-    }nav.nav-agendar__c{
-        padding-top: 0px;
-    }div.main-content__c.container{
-        padding-left:10px;
-    }
-    .form-column-c input,
-    .form-column-c textarea,
-    .form-column-c button {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        width: 400px;
-    }
-
-}@media(max-width:650px){
-    div.main-content__c.container h1{
-        font-size: 28px;
-        padding-right: 300px;
-    }
-}
-@media(max-width:560px){
-    div.stars-p{
-        font-size: 40px;
-        margin-left: 0px;
-    }
-    div.depoimento-p p{
-        font-size: 28px;
-    }
-    div.depoimento-p{
-        padding-bottom: 0px;
-    }div.main-content__c.container h1{
-        font-size: 28px;
-        padding-right: 210px;
-    }div.main-content__c.container h2{
-        font-size: 28px;
-        padding-right: 250px;
-    }
-}@media(max-width:564px){
-    #agendar-c{
-        font-size: 16px;
-    }
-}
-@media(max-width:520px){
-    nav.contact-bg.container img {
-        margin-right: 0px;
-        padding-right: 10px;
-        width: 220px;
-    }
-}@media(max-width:500px){
-    nav.contact-bg.container img {
-        width: 180px;
-        padding: 10px;
-    }
-}
-
-@media(max-width:483px){
-    nav.contact-bg.container img {
-        width: 180px;
-        padding: 2px;
-    }
-    div.contact-form.container h2{
+    div.main-content__c {
+        padding-top: 30px;
+    }.main-img__c {
+        left: 74%;
+    }.bg__c::before {
+        transform: translate(187%, -43%);
+        width: 31vw;
+        height: 84%;
+    }    .main-content__c h1, .main-content__c h2, .contact-info__main h1, .contact-info-c h1, .contact-form h2 {
+        font-size: 28.8px;
+    }    .font-ti-c {
         font-size: 30px;
+    }    .contact-bg.container {
+        padding-top: 0px;
+    }.main-img__c img {
+        max-width: 280px;
     }
-    .form-column-c input,
-    .form-column-c textarea,
-    .form-column-c button {
-        width: 100%;
-        padding: 10px;
-        font-size: 16px;
-        width: 300px;
-    }div.main-content__c.container h2 {
-        padding-right: 220px;
-    }
-}
-@media(max-width:482px){
-    div.main-content__c.container h1{
-        font-size: 28px;
-        padding-right: 150px;
-    }
-}@media(max-width:445px){
-    .nav-agendar__c{
-        display: none;
-    }
-    .nav-agendar__c-two{
-        padding-top: 10px;
-        display: flex;
-        justify-content: end;
-        padding-right: 5px;
-    }
-}
-@media(max-width:438px){
-  div.contact-info-c h1{
-        font-size: 30px !important;
-    }
-    nav.contact-bg.container h1 {
-        font-size: 28px;
-    }
-    div.contact-img-contato2 img{
-        width: 240px !important;
-        height: 280px;
-    }
-    .nav-agendar__c{
-        display: none;
-    }
-    .nav-agendar__c-two{
-        padding-top: 10px;
-        display: flex;
-        justify-content: end;
-        padding-right: 5px;
-    }
-}
-@media(max-width:438px){
-    div.contact-info-c h1{
-        font-size: 30px !important;
-    } div.contact-info-c p{
-        font-size: 20px !important;
-    }
-    div.depoimentos-b-p.container{
-        padding-bottom: 0px;
-    }
-}@media(max-width:431px){
-    div.main-content__c.container h2 {
+}@media (max-width: 640px) {
+    .main-content__c h2 {
+        padding-right: 250px;
+    }nav.contact-bg p {
         font-size: 22px;
-    }div.main-content__c.container span{
-        font-size: 22px;
+    }div.contact-info-c{
+        margin-bottom: 0px;
+        margin-top: 40px;
+    }    nav.nav-agendar__c {
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }.marca-dagua-two {
+        position: absolute;
+        top: 8%;
+        left: 4%;
+        width: 80px !important;
+    }.form-column-c input, .form-column-c textarea, .form-column-c button {
+        font-size: 18px;
+    }.form-column-c input{
+        height: 60px;
+        margin-bottom: 20px;
+    }    .form-column-c textarea {
+        height: 200px;
+        width: 400px;
+    }.form-column-c button{
+        width: 150px;
+        height: 50px;
     }
-}@media(max-width:415px){
-    div.main-content__c.container h1{
-        font-size: 24px;
+}@media (max-width: 600px) {
+    .main-img__c {
+        left: 78%;
+        top: 68%;
+    }.main-img__c img{
+        width: 250px;
+    }.bg__c::before {
+        transform: translate(201.4%, -52%);
+        height: 70%;
+    } .bg__c{
+        --gradient-split: 62.5%;
+    }    .main-content__c h2 {
         padding-right: 200px;
-    }div.main-content__c.container h2{
-        font-size: 24px;
-        padding-right: 190px;
     }
-    div.contact-info-c h1{
-        font-size: 30px !important;
-    }
-
-    nav.contact-bg.container h1 {
-        font-size: 28px;
-    }
-    div.contact-img-contato2 img{
-        width: 240px !important;
-        height: 280px;
-    }
-    nav.contact-bg.container img {
-            margin-right: 20px;
-            padding-right: 0px;
-            width: 180px;
-    }
-    nav.contact-bg.container p#text-email{
-        font-size: 16px !important;
-    }
-    .nav-agendar__c{
-        display: none;
-    }
-    .nav-agendar__c-two{
-        padding-top: 10px;
-        display: flex;
-    }
-    nav.contact-bg.container p {
-        font-size: 20px;
-    }.nav-agendar__c-two{
-        padding-top: 10px;
-        display: flex;
-        justify-content: end;
-        padding-right: 20px;
-    }
-}@media(max-width:400px){
-    div.contact-img-contato2 img {
-        width: 200px !important;
-        height: 250px;
-    }
-    a.btn-agendar {
-        padding: 12px 28px;
-        font-size: 18px;
-    }
-}
-@media(max-width:380px){
-    div.contact-info-c h1{
-        font-size: 30px !important;
-    } div.contact-info-c p{
-        font-size: 20px !important;
-    }
-    div.depoimentos-b-p.container{
-        padding-bottom: 0px;
-    }
-} @media(max-width:391px){
-    nav.contact-bg.container p{
-        padding-bottom: 0px;
-        font-size: 20px;
-    }
-}@media(max-width:367px){
-    div.main-content__c.container h2 {
-        padding-right: 165px;
-    }
-}
-@media(max-width:361px){
-    .nav-agendar__c-two{
-        padding-top: 10px;
-        display: flex;
-        justify-content: center;
-        padding-right: 10px;
-    }#agendar-c{
-        font-size: 18px;
-    }
-    .contact-img-contato2{
-        display: none;
-    }
-    .contact-img-contato2_two{
+}@media (max-width: 550px) {
+    .main-content__c h1, .main-content__c h2, .contact-info__main h1, .contact-info-c h1, .contact-form h2 {
+        font-size: 22.4px;
+    }    .font-ti-c {
+        font-size: 22px;
+    }.contact-info__main {
         padding-top: 20px;
-        display: flex;
+    }    nav.nav-agendar__c {
+        padding-top: 30px;
+    }    .main-img__c img {
+        width: 220px;
+    }.bg__c::before {
+        transform: translate(201.4%, -43%);
+    }     .contact-map img {
+        width: 250px;
+    }    nav.contact-bg p {
+        font-size: 18px;
     }
-    #contact-img_two img{
-        display: flex;
+}@media (max-width: 450px) {
+    .main-img__c img {
+        width: 180px;
+    }.bg__c::before {
+        transform: translate(201.4%, -48%);
+    } .marca-dagua-two {
+        position: absolute;
+        top: 9%;
+        left: 5%;
+        width: 60px !important;
+    }    .form-column-c input, .form-column-c textarea, .form-column-c button {
+        font-size: 16px;
+    }input#name, input#email {
+        height: 50px;
+        width: 200px;
+    }.form-column-c textarea {
+        height: 150px;
+        width: 300px;
+    }    .main-content__c h2 {
+        padding-right: 160px;
+    }.main-content__c h1, .main-content__c h2, .contact-info__main h1, .contact-info-c h1, .contact-form h2 {
+        font-size: 19.4px;
+    }    a#agendar-c.btn-agendar {
+        font-size: 16px;
+    }nav.nav-agendar__c {
+        padding-left: 20px;
+    }.font-ti-c {
+        font-size: 19.4px;
+}
+}@media (max-width: 390px) {
+    .main-content__c h1, .main-content__c h2, .contact-info__main h1, .contact-info-c h1, .contact-form h2 {
+        font-size: 16.4px;
+    }    .font-ti-c {
+        font-size: 16.4px;
+    }    .main-img__c img {
+        width: 150px;
+    }    a#agendar-c.btn-agendar {
+        font-size: 14px;
+    }    .contact-map img {
+        width: 150px;
+    }.marca-dagua-two {
+        position: absolute;
+        top: 9%;
+        left: 5%;
+        width: 40px !important;
+    }     .form-column-c textarea {
+        height: 150px;
+        width: 200px;
+    }     input#name, input#email {
+        height: 30px;
+        width: 120px;
+    }.form-column-c button {
+        width: 100px;
+        height: 40px;
     }
-    nav.contact-bg.container p {
-        padding-bottom: 10px;
-        font-size: 24px;
-    }
-}@media(max-width:345px){
-    div.main-content__c.container h2 {
-        padding-right: 155px;
-    }div.main-content__c.container h1 {
-        padding-right: 150px;
+}@media (max-width: 328px) {
+    div.main-content__c, .contact-info__main {
+        padding-left: 15px;
+    }    .main-content__c h2 {
+        padding-right: 110px;
     }
 }
-@media(max-width:330px){
-a.btn-agendar {
-    padding: 12px 28px;
-    font-size: 16px;
-}
-}
+
+
+
 
 
