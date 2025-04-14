@@ -392,6 +392,9 @@ div.main-content__s{
      .main-img__s{
          top: 67%;
      }
+     div.main-content__s.container h1, div.main-content__s.container h2 {
+        font-size: 35.2px;
+    }
  }
  
  @media (max-width: 788px) {

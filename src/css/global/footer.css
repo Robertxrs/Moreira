@@ -272,6 +272,7 @@ footer {
     .footer-message {
         flex: 0 0 auto;
         padding: 20px;
+        padding-top: 0px;
     }
 
     .footer-message h2 {
@@ -292,6 +293,10 @@ footer {
         font-size: 18px !important;
     }    .footer-contact p {
         font-size: 16px !important;
+    }.form-column button {
+        margin-top: 0px;
+    }div.footer-message h2 {
+        margin-top: 20px;
     }
 }@media (max-width: 390px) {
     .footer-contact p {

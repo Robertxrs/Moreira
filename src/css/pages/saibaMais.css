@@ -336,7 +336,6 @@ p#text__sm, p#text__sm__two {
     }
     div.lembrete-container p{
         margin: 0px 250px;
-        font-size: 46px;
     }
     .problem-row {
         display: flex;
@@ -363,6 +362,18 @@ p#text__sm, p#text__sm__two {
 @media (max-width: 1138px) {
     .main-img__sm{
         left: 83.2%;
+    }
+}@media (max-width: 1120px) {
+    div#sm h1, div#sm h2{
+        font-size: 48px;
+    }div#sm p, div#sm span,div.lembrete-container p{
+        font-size: 28.8px;
+    }.nav-agendar__s a {
+        font-size: 30px;
+    }    .nav-agendar__s {
+        padding-top: 20px;
+        justify-content: center;
+        padding-bottom: 50px;
     }
 }
 @media (max-width: 1110px) {
