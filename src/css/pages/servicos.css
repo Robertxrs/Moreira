@@ -390,7 +390,7 @@ div.main-content__s{
      }
  }@media (max-width: 800px) {
      .main-img__s{
-         top: 67%;
+         top: 72%;
      }
      div.main-content__s.container h1, div.main-content__s.container h2 {
         font-size: 35.2px !important;
@@ -568,6 +568,8 @@ div.main-content__s{
         padding-right: 180px;
     }    .main-img__s img {
         max-width: 220px;
+    }    div.main-content__s.container h1, div.main-content__s.container h2 {
+        font-size: 18px !important;
     }
  }
 

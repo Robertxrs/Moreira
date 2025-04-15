@@ -774,7 +774,7 @@ nav.nav-agendar__as{
     }
 }@media (max-width: 890px){
    .main-img__a{
-        left: 87%;
+        left: 86.6%;
     }
 }@media (max-width: 855px){
     .main-img__a{
@@ -901,7 +901,17 @@ nav.nav-agendar__as{
         margin-right: 42px;
     }    .main-content__a #text__a {
         margin-right: 45px;
+    }    #next-arrow {
+        padding: 20px;
+
+    }#bttn-back {
+        margin-right: 30px;
+        margin-top: -35px;
     }
+        img.main-arrow {
+            width: 30px;
+            padding-left: 8px;
+        }
 }@media (max-width: 670px){
     .main-img__a{
         left: 86.3%;
