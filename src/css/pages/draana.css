@@ -439,9 +439,8 @@ nav.nav-agendar__as{
         position: relative;
     }
     .nav-agendar__a a, a#service-agendar.btn-agendar {
-        font-size: 35px;
+        font-size: 22.4px;
     }
-    
     .speciality-content p {
         padding-right: 20px;
     }
@@ -534,9 +533,7 @@ nav.nav-agendar__as{
     .depoimentos-b-p {
         padding-right: 140px;
     }
-    .nav-agendar__a a, a#service-agendar.btn-agendar {
-        font-size: 30px;
-    }.bg__a{
+    .bg__a{
         min-height: 100%;
     }.main__a {
         padding-bottom: 0px;

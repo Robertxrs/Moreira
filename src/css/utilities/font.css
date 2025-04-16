@@ -68,22 +68,22 @@
   font-display: swap;
 }
 .font-ti{
-  font: 500 4.4rem/1.5 "Neue Kabel", sans-serif;
-}.font-ti-c{
   font: 500 4rem/1.5 "Neue Kabel", sans-serif;
+}.font-ti-c{
+  font: 500 3.6rem/1.5 "Neue Kabel", sans-serif;
 }
 .font-t{
-  font: 400 2.2rem/1.5 "Neue Kabel", sans-serif;
+  font: 400 1.8rem/1.5 "Neue Kabel", sans-serif;
 }  
 .font-b{
-  font: 400 2.4rem/1.5 "Neue Kabel", sans-serif;
+  font: 400 1.8rem/1.5 "Neue Kabel", sans-serif;
 }
 .font-menu{
   font: 500 2rem/1.5 "Neue Kabel", sans-serif;
   color: var(--color-h2-subtitle);
 }
 .font-span{
-  font: 500 2.8rem/1.5 "Neue Kabel", sans-serif;
+  font: 500 2.4rem/1.5 "Neue Kabel", sans-serif;
 }
 
 .font-logo{
@@ -98,4 +98,52 @@
   word-spacing: 5px;
   color:#174E5B;
 } 
-
+@media (max-width: 1600px) {
+  .font-ti{
+    font: 500 3.6rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-ti-c{
+    font: 500 3.2rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-t{
+    font: 400 1.8rem/1.5 "Neue Kabel", sans-serif;
+  }  
+  .font-b{
+    font: 400 1.6rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-span{
+    font: 500 2.2rem/1.5 "Neue Kabel", sans-serif;
+  }
+}@media (max-width: 1440px) {
+  .font-ti{
+    font: 500 3.2rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-ti-c{
+    font: 500 2.8rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-t{
+    font: 400 1.6rem/1.5 "Neue Kabel", sans-serif;
+  }  
+  .font-b{
+    font: 400 1.4rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-span{
+    font: 500 2rem/1.5 "Neue Kabel", sans-serif;
+  }
+}@media (max-width: 1120px) {
+  .font-ti{
+    font: 500 2.8rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-ti-c{
+    font: 500 2.4rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-t{
+    font: 400 1.45rem/1.5 "Neue Kabel", sans-serif;
+  }  
+  .font-b{
+    font: 400 1.2rem/1.5 "Neue Kabel", sans-serif;
+  }
+  .font-span{
+    font: 500 2rem/1.5 "Neue Kabel", sans-serif;
+  }
+}
