@@ -103,6 +103,21 @@
     display: flex; 
     flex: 10.8;
   }
+}@media (max-width: 1600px) {
+  .lupa-b {
+      padding: 0px;
+  }div.header.container{
+    padding-right: 0px;
+}.header-menu {
+  display: flex; 
+  flex: 8;
+}.header-menu .menu {
+  gap: 25px;
+}.header-search {
+  padding: 0px 8.6% 0px 3% !important;
+}.header-search img {
+  width: 50px;
+}
 }
 
 /* Estilos para telas até 1580px */
@@ -111,9 +126,7 @@
     display: flex; 
     flex: 8;
   }
-  .menu a {
-    font-size: 30px;
-  }.header-search {
+.header-search {
     display: flex;
     justify-content: end;
     padding: 0px 6% 0px 3%;
@@ -128,25 +141,17 @@
   }div.header.container{
     padding-right: 0px;
   }
-}
-
-@media (max-width: 1485px) {
+}@media (max-width: 1440px) {
   .header-menu {
     display: flex; 
-    flex: 11;
+    flex: 8;
   }
 }
 
-/* Estilos para telas até 1350px */
-@media (max-width: 1350px) {
-  .menu a {
-    font-size: 26px;
-  }
-}
+
+
 @media (max-width: 1310px) {
-  .menu a {
-    font-size: 26px;
-  }
+
   .header-menu {
     display: flex; 
     flex: 9;
@@ -162,9 +167,7 @@
 
 /* Estilos para telas até 1280px */
 @media (max-width: 1280px) {
-  .menu a {
-    font-size: 25px;
-  }
+
   .header-menu {
     display: flex; 
     flex: 9;
@@ -176,9 +179,7 @@
     flex: 11;
   }
 
-   .menu a {
-    font-size: 22px;
-  }
+
   .header-menu .menu {
     gap: 20px;
   }
@@ -225,18 +226,13 @@
 
 /* Estilos para telas até 1030px */
 @media (max-width: 1150px) {
-  .menu a {
-    font-size: 20px;
-  }
+
   .header-bg {
     padding-bottom: 0;
   }
 }
 
 @media (max-width: 1075px) {
-  .menu a {
-    font-size: 18px;
-  }
   .header-menu .menu {
     gap: 15px;
 }

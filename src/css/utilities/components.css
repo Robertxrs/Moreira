@@ -79,33 +79,46 @@ img {
     }
 }@media (max-width: 1700px) {
     .bg::before {
-        transform: translate(224.7%, -37%);
+        transform: translate(224.7%, -35%);
         width: 26vw;
         height: 95%;
     }
-}@media (max-width: 1500px) {
+}@media (max-width: 1600px) {
     .bg::before {
-        transform: translate(224.3%, -40%);
-        height: 90%;
+        transform: translate(278%, -33%);
+        width: 21vw;
+        height: 96%;
+    }
+    .bg{
+        --gradient-split: 59%;
+        background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
+        min-height: 100%;
+    }
+}
+@media (max-width: 1500px) {
+    .bg::before {
+        transform: translate(278%, -36%);
+        width: 21vw;
+        height: 96%;
     }
 }
 @media (max-width: 1440px){
     .bg::before {
-        transform: translate(256.5%, -36%);
-        height: 86%;
-        width: 23vw; 
+        transform: translate(291.7%, -32%);
+        height: 96%;
+        width: 20vw; 
     }.bg{
         min-height: 100%;
     }
 }@media (max-width: 1300px){
     .bg::before {
-        transform: translate(235.7%, -36%);
-        height: 90%;
-        width: 25vw; 
+        transform: translate(277.4%, -38%);
+        height: 96%;
+        width: 21vw; 
     }
 }@media (max-width: 1200px){
     .bg::before {
-        transform: translate(235.7%, -42%);
+        transform: translate(277%, -40%);
     }
 }
 @media (max-width: 1005px){
@@ -115,59 +128,8 @@ img {
         padding: 0px 4% 0px 4%;
         margin-left: auto;
         margin-right: auto;
-    }
-}
-@media (max-width: 880px){
-    .bg::before {
-        transform: translate(256.4%, -49.8%);
-    }
-
-}@media (max-width: 880px) {
-    h1.font-ti, 
-    h2.font-ti, 
-    span.font-ti, 
-    h2.main-agendar-title {
-        font-size: 35.2px;
-    }
-    .service-bg p {
-        font-size: 35.2px;
-    }
-    p.font-t, 
-    span.font-t, 
-    h2#service-text.font-t,.answer-bg.container p {
-        font-size: 22.4px;
-    }
-    a.btn-agendar {
-        font-size: 20px;
-    }
-    a.c-main-btn {
-        font-size: 25px;
-    }
-    .service-button a {
-        font-size: 25px;
-    }
-    .message-bg h2 {
-        font-size: 26px;
-    }
-    .message-bg h1 {
-        font-size: 24px;
-    }
-    .message-bg p {
-        font-size: 22px;
-    }
-    .message-button a {
-        font-size: 18px;
-    }.main-img img {
-        max-width: 300px;
-    }    div.contact-content p {
-        font-size: 22px;
-    }    .nav-agendar {
-        padding-left: 30px;
-    }
-}@media(max-width: 750px){
-    .bg::before {
-        transform: translate(256.4%, -58%);
-        height: 56%;
+    }.bg::before {
+        transform: translate(276.5%, -44%);
     }
 }
 
