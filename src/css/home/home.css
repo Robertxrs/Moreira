@@ -4,7 +4,7 @@
 }
 .main-img {
     position: absolute;
-    top: 48%;
+    top: 50%;
     left: 58%;
     transform: translate(-50%, -50%); 
 }
@@ -268,35 +268,45 @@
     margin-top: 10px;
 }
 
-.depoimentos-buttons {
+.depoimentos-buttons-p {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.depoimentos-buttons button {
+.depoimentos-buttons-p button {
     background: none;
     border: none;
     cursor: pointer;
 }
-
-.depoimentos-buttons img {
-    width: 40px;
-    height: 40px;
+.depoimentos-buttons-p button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 30px;
+    transition: background-color 0.2s;
+}
+.depoimentos-buttons-p button:hover {
+    background-color: #9bd4d6;
 }
 
-
+.depoimentos-buttons-p button.active {
+    background-color: #89cace;
+}
 #bttn-back{
-    margin-right:20px;
-    width: 80px;
-    height: 40px;
+    margin-right:0px;
+    width: 100px;
+    height: 90px;
     transform: rotate(270deg);
+    margin-bottom: 0px;
 }
 #bttn-next{
     transform: rotate(90deg);
-    width: 80px;
-    height: 40px;
+    width: 100px;
+    height: 90px;
 }
+
 
 .message-bg {
     display: flex;
@@ -766,7 +776,9 @@ nav#service-agendar{
     .contact-img > img {
         width: 360px;
     }.depoimentos-header h1 {
-        padding-left: 250px;
+        padding-top: 20px;
+        padding-left: 200px;
+        padding-right: 50px;
     }.depoimentos-buttons {
         padding-left: 20px;
     }.answer-options {
@@ -783,6 +795,21 @@ nav#service-agendar{
         width: 40px;
     }#answer-lembre {
         padding: 0% 22%;
+    }.depoimentos-buttons-p button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        border-radius: 50%;
+        padding: 15px;
+        transition: background-color 0.2s;
+    }
+    #bttn-back{
+        width: 60px;
+        height: 60px;
+    }
+    #bttn-next{
+        width: 60px;
+        height: 60px;
     }
 }@media (max-width: 730px) {
     .main-content {
@@ -900,7 +927,7 @@ nav#service-agendar{
     .contact-img > img {
         width: 360px;
     }.depoimentos-header h1 {
-        padding-left: 250px;
+        padding-left: 150px;
     }.depoimentos-buttons {
         padding-left: 20px;
     }.answer-options {

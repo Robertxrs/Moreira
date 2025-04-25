@@ -65,7 +65,7 @@ img {
     position: relative;
     overflow: hidden;
 }
-
+  
 @media (max-width: 1800px) {
     .bg::before {
         transform: translate(233.8%, -37%);

@@ -148,23 +148,7 @@
     line-height: 1.5;
     margin-left: 30px;
 }
-
-.depoimentos-buttons-p {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.depoimentos-buttons-p button {
-    background: none;
-    border: none;
-    cursor: pointer;
-}
-
-.depoimentos-buttons-p img {
-    width: 40px;
-    height: 40px;
-}@media (max-width: 1700px) {
+@media (max-width: 1700px) {
     .problem-bg-p {
         margin: 0px 400px;
     }
@@ -263,6 +247,5 @@
         margin: 0px 40px;
     }
     }
-      
   
   

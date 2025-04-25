@@ -706,11 +706,6 @@ nav.nav-agendar__as{
         padding: 0px;
     }div.depoimento-p p {
         margin-left: 0px;
-    }#next-arrow {
-        padding: 0px;
-    }#bttn-back {
-        margin-right: 20px;
-        margin-top: -5px;
     }p#how-img_text {
        margin-top: -80px;
     }.main-content__a h1 {
@@ -784,12 +779,6 @@ nav.nav-agendar__as{
         margin-right: 42px;
     }    .main-content__a #text__a {
         margin-right: 45px;
-    }    #next-arrow {
-        padding: 20px;
-
-    }#bttn-back {
-        margin-right: 30px;
-        margin-top: 40px;
     }
     img.main-arrow {
         width: 30px;
@@ -852,11 +841,6 @@ nav.nav-agendar__as{
         padding-right: 25px;
     }.bttn-up__div{
         padding-top: 40px;
-    }#next-arrow {
-        padding: 15px;
-    }    #bttn-back {
-        margin-right: 30px;
-        margin-top: -45px;
     }div.depoimento-p p {
         font-size: 16px;
     }footer {
@@ -873,9 +857,6 @@ nav.nav-agendar__as{
         margin-bottom: 0px;
     }    img#how-img__two {
         margin-top: 40px;
-    }#bttn-back {
-        margin-right: 30px;
-        margin-top: 25px;
     }
 }@media (max-width: 626px){
     .main-img__a{
@@ -984,14 +965,6 @@ nav.nav-agendar__as{
         font-size: 25px;
     }    div.depoimento-p p {
         font-size: 18px;
-    }    #next-arrow {
-        padding: 10px;
-    }.depoimentos-buttons-p img {
-        width: 20px;
-        height: 20px;
-    }    #bttn-back {
-        margin-right: -30px;
-        margin-top: -95px;
     }img#bttn-up{
         width: 30px;
         height: 30px;
@@ -1003,6 +976,15 @@ nav.nav-agendar__as{
     .main-img__a{
         left: 85.2%;
         top: 68%;
+    }.depoimentos-header h1 {
+        padding-left: 80px;
+        padding-right: 20px;
+    }#bttn-back {
+        width: 50px;
+        height: 50px;
+    }    #bttn-next {
+        width: 50px;
+        height: 50px;
     }
 }@media (max-width: 470px){
     .main-img__a{
