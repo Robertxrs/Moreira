@@ -204,6 +204,13 @@ footer {
 }@media (max-width: 1120px) {
     .footer-info {
         padding: 30px 0px 50px 30px;
+    }    .form-column input, .form-column textarea, .form-column button {
+        font-size: 14px;
+    }.form-column button {
+        width: 90px;
+        height: 60px;
+    }.form-column input{
+        width: 60%;
     }
 }
 @media (max-width: 900px) {
