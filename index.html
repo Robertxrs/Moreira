@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="main-img">
-                <img src="src/assets/images/Home1.1.png" alt="">
+                <img src="src/assets/images/Home1.1.png" loading="lazy" alt="">
             </div>
         </main>
     </div>
@@ -407,7 +407,7 @@
         </div>
         <div class="footer-message">
             <h2>Fale conosco</h2>
-            <form>
+            <form action="https://formspree.io/f/xrbqebpw"  method="POST" id="meuForm">
                 <div class="form-columns">
                     <div class="form-column">
                         <input type="text" name="name" placeholder="Nome" required>
@@ -420,9 +420,9 @@
                         <button type="submit">Enviar</button>
                     </div>
                 </div>
+                <div id="form-message" class="form-message"></div>
             </form>
         </div>   
-             
     </footer>
 
     <script src="src/js/depoimentos.js"></script>

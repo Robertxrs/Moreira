@@ -101,6 +101,7 @@ img {
 }@media (max-width: 1200px){
     .bg::before {
         transform: translate(235.7%, -42%);
+        height: 83%;
     }
 }
 @media (max-width: 1005px){
@@ -125,7 +126,13 @@ img {
     }.bg::before {
         transform: translate(258.2%, -45%);
         width: 24vw;
-        height: 70%;
+        height: 83%;
+    }
+}@media(max-width: 825px){
+    .bg::before {
+        transform: translate(258.2%, -45%);
+        width: 24vw;
+        height: 72%;
     }
 }
 @media(max-width: 410px){

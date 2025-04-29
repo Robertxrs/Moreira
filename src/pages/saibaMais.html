@@ -93,7 +93,7 @@
             </div>
 
             <div class="main-img__sm">
-                <img src="../assets/images/Saiba Mais-c.png"  alt="">
+                <img src="../assets/images/SaibaMais-c.png"  loading="lazy" alt="">
             </div>
         </main>
     </div>
@@ -403,7 +403,7 @@
         </div>
         <div class="footer-message">
             <h2>Fale conosco</h2>
-            <form>
+            <form action="https://formspree.io/f/xrbqebpw"  method="POST" id="meuForm">
                 <div class="form-columns">
                     <div class="form-column">
                         <input type="text" name="name" placeholder="Nome" required>
@@ -412,10 +412,11 @@
                     <div class="form-column">
                         <textarea name="message" placeholder="Mensagem" required></textarea>
                     </div>
-                    <div class="form-column">
+                    <div class="form-column" id="form-bttn">
                         <button type="submit">Enviar</button>
                     </div>
                 </div>
+                <div id="form-message" class="form-message"></div>
             </form>
         </div>        
     </footer>

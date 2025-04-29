@@ -71,6 +71,7 @@ div.main-content__s{
 }
 
 .procurar-img p{
+    font-size: 36px;
     color: #0D4253;
     display: flex;
     justify-content: center;
@@ -116,6 +117,7 @@ div.main-content__s{
         max-width:  500px;
     }.bg__s::before {
         transform: translate(231%, -46%);
+        height: 90%;
     }
 }
 @media (max-width: 1600px) {
@@ -152,14 +154,19 @@ div.main-content__s{
     .procurar-servicos{
         display: flex;
         padding-top: 100px;
+    }.procurar-img p{
+        font-size: 32px;
     }
 }@media (max-width: 1500px) {
     .bg__s::before {
         transform: translate(263.8%, -49%);
+        height: 80%;
     }
 }@media (max-width: 1440px) {
     .bg__s::before {
         transform: translate(266.2%, -49%);
+    }.procurar-img p {
+        padding-left: 280px;
     }
 }
 @media (max-width: 1120px) {
@@ -169,7 +176,7 @@ div.main-content__s{
     .bg__s::before {
         transform: translate(241.6%, -47%);
         width: 24vw;
-        height: 92%;
+        height: 84%;
     }
     .main-img__s{
         top: 70%;
@@ -210,7 +217,7 @@ div.main-content__s{
     .bg__s::before {
         transform: translate(241.1%, -52%);
         width: 24vw;
-        height: 92%;
+        height: 80%;
     }
     .main-img__s{
         top: 70%;
@@ -245,6 +252,8 @@ div.main-content__s{
         padding-top: 100px;
     }.medic-bg p {
         padding-right: 20px;
+    }.procurar-img p {
+        font-size: 22px;
     }
 }@media (max-width: 660px) {
     #text__s-two {
@@ -259,7 +268,7 @@ div.main-content__s{
     .bg__s::before {
         transform: translate(241.1%, -52%);
         width: 24vw;
-        height: 92%;
+        height: 70%;
     }
     .main-img__s{
         top: 70%;
@@ -296,6 +305,8 @@ div.main-content__s{
     }.procurar-servicos p {
         padding-left: 40px;
         padding-right: 20px;
+    }.procurar-img p {
+        font-size: 18px;
     }
 }@media (max-width: 560px) {
     .main-img__s{
@@ -364,6 +375,8 @@ div.main-content__s{
         width: 700px;
     }    .medic-bg p {
         padding-top: 20px;
+    }.procurar-img p {
+        font-size: 16px;
     }
 }@media (max-width: 400px) {
     .bg__s{

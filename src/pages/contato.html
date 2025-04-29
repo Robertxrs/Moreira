@@ -97,7 +97,7 @@
                 <p class="font-ti-c">Tele-Consulta</p>
             </div>
             <div class="main-img__c">
-                <img src="../assets/images/contato1.png"  alt="" width="795" height="785">
+                <img src="../assets/images/contato1-c.png"  loading="lazy" alt="" width="795" height="785">
             </div>
         </main>
     </div>
@@ -132,24 +132,24 @@
         </div>
     </nav>
     
-    <div class="contact-form container">
+        <div class="contact-form container">
         <h2>Envie uma mensagem</h2>
-        <form>
-            <div class="form-columns-c ">
+        <form action="https://formspree.io/f/xrbqebpw"  method="POST" id="meuForm">
+            <div class="form-columns-c">
                 <div class="form-column-c">
-                    <input type="text" id="name" name="name" placeholder="Nome" required>
-                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    <input type="text" name="name" placeholder="Nome" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
                 </div>
                 <div class="form-column-c">
-                    <textarea id="message" name="message" placeholder="Mensagem" required></textarea>
+                    <textarea name="message" placeholder="Mensagem" required></textarea>
                 </div>
                 <div class="form-column-c">
                     <button type="submit">Enviar</button>
                 </div>
             </div>
         </form>
+        <div id="form-message" class="form-message"></div>
     </div>
-    
 
     <div class="bttn-up__div container">
         <a href="">
@@ -293,7 +293,7 @@
         </div>
         <div class="footer-message">
             <h2>Fale conosco</h2>
-            <form>
+            <form action="https://formspree.io/f/xrbqebpw"  method="POST" id="meuForm">
                 <div class="form-columns">
                     <div class="form-column">
                         <input type="text" name="name" placeholder="Nome" required>
@@ -302,10 +302,11 @@
                     <div class="form-column">
                         <textarea name="message" placeholder="Mensagem" required></textarea>
                     </div>
-                    <div class="form-column">
+                    <div class="form-column" id="form-bttn">
                         <button type="submit">Enviar</button>
                     </div>
                 </div>
+                <div id="form-message" class="form-message"></div>
             </form>
         </div>        
     </footer>
@@ -315,5 +316,6 @@
     <script src="../js/search-pages.js"></script>
     <script src="../js/form.js"></script>
     <script src="../server.js"></script>
+    
 </body>
 </html>

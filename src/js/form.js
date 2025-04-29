@@ -1,26 +1,28 @@
-const form = document.querySelector("form");
+document.getElementById('meuForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const button = this.querySelector('button');
+  const formMessage = document.getElementById('form-message');
+  button.disabled = true;
 
-  form.addEventListener("submit", async (e) => {
-    e.preventDefault();
+  formMessage.classList.remove('show', 'error');
 
-    const formData = {
-      name: form.name.value,
-      email: form.email.value,
-      message: form.message.value,
-    };
-
-    try {
-      const response = await fetch("http://localhost:3000/send-email", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        form.reset();
-      } 
-    } catch (error) {
-      console.error("Erro:", error);
+  fetch(this.action, {
+    method: 'POST',
+    body: new FormData(this),
+    headers: { 'Accept': 'application/json' }
+  }).then(response => {
+    if (response.ok) {
+      formMessage.textContent = 'Mensagem enviada! Entraremos em contato em breve.';
+      formMessage.classList.add('show');
+      this.reset();
+    } else {
+      formMessage.textContent = 'Erro ao enviar. Tente novamente ou nos chame no WhatsApp.';
+      formMessage.classList.add('show', 'error');
     }
+  }).finally(() => {
+    button.disabled = false;
+    setTimeout(() => {
+      formMessage.classList.remove('show');
+    }, 3000);
   });
+});

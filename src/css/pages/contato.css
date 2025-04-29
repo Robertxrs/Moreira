@@ -178,6 +178,7 @@ div.contact-info__main h1{
 @media (max-width: 1700px) {
     .bg__c::before {
         transform: translate(231.1%, -52%);
+        height: 82%;
     }.main-content__c h2 {
         padding-right: 820px;
     }
@@ -315,7 +316,11 @@ div.contact-info__main h1{
         font-size: 44.4px;
     }.form-columns-c {
         gap: 20px;
+    }.form-column-c input{
+        height: 30px;
+        width: 120px;
     }
+
 }@media (max-width: 1005px){
     .main-content__c h2 {
         padding-right: 460px;
@@ -482,6 +487,11 @@ div.contact-info__main h1{
     }    nav.nav-agendar__c {
         padding-left: 20px;
         padding-top: 20px;
+    }.form-column-c input{
+        height: 30px;
+        width: 100px;
+    }.form-column-c input, .form-column-c textarea, .form-column-c button {
+        font-size: 10px;
     }
 }@media (max-width: 500px) {
     div.main-content__c, .contact-info__main {
@@ -540,7 +550,14 @@ div.contact-info__main h1{
         left: 3%;
         min-width: 0px;
         width: 50px;
-    }  
+    }.form-column-c input {
+        height: 15px;
+        width: 80px;
+    }.form-column-c input {
+        margin-bottom: 10px;
+    }    div.form-column-c {
+        padding-right: 30px;
+    }
 }@media (max-width: 400px) {
     .form-column-c textarea {
         height: 70px;
@@ -571,7 +588,9 @@ div.contact-info__main h1{
         padding-right: 120px;
     }
 }
-
+div.form-column-c {
+    padding-right: 30px;
+}
 
 
 
