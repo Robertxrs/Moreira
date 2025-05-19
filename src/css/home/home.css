@@ -442,6 +442,10 @@ nav#service-agendar{
 }
 .header-search img {
     padding-left: 5px;
+}#agendar-center{
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
 }
 
 @media (max-width: 1800px) {
@@ -949,7 +953,13 @@ nav#service-agendar{
         flex: 0 0 90%;
     }
     
-}@media (max-width: 580px) {
+}@media (max-width: 600px) {
+    .nav-agendar {
+     margin-top: 20px;
+     margin-bottom: 20px !important;
+    }
+}
+@media (max-width: 580px) {
     .main-content {
         margin-right: 195px;
     }
@@ -1144,6 +1154,8 @@ nav#service-agendar{
     }
     .main-img img {
         max-width: 140px;
+    }    .about-body > .nav-agendar {
+        margin: 20px 25px 0 0px;
     }
 }@media (max-width: 340px) {
     .main-content {
