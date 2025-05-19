@@ -58,6 +58,9 @@ footer {
     font-weight: 300;
     color: #fff;
 }
+.footer-p{
+    font-weight: 500 !important; 
+}
 
 
 .footer-message {
@@ -147,7 +150,7 @@ footer {
 }
 
 .footer-info__options ul li a {
-    font-size: 16px !important;
+    font-size: 18px !important;
     text-decoration: none;
     color: #fff;
     letter-spacing: 0.32px;
@@ -211,6 +214,8 @@ footer {
         height: 60px;
     }.form-column input{
         width: 60%;
+    }    .footer-contact p {
+        font-size: 16px !important;
     }
 }
 @media (max-width: 900px) {
@@ -297,7 +302,7 @@ footer {
     .footer-contact h2 {
         margin-top: 25px !important;
     }.footer-info__options ul li a {
-        font-size: 18px !important;
+        font-size: 20px !important;
     }    .footer-contact p {
         font-size: 16px !important;
     }.form-column button {

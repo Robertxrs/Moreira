@@ -1148,7 +1148,7 @@ nav.nav-agendar__as{
     }    div.main-content__a {
         margin-right: 128px;
     }    .nav-agendar__a a, a#service-agendar.btn-agendar {
-        font-size: 10px;
+        font-size: 12px;
     }
 }@media (max-width: 338px){
     .main-img__a{
