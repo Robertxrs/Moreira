@@ -599,7 +599,8 @@
     height: 50px;
 }
 input#search-input.search-bar {
-  width: 80px;
+  width: 60px;
+  height: 12px;
 }
 }@media(max-width:430px){
   div.header.container {

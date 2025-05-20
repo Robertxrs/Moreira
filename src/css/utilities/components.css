@@ -135,14 +135,14 @@ img {
         height: 72%;
     }
 }
-@media(max-width: 410px){
-    .bg{
-        --gradient-split: 65%;
-    }.bg::before {
-        transform: translate(270.7%, -55%);
-        width: 24vw;
-        height: 52%;
-    }
+@media(max-width: 455px){
+.bg{
+    --gradient-split: 66%;
+}
+.bg::before {
+    transform: translate(275%, -50%);
+    height: 60%;
+}
 }
 
 
