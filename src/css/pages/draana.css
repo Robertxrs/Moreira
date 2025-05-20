@@ -986,8 +986,8 @@ nav.nav-agendar__as{
         left: 85.2%;
         top: 68%;
     }.depoimentos-header h1 {
-        padding-left: 80px;
-        padding-right: 20px;
+        padding-left: 50px;
+        padding-right: 10px;
     }#bttn-back {
         width: 50px;
         height: 50px;
@@ -1131,6 +1131,9 @@ nav.nav-agendar__as{
 @media (max-width: 365px){
     .main-img__a{
         left: 87%;
+    }    #bttn-back,#bttn-next{
+        width: 46px;
+        height: 46px;
     }
 }@media (max-width: 360px){
     .main-img__a{
