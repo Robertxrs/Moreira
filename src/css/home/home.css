@@ -1131,11 +1131,20 @@ nav#service-agendar{
     .depoimento {
     border-radius: 28px;
     }
-}@media (max-width: 430px) {
+}@media (max-width: 440px) {
+    .main-content {
+        padding-top: 30px;
+    }.main-img {
+        top: 65%;
+    }
+}
+@media (max-width: 430px) {
     .main-content p {
         margin-right: 0px;
     }div.specialism h1{
         font-size: 18px;
+    }.nav-agendar h2 {
+        margin: 0px 22%;
     }
 }@media (max-width: 415px) {
         .main-img {
@@ -1146,7 +1155,7 @@ nav#service-agendar{
 @media (max-width: 410px) {
     .main-content {
         margin-right: 125px;
-        padding-top: 0px;
+        padding-top: 24px;
     }.about-bg {
         display: flex;
         padding-top: 50px;
@@ -1171,6 +1180,8 @@ nav#service-agendar{
         padding: 0px 10px;
     }     .service-bttn {
         padding-left: 35px;
+    }.nav-agendar h2 {
+        margin: 0px 19%;
     }
 }
 @media (max-width: 380px) {
@@ -1180,7 +1191,7 @@ nav#service-agendar{
         margin-right: 122px;
     }.main-img {
         left: 81%;
-        top: 67%;
+        top: 70%;
     }
     .main-img img {
         max-width: 140px;
@@ -1211,6 +1222,8 @@ nav#service-agendar{
         padding-right: 10px;
     }    .about-img img {
         max-width: 120px;
+    }.nav-agendar h2 {
+        margin: 0px 16%;
     }
 }
 
@@ -1226,6 +1239,13 @@ nav#service-agendar{
         max-width: 120px;
     }    div.about-content {
         padding-right: 5px;
+    }
+    .main-img {
+        top: 71%;
+    }
+}@media (max-width: 325px) {
+   .nav-agendar h2 {
+        margin: 0px 14%;
     }
 }
 
