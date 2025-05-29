@@ -37,7 +37,7 @@
 }
 .nav-agendar h2{
     text-align: center;
-    color: var(--color-h1-span);
+    color: var(--color-h2-subtitle);
     padding-top: 100px;
     margin: 0px 35%;
 }
@@ -128,7 +128,7 @@
     margin-bottom: 30px;
 }
 .specialism h2 {
-    color: #7a7a7a;
+    color: var(--color-p);
     font-weight: 500;
 }
 .specialism p {
@@ -140,10 +140,14 @@
 }
 
 .service-bttn {
-    color: #797979;
+    color: var(--color-p);
     padding-bottom: 100px;
     padding-right: 10px;
 }
+.depoimentos-header h1{
+    color: var(--color-h2-subtitle);
+}
+
 .service-arrow{
     transform: rotate(90deg);
     padding-left: 0px;
@@ -250,21 +254,21 @@
 .depoimento h2 {
     font-size: 30px;
     font-weight: 600;
-    color: #797979;
+    color: var(--color-p);
     margin-bottom: 10px;
     margin-left: 30px;
 }
 
 .depoimento p {
     font-size: 30px;
-    color: #797979;
+    color: var(--color-p);
     line-height: 1.5;
     margin-left: 30px;
 }
 
 .depoimento .author {
     font-size: 26px;
-    color: #797979;
+    color: var(--color-p);
     margin-top: 10px;
 }
 
@@ -356,6 +360,9 @@
     background-color: #FFFFFF; 
     color: #04878E; }
 
+.answer-bg h1,.answer-bg span{
+    color: var(--color-h2-subtitle);
+}
 .answer-bg h2{
     padding-bottom: 50px;
 }
@@ -364,7 +371,7 @@
 #answer-lembre{
     display: flex;
     text-align: center;
-    color: var(--color-h1-span);
+    color: var(--color-h2-subtitle);
     font-weight: 500;
     justify-content: center;
     padding: 0% 29%;
@@ -406,7 +413,7 @@ nav#service-agendar{
     padding-left: 0px;
 }
 .contact-bg span{
-    color: #9D9D9D;
+    color: var(--color-p);
     letter-spacing: 1.52px;
 }
 .contact-bg h2{
@@ -423,7 +430,7 @@ nav#service-agendar{
 }
 
 .contact-img > img{
-    border-radius: 106px;
+    border-radius: 40px;
     width: 700px;
 }
 

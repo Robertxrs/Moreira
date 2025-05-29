@@ -43,14 +43,14 @@
 .selected{
   background-color: #0D4253;
   padding: 8px 16px;
-  border-radius: 26px;
+  border-radius: 12px;
   color: #FFFFFF;
 }
 
 .selected-green{
   background-color: #999895;
   padding: 8px 16px;
-  border-radius: 26px;
+  border-radius: 12px;
   color: #FFFFFF;
 }
 

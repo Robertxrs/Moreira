@@ -19,7 +19,7 @@
     height: 100%;
     max-width: 600px;
 }.main-content__s span{
-    color: #062938;
+    color: var(--color-h2-subtitle);
 }
 .main-content__s p{
     letter-spacing: 0.86px;
@@ -50,7 +50,7 @@ div.main-content__s{
     padding-top: 30px;
 }
 #text__s-three span{
-    color: #797979;
+    color: var(--color-p);
     font-weight: 500;
 }
 
@@ -92,7 +92,7 @@ div.main-content__s{
 
 .procurar-servicos span{
     font-weight: 500;
-    color: #797979;
+   color: var(--color-p);
 }
 
 .medic-bg p{
@@ -104,7 +104,7 @@ div.main-content__s{
 }.procurar-servicos-img-two img{
     width: 900px;
 }#span-medic{
-    color: #797979;
+    color: var(--color-h2-subtitle);
     padding-right: 100px;
     font-weight: 500;
 }
@@ -395,8 +395,21 @@ div.main-content__s{
         width:380px
     }    .procurar-img p{
         padding-left: 20px;
+    }.main-img__s{
+        top: 70%;
+        left: 72%;
+    }
+}@media (max-width: 415px) {
+    .main-img__s{
+        top: 70%;
+        left: 75%;
+    }    #text__s-two {
+        padding-right: 156px;
+    }    .main-content__s p {
+        padding-right: 160px;
     }
 }
+
 
 @media (max-width: 400px) {
     .bg__s{
@@ -419,6 +432,11 @@ div.main-content__s{
         padding-left: 20px;
     }.procurar-img img{
         width: 160px;
+    }.main-img__s{
+        top: 74%;
+        left: 75%;
+    }    #text__s-two {
+        padding-right: 170px;
     }
 }@media (max-width: 380px) {
     .main-content__s p{
@@ -450,10 +468,12 @@ div.main-content__s{
         padding-right: 140px;
         padding-bottom: 0px;
     }   .main-img__s{
-        top: 74%;
+        top: 78%;
         left: 76%;
     }     .main-img__s img {
         max-width:  140px;
+    }   #text__s-two {
+        padding-right: 140px;
     }
 }
 

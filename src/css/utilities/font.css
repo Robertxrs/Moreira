@@ -80,7 +80,7 @@
 }
 .font-menu{
   font: 500 2rem/1.5 "Neue Kabel", sans-serif;
-  color: var(--color-h2-subtitle);
+  color: var(--color-menu);
 }
 .font-span{
   font: 500 2.4rem/1.5 "Neue Kabel", sans-serif;

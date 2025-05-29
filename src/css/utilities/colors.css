@@ -1,13 +1,14 @@
 :root {
-  --color-h1-span: #0d4350;
-  --color-h2-subtitle: #9d9d9d;
+  --color-h1-span: #04878E;
+  --color-h2-subtitle: #0D4253;
   --color-icon-arrow: #15908f;
-  --color-bg-button: #04878f;
+  --color-bg-button: #04878E;
   --color-bg-body: white;
-  --color-p: #797979;
+  --color-p: #0D4253;
   --color-bg-division-btn: #0d4252;
   --color-bg-text-span: #a1d5d8;
   --color-btn: #ffffff;
+  --color-menu: #04878E;
 }
 p{
   color: var(--color-p);
