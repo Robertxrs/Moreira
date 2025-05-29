@@ -464,6 +464,10 @@ p#text__sm, p#text__sm__two {
         transform: translate(199.6%, -53%);
         width: 28vw;
         height: 70%;
+    }    div#sm.main-content__s {
+        padding-top: 50px;
+    }    p#text__sm, p#text__sm__two {
+        padding-top: 0px;
     }
 }@media (max-width: 485px) {
     .main-img__sm img {
@@ -519,7 +523,7 @@ p#text__sm, p#text__sm__two {
         max-width: 200px;
     }.main-img__sm{
         top: 77%;
-        left: 82.9%;
+        left: 82%;
     } 
     .bg__sm{
     --gradient-split: 59%;
@@ -560,14 +564,14 @@ p#text__sm, p#text__sm__two {
       margin: 0px 80px;
   }
 }@media (max-width: 380px) {
-    }.main-img__sm{
+    .main-img__sm{
       top: 74%;
       left: 85.3%;
   }.problem-card {
       width: 220px;
   }.problem-row {
       margin: 0px 80px;
-  }
+  }}
 @media (max-width: 365px) {
     h1#title__sm, h2#title__sm {
       font-size: 14px;

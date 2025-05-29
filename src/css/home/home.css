@@ -1133,9 +1133,15 @@ nav#service-agendar{
     }
 }@media (max-width: 440px) {
     .main-content {
-        padding-top: 30px;
+        padding-top: 52px;
     }.main-img {
         top: 65%;
+    }.main-content h1{
+    margin-bottom: 0px;
+    }.main-content p {
+    margin-bottom: 10px;
+    }.main-content h2 {
+    margin-bottom: 5px;
     }
 }
 @media (max-width: 430px) {
@@ -1155,7 +1161,7 @@ nav#service-agendar{
 @media (max-width: 410px) {
     .main-content {
         margin-right: 125px;
-        padding-top: 24px;
+        padding-top: 50px;
     }.about-bg {
         display: flex;
         padding-top: 50px;

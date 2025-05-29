@@ -399,6 +399,12 @@ div.main-content__s{
         top: 70%;
         left: 72%;
     }
+    div.main-content__s {
+    padding-top: 52px;
+    }
+    .main-content__s p {
+        padding-top: 0px;
+    }
 }@media (max-width: 415px) {
     .main-img__s{
         top: 70%;
@@ -441,7 +447,7 @@ div.main-content__s{
 }@media (max-width: 380px) {
     .main-content__s p{
         padding-right:142px;
-        padding-top: 20px;
+        padding-top: 0px;
     }   
     #text__s-two{
         padding-right: 160px;
@@ -462,7 +468,7 @@ div.main-content__s{
 @media (max-width: 340px) {
     .main-content__s p{
         padding-right:110px;
-        padding-top: 20px;
+        padding-top: 0px;
     }   
     #text__s-two{
         padding-right: 140px;
