@@ -532,7 +532,6 @@ p#text__sm, p#text__sm__two {
     }p#text__sm, p#text__sm__two {
         padding-right: 160px;
     }
-
 }@media (max-width: 410px) {
     .problem-card {
         width: 220px;
