@@ -1222,7 +1222,7 @@ nav.nav-agendar__as{
     }
 }@media (max-width: 400px){
     .main-content__a p, .speciality-content p, .how-bg p, .depoimento-p p {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }.main-content__a #text__a {
         margin-right:14px;
     }.main-content__a h1 {
@@ -1231,7 +1231,7 @@ nav.nav-agendar__as{
         max-width: 180px;
     }.main-img__a{
         left: 85%;
-        top: 65.5%;
+        top: 69.2%;
     }    .main-content__a h1 {
         margin-right: 46px;
     }    .nav-agendar__a a, a#service-agendar.btn-agendar {
@@ -1245,7 +1245,7 @@ nav.nav-agendar__as{
 }@media (max-width: 385px){
 .main-img__a{
     left: 86%;
-    top: 65.5%;
+    top: 70%;
 }    .main-content__a h1 {
     margin-right: 32px;
 }
@@ -1254,7 +1254,7 @@ nav.nav-agendar__as{
     }
 }@media (max-width: 375px){
     .main-img__a{
-        top: 67.4%;
+        top: 69.2%;
     } }
 @media (max-width: 370px){
     .main-img__a{
@@ -1312,8 +1312,8 @@ nav.nav-agendar__as{
     }
 }@media (max-width: 338px){
     .main-img__a{
-        left: 86.4%;
-        top: 71%;
+        left: 86.2%;
+        top: 73.4%;
     }     .main-img__a img {
         max-width: 160px;
     }    .main-content__a h1 {

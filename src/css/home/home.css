@@ -1030,8 +1030,8 @@ nav#service-agendar{
         margin-right: 130px;
         padding-top: 20px;
     }.main-img {
-        left: 81%;
-        top: 63%;
+        left: 83%;
+        top: 68.5%;
     }.main-btn {
         padding-bottom: 20px;
     }    .main-content p {
@@ -1050,7 +1050,7 @@ nav#service-agendar{
     }
     .about-img img {
         max-width: 130px;
-        padding-right: 30px;
+        padding-right: 15px;
     }.about-content h2 {
         margin-bottom: 20px;
     }
@@ -1161,11 +1161,19 @@ nav#service-agendar{
     .depoimento {
     border-radius: 28px;
     }
+
+    div.about-img{
+        display: flex;
+        align-items: center;
+    }
 }@media (max-width: 440px) {
     .main-content {
-        padding-top: 52px;
-    }.main-img {
-        top: 66%;
+        padding-top: 40px;
+    }
+    
+    
+    .main-img {
+        top: 68%;
     }.main-content h1{
     margin-bottom: 0px;
     }.main-content p {
@@ -1182,10 +1190,18 @@ nav#service-agendar{
     }.nav-agendar h2 {
         margin: 0px 22%;
     }
-}@media (max-width: 415px) {
+    .main-content {
+        margin-right: 125px;
+    }
+}@media (max-width: 421px) {
         .main-img {
         left: 84%;
-        top: 66%;
+        top: 70%;
+    }
+}
+@media (max-width: 415px) {
+        .main-img {
+        left: 84%;
     }
 }
 @media (max-width: 410px) {
@@ -1208,8 +1224,20 @@ nav#service-agendar{
         .depoimentos-header h1 {
         padding-left: 50px;
         padding-right: 20px;
+    }.main-img {
+        top: 71%;
     }
-}@media (max-width: 390px) {
+}@media (max-width: 398px) {
+    .main-img {
+        top: 71%;
+    }
+    .main-content {
+        margin-right: 108px;
+    }
+
+}
+
+@media (max-width: 390px) {
     .specialism p {
         letter-spacing: 0px;
     }    div.service-content {
@@ -1219,19 +1247,15 @@ nav#service-agendar{
     }.nav-agendar h2 {
         margin: 0px 19%;
     }
-}@media (max-width: 387px) {
-    .main-img {
-        top: 69%;
-    }
-}  
+}
 @media (max-width: 380px) {
     .main-content h1, .main-content h2{
-        font-size: 18px;
+        font-size: 20px;
     }.main-content {
         margin-right: 122px;
     }.main-img {
         left: 81%;
-        top: 72%;
+        top: 73.5%;
     }
     .main-img img {
         max-width: 140px;
@@ -1240,7 +1264,8 @@ nav#service-agendar{
     }#answer-lembre {
         padding: 0% 6%;
     }  
-}@media (max-width: 370px) {
+}
+@media (max-width: 370px) {
         .about-img img {
         max-width: 130px;
         padding-right: 20px;
@@ -1249,13 +1274,15 @@ nav#service-agendar{
     }div.specialism h1 {
         font-size: 16px;
     }
+}@media (max-width: 364px) {
+    .main-content {
+        margin-right: 110px;
+    }
 }
 @media (max-width: 355px) {
-        .main-content {
-        margin-right: 100px;
-    }.main-img {
+    .main-img {
         left: 81%;
-        top: 72%;
+        top: 74%;
     }.about-img img {
         padding-top: 40px;
     }    .about-img img {
@@ -1268,7 +1295,7 @@ nav#service-agendar{
 }
 @media (max-width: 340px) {
     .main-content {
-        margin-right: 110px;
+        margin-right: 100px;
     }.about-content h2 {
         margin-bottom: 5px;
     }div.about-content h2,div.about-content h1{
@@ -1279,16 +1306,21 @@ nav#service-agendar{
         padding-right: 5px;
     }
     .main-img {
-        top: 71%;
+        top: 72%;
+        left: 83%;
     }    #bttn-main{
         margin-left: 15px;
+    }    .main-content h1, .main-content h2 {
+        font-size: 17px;
     }
 }@media (max-width: 325px) {
    .nav-agendar h2 {
         margin: 0px 14%;
     }.main-content {
         margin-right: 108px;
-    }
+    }.main-img {
+        top: 74%;
+    } 
 }
 
 
