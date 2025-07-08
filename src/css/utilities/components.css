@@ -137,10 +137,10 @@ img {
 }
 @media(max-width: 455px){
 .bg{
-    --gradient-split: 70%;
+    --gradient-split: 76%;
 }
 .bg::before {
-    transform: translate(291.3%, -50%);
+    transform: translate(316.4%, -50%);
     height: 60%;
 }
 }

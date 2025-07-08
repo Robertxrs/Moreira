@@ -1124,17 +1124,34 @@ nav.nav-agendar__as{
     }
 }@media (max-width: 458px){
     .main-img__a{
-        left: 87%;
+        left: 91.7%;
+        top: 76.4%;
     }
+
+    .bg__a::before {
+        transform: translate(225.2%, -40%);
+        height: 55%;
+        width: 32vw;
+    }.bg__a{
+        --gradient-split: 72%;
+    }    .main-img__a img {
+        max-width: 180px;
+    }    .main-content__a p, .speciality-content p, .how-bg p, .depoimento-p p {
+        font-size: 1.25rem;
+    }.main-content__a h1 {
+        font-size: 1.46rem;
+    }
+    
 }@media (max-width: 440px){
     .main-img__a{
-        left: 87.5%;
+        left: 92.3%;
+        top: 76%;
     }.main-content__a h1 {
         margin-right: 32px;
     }    div.main-content__a {
         margin-right: 120px;
     }    .main-content__a #text__a {
-        margin-right: 20px;
+        margin-right: 0px;
     }    a.btn-agendar {
         padding: 8px 12px;
     }
@@ -1174,7 +1191,7 @@ nav.nav-agendar__as{
         height: 92%;
         border-radius: 30px;
     }    div.depoimento-p p {
-        font-size: 14px;
+        font-size: 16px;
     }    div.stars-p {
         font-size: 20px;
         margin-bottom: 10px;
@@ -1190,11 +1207,15 @@ nav.nav-agendar__as{
         .speciality-content p{
         font-size: 18px;
     }
-
+        .main-content__a h1 {
+        margin-right: 0px;
+    }    div.main-content__a {
+        margin-right: 100px;
+    }
 }@media (max-width: 430px){
     .main-img__a{
-        left: 85.9%;
-        top: 68.6%;
+        left: 92.8%;
+        top: 80%;
     }main.main__a {
         padding:0px;
         padding-top: 52px;
@@ -1207,70 +1228,84 @@ nav.nav-agendar__as{
         margin-bottom: 5px;
     }    div.qualify-bg {
         padding-left: 15px;
-    }.main-img__a img {
-        max-width: 200px;
-    }    .main-content__a h1 {
-        margin-right: 36px;
     }.nav-agendar__a {
         padding-top: 10px;
     }
-}@media (max-width: 412px){
+}@media (max-width: 420px){
     .main-img__a{
-        left: 86.9%;
+        left: 89.9%;
+        top: 82%;
+    }     .main-img__a img {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 412px){
+    .main-img__a{
+        left: 90.2%;
     }    .main-content__a h1 {
-        margin-right: 18px;
+        margin-right: 0px;
+    }
+        div.main-content__a {
+        margin-right: 114px;
+        margin-left: 15px;
     }
 }@media (max-width: 400px){
-    .main-content__a p, .speciality-content p, .how-bg p, .depoimento-p p {
-        font-size: 0.9rem;
-    }.main-content__a #text__a {
-        margin-right:14px;
-    }.main-content__a h1 {
-        font-size: 1rem;
-    }.main-img__a img {
-        max-width: 180px;
+    .main-img__a img {
+        max-width: 160px;
     }.main-img__a{
-        left: 85%;
-        top: 69.2%;
-    }    .main-content__a h1 {
-        margin-right: 46px;
-    }    .nav-agendar__a a, a#service-agendar.btn-agendar {
+        left: 92%;
+        top: 81.5%;
+    }  .nav-agendar__a a, a#service-agendar.btn-agendar {
         font-size: 14px;
-    }    .bg__a::before {
-        transform: translate(223%, -30%);
-        width: 28vw;
-    }    .speciality-content p {
+    }  .speciality-content p {
         font-size: 15px;
+    }div.main-content__a {
+        margin-right: 110px;
+
     }
 }@media (max-width: 385px){
-.main-img__a{
-    left: 86%;
-    top: 70%;
-}    .main-content__a h1 {
-    margin-right: 32px;
-}
+    .main-content__a h1 {
+        font-size: 1.35rem;
+    }
+    .main-img__a{
+        left: 92.6%;
+        top: 79.4%;
+    }
     div.main-content__a {
         margin-left: 9px;
     }
 }@media (max-width: 375px){
     .main-img__a{
-        top: 69.2%;
-    } }
+        left: 93%;
+    } 
+      div.main-content__a {
+        margin-right: 105px;
+    }
+}  
 @media (max-width: 370px){
     .main-img__a{
-        left: 86.8%;
-    }.main-content__a h1 {
-        margin-right: 16px;
-    }    .nav-agendar__a a, a#service-agendar.btn-agendar {
+        left: 93.6%;
+        top: 81%;
+    }.nav-agendar__a a, a#service-agendar.btn-agendar {
         font-size: 13px;
     }  
 }
 @media (max-width: 365px){
     .main-img__a{
-        left: 87%;
-    }    #bttn-back,#bttn-next{
+        left: 88.5%;
+        top: 86%;
+    }  
+    .main-img__a img {
+        max-width: 120px;
+    }   
+    #bttn-back,#bttn-next{
         width: 46px;
         height: 46px;
+    }    .main-content__a h1 {
+        font-size: 1.1rem;
+    }    .main-content__a p, .speciality-content p, .how-bg p, .depoimento-p p {
+        font-size: 1.06rem;
     }
 }@media (max-width: 360px){
     .main-img__a{
@@ -1304,29 +1339,18 @@ nav.nav-agendar__as{
     }
 }@media (max-width: 344px){
     .main-img__a{
-        left: 88.4%;
+        left: 89.5%;
+        top: 81.5%;
     }    div.main-content__a {
-        margin-right: 128px;
+        margin-right: 100px;
     }    .nav-agendar__a a, a#service-agendar.btn-agendar {
         font-size: 12px;
     }
-}@media (max-width: 338px){
-    .main-img__a{
-        left: 86.2%;
-        top: 73.4%;
-    }     .main-img__a img {
-        max-width: 160px;
-    }    .main-content__a h1 {
-        margin-right: 0px;
-    }
 }@media (max-width: 330px){
     .main-img__a{
-        left: 86.4%;
-        top:72%;
-    }    div.main-content__a {
-        margin-right: 120px;
+        left: 90%;
+        top: 82.6%;
+     }    div.main-content__a {
+        margin-right: 94px;
     }
-}@media (max-width: 325px){
-    .main-img__a{
-        left: 87%; }
 }

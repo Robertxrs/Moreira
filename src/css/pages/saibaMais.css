@@ -515,27 +515,27 @@ p#text__sm, p#text__sm__two {
     }
 }@media (max-width: 440px) {
     p#text__sm, p#text__sm__two {
-        font-size: 16px;
+        font-size: 18px;
     }    h1#title__sm, h2#title__sm {
-        font-size: 20px;
+        font-size: 24px;
     } 
-  .main-img__sm img {
-        max-width: 180px;
+    .main-img__sm img {
+        max-width: 150px;
     }.main-img__sm{
-        top: 81%;
-        left: 84.4%;
+        top: 85%;
+        left: 89%;
     } 
     .bg__sm{
-    --gradient-split: 64%;
+    --gradient-split: 72%;
     }.bg__sm::before {
-        transform: translate(228.2%, -60%);
+        transform: translate(257%, -60%);
     }p#text__sm, p#text__sm__two {
-        padding-right: 140px;
+        padding-right: 110px;
     }
 }@media (max-width: 425px) {
     .main-img__sm{
-        top: 81%;
-        left: 85.2%;
+        top: 85%;
+        left: 89.6%;
     } 
 
 }
@@ -546,22 +546,22 @@ p#text__sm, p#text__sm__two {
         margin: 0px 80px;
     }.main-img__sm{
 
-      left: 86%;
+      left: 90.4%;
   }
 }@media (max-width: 391px) {
     h1#title__sm, h2#title__sm {
-      font-size: 18px;
+      font-size: 20px;
   }.main-img__sm{
-      top: 78%;
-      left: 87%;
+      top: 84%;
+      left: 91.2%;
   }     .problem-card {
       width: 220px;
   }.problem-row {
       margin: 0px 80px;
   }    p#text__sm, p#text__sm__two {
-    padding-right: 120px;
+    padding-right: 100px;
 }    p#text__sm, p#text__sm__two {
-        font-size: 14px;
+        font-size: 16px;
     }
 }@media (max-width: 380px) {
     .problem-card {
@@ -571,7 +571,7 @@ p#text__sm, p#text__sm__two {
   }
 }@media (max-width: 380px) {
     .main-img__sm{
-      left: 87.6%;
+      left: 91.7%;
   }.problem-card {
       width: 220px;
   }.problem-row {
@@ -579,39 +579,35 @@ p#text__sm, p#text__sm__two {
   }}
 @media (max-width: 365px) {
     h1#title__sm, h2#title__sm {
-      font-size: 18px;
+      font-size: 20px;
   }    .main-img__sm img {
-      max-width: 174px;
+      max-width: 134px;
   }.main-img__sm{
-      top: 78.5%;
-      left: 87.8%;
+      top: 85%;
+      left: 90.3%;
   }     .problem-card {
       width: 220px;
   }.problem-row {
       margin: 0px 80px;
   }    p#text__sm, p#text__sm__two {
-    padding-right: 110px;
+    padding-right: 90px;
 }    p#text__sm, p#text__sm__two {
-    font-size: 13px;
+    font-size: 16px;
 }
 }@media (max-width: 350px) {
-  .main-img__sm img {
-      max-width: 166px;
-  }.main-img__sm{
-      top: 79.5%;
-      left: 87.6%;
+    .main-img__sm{
+      top: 85%;
+      left: 91%;
   } 
 }@media (max-width: 340px) {
-    .main-img__sm img {
-        max-width: 180px;
-    }.main-img__sm{
-      left: 90.4%;
+    .main-img__sm{
+    top: 86%;
+    left: 91.5%;
   } 
   }@media (max-width: 330px) {
-    .main-img__sm img {
-        max-width: 180px;
-    }.main-img__sm{
-        left: 91.2%;
+    .main-img__sm{
+            top: 87%;
+        left: 92%;
     }
   }
   
