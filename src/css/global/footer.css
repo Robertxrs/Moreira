@@ -310,10 +310,27 @@ footer {
     }div.footer-message h2 {
         margin-top: 20px;
     }
-}@media (max-width: 390px) {
+}
+
+@media (max-width: 390px) {
     .footer-contact p {
         font-size: 14px !important;
     }div.footer-info {
         padding-left: 0px;
+    }
+}@media (max-width: 340px) {
+    .footer-info__options ul li a {
+        font-size: 16px !important;
+    }.footer-contact h2 {
+        margin-top: 10px !important;
+    }    .footer-info__options h1, .footer-contact h2 {
+        font-size: 20px !important;
+    }.footer-contact p {
+        font-size: 12px !important;
+    }    .form-column {
+        padding-right: 0px;
+        margin-right: 0px;
+    }    #form-bttn {
+        align-items: start;
     }
 }

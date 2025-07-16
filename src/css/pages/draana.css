@@ -1249,6 +1249,8 @@ nav.nav-agendar__as{
         div.main-content__a {
         margin-right: 114px;
         margin-left: 15px;
+    }.depoimentos-header h1 {
+        padding-left: 25px;
     }
 }@media (max-width: 400px){
     .main-img__a img {
@@ -1274,6 +1276,11 @@ nav.nav-agendar__as{
     }
     div.main-content__a {
         margin-left: 9px;
+    }    .depoimentos-header h1 {
+        padding-left: 25px;
+        padding-right: 0px;
+    }    .depoimentos-header h1 {
+        font-size: 20px;
     }
 }@media (max-width: 375px){
     .main-img__a{
