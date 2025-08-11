@@ -169,9 +169,14 @@ img {
     --gradient-split: 72%;
 }
 .bg::before {
-    transform: translate(300%, -50%);
+    transform: translate(299.7%, -50%);
     height: 60%;
 }
+}@media(max-width: 380px){
+.bg::before {
+    transform: translate(299.5%, -50%);
 }
+}
+
 
 

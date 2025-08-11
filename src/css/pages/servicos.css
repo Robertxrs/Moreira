@@ -401,7 +401,7 @@ div.main-content__s{
     --gradient-split: 72%;
 }
     .bg__s::before {
-        transform: translate(300.4%, -59%);
+        transform: translate(299.8%, -59%);
     }.main-content__s p {
         padding-right: 100px;
     }    #text__s-two {
