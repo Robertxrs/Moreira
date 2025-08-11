@@ -73,6 +73,28 @@ img {
 .iDjQuA{
     margin-top: 100px;
 }
+
+.google_reviews h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.ButtonBase__Ellipsis-sc-f9fbfeb2-5 {
+
+}
+
+.cgTEPs{
+     color: white !important;
+}
+
+.ButtonBase__Ellipsis-sc-c52c0a3c-5{
+ color: white !important;
+
+}
+   
 @media (max-width: 1800px) {
     .bg::before {
         transform: translate(233.8%, -37%);
