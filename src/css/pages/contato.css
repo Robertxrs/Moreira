@@ -22,7 +22,7 @@
 
 .main-img__c {
     position: absolute;
-    top: 64.6%;
+    top: 66%;
     left: 64%;
     transform: translate(-50%, -50%); 
 }
@@ -52,7 +52,7 @@ div.main-content__c{
 }
 .marca-dagua{
     position: absolute;
-    top: 70% !important;
+    top: 72% !important;
     left: 7.5%;
     transform: translate(-60%, -50%);
     z-index: 0;
@@ -80,7 +80,7 @@ div.main-content__c{
     position: relative;
     padding-bottom: 20px;
     font-size: 70.4px;
-    color: #062938;
+    color: #028292;
 }
 
 .contact-info-c p {
@@ -177,7 +177,13 @@ div.main-content__c{
 
 div.contact-info__main h1{
     position: relative;
+}@media (max-width: 1750px) {
+    .main-img__c {
+    top: 70%;
+    left: 64%;
 }
+}
+
 @media (max-width: 1700px) {
     .bg__c::before {
         transform: translate(231.1%, -52%);
@@ -243,11 +249,11 @@ div.contact-info__main h1{
     }.main-img__c img {
         max-width: 380px;
     }.marca-dagua{
-        top: 69%;
+        top: 74% !important;
         left: 9.5%;
     }.main-img__c {
         left: 70%;
-        top: 67%;
+        top: 70%;
     }
 }@media (max-width: 1350px) {
     .main-content__c h2 {
@@ -258,6 +264,9 @@ div.contact-info__main h1{
     padding-top: 20px;
 }    .main-content__c h2 {
         padding-right: 450px;
+    }.marca-dagua{
+        top: 72% !important;
+        left: 9.5%;
     }
 }
 
@@ -595,16 +604,25 @@ div.contact-info__main h1{
     }.form-column-c {
         min-width: 100px;
     }.marca-dagua{
-        top: 78.5% !important;
+        top: 77.5% !important;
         left:9%;
         width: 50px;
     }.marca-dagua-two {
         position: absolute;
-        top: 10%;
-        left: 3%;
+        top: 19%;
+        left: 3.5%;
         min-width: 0px;
         width: 50px;
-    }.form-column-c input {
+    }
+    #endereco{
+        padding-top: 15px;
+    }#horario{
+        padding-top: 10px;
+    }
+
+
+    
+    .form-column-c input {
         height: 15px;
         width: 80px;
     }.form-column-c input {
@@ -620,7 +638,7 @@ div.contact-info__main h1{
     .main-content__c h2 {
         padding-bottom: 25px;
     }.main-img__c {
-        top: 70%;
+        top: 74%;
         left: 83%;
     }
 }@media (max-width: 400px) {
@@ -640,7 +658,7 @@ div.contact-info__main h1{
     }    .main-content__c h1 {
         padding-top: 0px;
     }.main-img__c {
-        top: 72%;
+        top: 75%;
     }
         .marca-dagua {
         top: 76% !important;

@@ -1139,7 +1139,7 @@ nav#service-agendar{
     }#bttn-up{
         width: 40px;
     }#answer-lembre {
-        padding: 0% 15%;
+        padding: 0% 0%;
         margin-bottom: 20px;
     }    img.main-arrow {
         width: 20px !important;
@@ -1176,6 +1176,9 @@ nav#service-agendar{
     }
     .specialism h1{
         font-size: 20px;
+        margin-bottom: 10px;
+    } #clinica{
+        padding-top: 3px;
     }
     p#answer-lembre{
         font-size: 16px;
@@ -1299,7 +1302,7 @@ nav#service-agendar{
     }    .about-body > .nav-agendar {
         margin: 20px 25px 0 0px;
     }#answer-lembre {
-        padding: 0% 6%;
+        padding: 0% 0%;
     }  .about-img img {
         padding-bottom: 20px;
     } 

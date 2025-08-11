@@ -342,8 +342,8 @@ div.main-content__s{
 
 @media (max-width: 490px) {
     .main-img__s{
-        top: 70%;
-        left: 72%;
+        top: 74%;
+        left: 75%;
     }
     .main-img__s img {
         max-width:  160px;
@@ -390,7 +390,9 @@ div.main-content__s{
     }.procurar-img p {
         font-size: 16px;
     }
-}@media (max-width: 450px) {
+
+
+}@media (max-width: 455px) {
      .main-img__s{
         top: 79%;
         left: 82%;
@@ -417,6 +419,7 @@ div.main-content__s{
         padding-left: 20px;
     }.main-img__s{
         top: 77.5%;
+        left: 86%;
     }
     div.main-content__s {
     padding-top: 52px;
@@ -429,7 +432,7 @@ div.main-content__s{
 }@media (max-width: 415px) {
     .main-img__s{
         top: 78%;
-        left: 81%;
+        left: 87%;
     }    #text__s-two {
         padding-right: 110px;
     }    .main-content__s p {
@@ -455,7 +458,7 @@ div.main-content__s{
         max-width: 140px;
     }.main-img__s{
         top: 80%;
-        left: 82.5%;
+        left: 90%;
     } 
 }
 @media (max-width: 365px) {
