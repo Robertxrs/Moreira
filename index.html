@@ -184,6 +184,8 @@
                 <script   script src="https://static.elfsight.com/platform/platform.js" async></script>
                 <div class="elfsight-app-695e7a7f-c378-40ff-a3b0-bb145f2cc642" data-elfsight-app-lazy></div>
         </div>
+
+
     <!-- <div class="depoimentos-b container">
         <div class="depoimentos-bg">
             <div class="depoimentos-header">
@@ -315,7 +317,7 @@
 
     <div class="answer-bg container"> 
         <h1 class="font-ti">VEM ENTENDER MAIS</h1>
-        <h2 class="font-ti"><span class="font-ti">| </span>perguntas frequentes e suas explicações</h2>
+        <h2 class="font-ti">perguntas frequentes e suas explicações</h2>
     
         <p class="font-t">Diante do desafio de envelhecer com autonomia e independência, alguns problemas de saúde podem surgir. Veja alguns exemplos e clique para saber mais:</p>
     
@@ -349,9 +351,9 @@
     </div>
     
 
-    <div class="contact-bg container">
+    <div class="contact-bg container" id="contact-index">
             <h1 class="font-ti">CONTATO| <span class="font-ti">Atendimento</span></h1>
-            <h2 class="font-ti">Presencial, On-line e Presencial, teleconsulta e domiciliar <p>(consulte as regiões cadastradas)</p></h2>
+            <h2 class="font-ti">Presencial, teleconsulta e domiciliar <p>(consulte as regiões cadastradas)</p></h2>
 
         <div class="contact-content">    
             <div class="contact-img">
@@ -422,6 +424,17 @@
             </form>
         </div>   
     </footer>
+
+    <script>
+        window.addEventListener('load', function() {
+        setTimeout(function() {
+            const elfsightLink = document.querySelector('a[href*="elfsight.com"]');
+            if (elfsightLink) {
+            elfsightLink.style.display = 'none';
+            }
+        }, 1200);
+        });
+    </script>
 
     <script src="src/js/depoimentos.js"></script>
     <script src="src/js/menu.js"></script>
