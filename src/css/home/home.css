@@ -1269,6 +1269,14 @@ nav#service-agendar{
         font-size: 18px;
     }
 
+}@media (max-width: 392px) {
+    div.answer-bg{
+        padding: 0px;
+    }    .answer-options {
+        margin: 0px 30px;
+    }.answer-bg h1,.answer-bg h2,.answer-bg p{
+        padding: 0px 14px;
+    }
 }
 
 @media (max-width: 390px) {

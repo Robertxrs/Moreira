@@ -401,8 +401,11 @@ div.main-content__s{
     --gradient-split: 72%;
 }
     .bg__s::before {
-        transform: translate(299.8%, -59%);
-    }.main-content__s p {
+        transform: translate(224.8%, -50%);
+        width: 32vw;
+        height: 72%;
+    }
+    .main-content__s p {
         padding-right: 100px;
     }    #text__s-two {
         padding-right: 140px;
@@ -411,7 +414,7 @@ div.main-content__s{
     padding-right: 00px;
     }
 
-} 
+    }
 @media (max-width: 430px) {
     .procurar-img{
         width:380px
@@ -479,6 +482,10 @@ div.main-content__s{
         padding-right: 98px;
     }    .main-content__s p {
         padding-right: 70px;
+    }    .bg__s::before {
+        transform: translate(179.8%, -58%);
+        width: 40vw;
+        height: 72%;
     }
 }
 

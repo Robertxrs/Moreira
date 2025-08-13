@@ -76,7 +76,7 @@ img {
 
 .google_reviews h1{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -167,13 +167,20 @@ a[href*="elfsight.com"] {
     --gradient-split: 72%;
 }
 .bg::before {
-    transform: translate(299.7%, -50%);
-    height: 60%;
+    transform: translate(225%, -50%);
+    height: 66%;
+    width: 32vw;
 }
 }@media(max-width: 380px){
 .bg::before {
-    transform: translate(299.5%, -50%);
+    transform: translate(225%, -50%);
 }
+}@media (max-width: 350px) {
+    .bg::before {
+        transform: translate(189%, -50%);
+        height: 56%;
+        width: 38vw;
+    }
 }
 
 

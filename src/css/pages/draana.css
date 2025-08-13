@@ -1129,9 +1129,9 @@ nav.nav-agendar__as{
     }
 
     .bg__a::before {
-        transform: translate(224.6%, -40%);
-        height: 55%;
-        width: 32vw;
+        transform: translate(194.2%, -40%);
+        height: 58%;
+        width: 37vw;
     }.bg__a{
         --gradient-split: 72%;
     }    .main-img__a img {
@@ -1141,6 +1141,10 @@ nav.nav-agendar__as{
     }.main-content__a h1 {
         font-size: 1.46rem;
     }
+    div.main-content__a {
+        margin-right: 100px;
+    }
+
     
 }@media (max-width: 440px){
     .main-img__a{
@@ -1296,7 +1300,11 @@ nav.nav-agendar__as{
         top: 81%;
     }.nav-agendar__a a, a#service-agendar.btn-agendar {
         font-size: 13px;
-    }  
+    }      .bg__a::before {
+        transform: translate(180%, -40%);
+        height: 58%;
+        width: 40vw;
+    }
 }
 @media (max-width: 365px){
     .main-img__a{

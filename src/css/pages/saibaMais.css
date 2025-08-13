@@ -528,8 +528,11 @@ p#text__sm, p#text__sm__two {
     .bg__sm{
     --gradient-split: 72%;
     }.bg__sm::before {
-        transform: translate(257%, -60%);
-    }p#text__sm, p#text__sm__two {
+        transform: translate(199.8%, -53%);
+        width: 36vw;
+        height: 70%;
+    }
+    p#text__sm, p#text__sm__two {
         padding-right: 110px;
     }
 }@media (max-width: 425px) {
