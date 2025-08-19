@@ -537,10 +537,11 @@ p#text__sm, p#text__sm__two {
     }
 }@media (max-width: 425px) {
     .main-img__sm{
-        top: 85%;
-        left: 89.6%;
-    } 
-
+        top: 82%;
+        left: 93.2%;
+    }     .main-img__sm img {
+        max-width: 180px;
+    }
 }
 @media (max-width: 410px) {
     .problem-card {
@@ -548,7 +549,7 @@ p#text__sm, p#text__sm__two {
     }.problem-row {
         margin: 0px 80px;
     }.main-img__sm{
-      left: 90.4%;
+      left: 94%;
   }
       .problem-card p {
         padding: 8px;
@@ -558,9 +559,12 @@ p#text__sm, p#text__sm__two {
     h1#title__sm, h2#title__sm {
       font-size: 20px;
   }.main-img__sm{
-      top: 84%;
-      left: 91.2%;
-  }     .problem-card {
+      top: 80.3%;
+      left: 93.5%;
+  }     .main-img__sm img {
+        max-width: 170px;
+    }
+      .problem-card {
       width: 220px;
   }.problem-row {
       margin: 0px 80px;
@@ -577,7 +581,8 @@ p#text__sm, p#text__sm__two {
   }
 }@media (max-width: 380px) {
     .main-img__sm{
-      left: 91.7%;
+        left: 94.3%;
+        top: 81.5%;
   }.problem-card {
       width: 220px;
   }.problem-row {
@@ -587,10 +592,10 @@ p#text__sm, p#text__sm__two {
     h1#title__sm, h2#title__sm {
       font-size: 20px;
   }    .main-img__sm img {
-      max-width: 134px;
+      max-width: 150px;
   }.main-img__sm{
-      top: 85%;
-      left: 90.3%;
+      top: 84%;
+      left: 93%;
   }     .problem-card {
       width: 220px;
   }.problem-row {
@@ -602,18 +607,18 @@ p#text__sm, p#text__sm__two {
 }
 }@media (max-width: 350px) {
     .main-img__sm{
-      top: 85%;
-      left: 91%;
+      top: 83.5%;
+      left: 93.5%;
   } 
 }@media (max-width: 340px) {
     .main-img__sm{
     top: 86%;
-    left: 91.5%;
+    left: 94%;
   } 
   }@media (max-width: 330px) {
     .main-img__sm{
             top: 87%;
-        left: 92%;
+        left: 94.5%;
     }
   }
   

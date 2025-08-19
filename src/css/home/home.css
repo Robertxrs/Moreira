@@ -1220,10 +1220,17 @@ nav#service-agendar{
         margin: 0px 18%;
         padding-top: 50px;
     }
+}@media (max-width: 420px) {
+    .main-img img {
+        max-width: 190px;
+    } .main-img {
+        left: 88%;
+        top: 68%;
+    }
 }
 @media (max-width: 415px) {
         .main-img {
-        left: 84%;
+        left: 89%;
     }    .main-content {
         margin-right: 95px;
     }
@@ -1251,12 +1258,12 @@ nav#service-agendar{
         padding-left: 50px;
         padding-right: 20px;
     }.main-img {
-        top: 75%;
+        top: 68%;
     }
 }@media (max-width: 402px) {
     .main-img {
-        top: 72%;
-        left: 88%;
+        top: 67%;
+        left: 90%;
     }.nav-agendar h2 {
         margin: 0px 15%;
     }    .answer-options a {
@@ -1306,11 +1313,11 @@ nav#service-agendar{
     }.main-content {
         margin-right: 110px;
     }.main-img {
-        left: 84%;
-        top: 75%;
+        left: 88%;
+        top: 72%;
     }
     .main-img img {
-        max-width: 160px;
+        max-width: 170px;
     }    .about-body > .nav-agendar {
         margin: 20px 25px 0 0px;
     }#answer-lembre {
