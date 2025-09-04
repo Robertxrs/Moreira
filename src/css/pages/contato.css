@@ -42,7 +42,7 @@ div.main-content__c{
     font-size: 38px;
 }
 .main-content__c h2{
-    padding-right: 920px;
+    padding-right: 650px;
 }
 .contact-bg{
     padding-top: 100px;
@@ -52,7 +52,7 @@ div.main-content__c{
 }
 .marca-dagua{
     position: absolute;
-    top: 72% !important;
+    top: 70.4% !important;
     left: 7.5%;
     transform: translate(-60%, -50%);
     z-index: 0;
@@ -69,13 +69,17 @@ div.main-content__c{
 }
 .marca-dagua-two {
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 2%;
     transform: translate(-50%, -50%);
     z-index: -1;
     height: auto;
     min-width: 156px;
 }
+#endereco{
+        padding-top: 50px;
+        padding-bottom: 5px;
+    }
 .contact-info-c h1 {
     position: relative;
     padding-bottom: 20px;
@@ -102,7 +106,7 @@ div.main-content__c{
     padding-left: 100px;
 }
 .contact-info-c img{
-    border-radius: 56px;
+    border-radius: 16px;
     margin-right: 120px;
 }
 .contact-form {
@@ -195,7 +199,7 @@ div.contact-info__main h1{
 
 @media (max-width: 1677px) {
     .marca-dagua{
-        top: 70%;
+        top: 72.5% !important;
     }
 }
 @media (max-width: 1600px) {
@@ -210,6 +214,7 @@ div.contact-info__main h1{
     }
     .marca-dagua {
         left: 25%;
+         top: 70% !important;
     }.form-column-c input,
     .form-column-c textarea,
     .form-column-c button {
@@ -249,7 +254,7 @@ div.contact-info__main h1{
     }.main-img__c img {
         max-width: 380px;
     }.marca-dagua{
-        top: 74% !important;
+        top: 72% !important;
         left: 9.5%;
     }.main-img__c {
         left: 70%;
@@ -325,11 +330,13 @@ div.contact-info__main h1{
         width: 100px;
     }.marca-dagua-two {
         position: absolute;
-        top: 10%;
+        top: 18%;
         left: 2%;
         min-width: 0px;
         width: 120px;
-    }  
+    }  #endereco{
+        padding-top: 24px;
+    }
     .contact-info-c h1 {
         font-size: 44.4px;
     }.contact-form h2 {
@@ -538,6 +545,8 @@ div.contact-info__main h1{
         font-size: 10px;
     }    .main-content__c p {
         font-size: 18px;
+    }  #endereco{
+        padding-top: 10px;
     }
 }@media (max-width: 530px) {
     .main-content__c h2 {
@@ -617,9 +626,13 @@ div.contact-info__main h1{
         width: 50px;
     }
     #endereco{
-        padding-top: 15px;
+        padding-top: 20px;
+        padding-bottom: 5px;
     }#horario{
         padding-top: 10px;
+    }    .contact-map img {
+        width: 280px;
+        padding-right: 0px;
     }
     .form-column-c input {
         height: 15px;
@@ -639,6 +652,8 @@ div.contact-info__main h1{
     }.main-img__c {
         top: 74%;
         left: 83%;
+    }.contact-map{
+        align-self: flex-end;
     }
 }@media (max-width: 430px) {
     .marca-dagua{
