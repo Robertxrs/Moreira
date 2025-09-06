@@ -456,6 +456,16 @@ nav#service-agendar{
     justify-content: center;
     padding-left: 0px;
 }
+@media (min-width: 1916px) {
+    .main-content{
+        margin-right:750px;
+        padding-top: 80px; 
+    }
+}@media (min-width: 2000px) {
+    .main-content h1 {
+    margin-right: 405px;
+}
+}
 
 @media (max-width: 1800px) {
     .main-img {

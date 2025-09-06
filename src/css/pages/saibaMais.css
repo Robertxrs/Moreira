@@ -131,6 +131,21 @@ p#text__sm, p#text__sm__two {
     margin: 0px 350px;
     font-weight: 500;
 }
+@media (min-width: 1750px){
+    .bg__sm::before {
+        transform: translate(277.7%, -45%);
+        width: 20vw;
+        height: 100%;
+    }
+}@media (min-width: 1940px){
+    .bg__sm::before {
+        transform: translate(347.4%, -45%);
+        width: 16vw;
+        height: 100%;
+    }p#text__sm, p#text__sm__two {
+        padding-right: 950px;
+    }
+}
 @media (max-width: 1600px){
     p#text__sm, p#text__sm__two {
         padding-right: 630px;

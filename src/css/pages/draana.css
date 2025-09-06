@@ -1,3 +1,5 @@
+
+
 .bg__a{
     --gradient-split: 56%;
     background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
@@ -151,7 +153,50 @@ nav.nav-agendar__as{
     padding-right: 0px;
     padding-top: 50px;
     padding-bottom: 40px;
-}@media (max-width: 1870px) {
+}
+
+
+@media (min-width: 1921px) {
+  .bg__a::before {
+    transform: translate(205.8%, -44%);
+    width: 27vw;
+    height: 105%;
+  }#how-img__two {
+    margin-right: 50px;
+    width: 500px;
+    height: 400px;
+}#how-img__one {
+    width: 500px;
+    height: 450px;
+}
+}
+@media (min-width: 2010px) {
+  .bg__a::before {
+    transform: translate(241.7%, -44%);
+    width: 23vw;
+    height: 98%;
+  }
+}@media (min-width: 2041px) {
+  .bg__a::before {
+    transform: translate(264.6%, -44%);
+    width: 21vw;
+    height: 95%;
+  }
+}@media (min-width: 2120px) {
+  .bg__a::before {
+    transform: translate(292.5%, -44%);
+    width: 19vw;
+    height: 95%;
+  }
+  .main-content__a{
+    margin-left: 50px;
+    margin-right: 800px;
+}.main-content__a h1 {
+    margin-bottom: 50px;
+    margin-right: 500px;
+}
+}
+@media (max-width: 1870px) {
     .main-img__a{
         top: 62%;
         left: 78.6%;

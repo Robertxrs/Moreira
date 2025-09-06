@@ -181,7 +181,23 @@ div.main-content__c{
 
 div.contact-info__main h1{
     position: relative;
-}@media (max-width: 1750px) {
+}
+
+@media (min-width: 1921px) {
+    .main-content__c h2 {
+        padding-right: 950px;
+    }
+}@media (min-width: 2110px) {
+    .main-content__c h2 {
+        padding-right: 950px;
+    }
+    .bg__c::before {
+        transform: translate(264.8%, -48%);
+        width: 21vw;
+        height: 92%;
+    }
+}
+@media (max-width: 1750px) {
     .main-img__c {
     top: 73%;
     left: 64%;

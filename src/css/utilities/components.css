@@ -92,7 +92,28 @@ a[href*="elfsight.com"] {
  color: white !important;
 
 }
-   
+@media (min-width: 2000px) {
+    .bg::before {
+        transform: translate(266%, -37%);
+        width: 22vw;
+        height: 100%;
+    }
+}@media (min-width: 2080px) {
+    .bg::before {
+        transform: translate(292.8%, -40%);
+        width: 20vw;
+        height: 120%;
+    }
+}@media (min-width: 2140px) {
+    .bg::before {
+        transform: translate(292.8%, -30%);
+        width: 20vw;
+        height: 120%;
+    }
+}
+
+
+
 @media (max-width: 1800px) {
     .bg::before {
         transform: translate(233.8%, -37%);

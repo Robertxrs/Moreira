@@ -114,6 +114,22 @@ div.main-content__s{
     padding-right: 100px;
     font-weight: 500;
 }
+@media (min-width: 1750px){
+   .bg__s::before {
+        transform: translate(277.5%, -42%);
+        width: 20vw;
+        height: 100%;
+    }.main-img__s img {
+        max-width: 456px;
+    }
+}@media (min-width: 1980px){
+   .bg__s::before {
+        transform: translate(292.4%, -42%);
+        width: 19vw;
+        height: 100%;
+    }
+}
+
 @media (max-width: 1700px) {
     .main-img__s{
         top: 66%;
