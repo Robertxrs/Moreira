@@ -4,7 +4,7 @@
 }
 .main-img {
     position: absolute;
-    top: 50%;
+    top: 56%;
     left: 58%;
     transform: translate(-50%, -50%); 
 }
@@ -469,6 +469,7 @@ nav#service-agendar{
 
 @media (max-width: 1800px) {
     .main-img {
+        top: 58%;
         left: 64%;
     }
     .main-content p {
@@ -483,7 +484,7 @@ nav#service-agendar{
         padding-top: 50px;
     }.main-img {
         left: 68%;
-        top: 59.5%;
+        top: 63%;
     }.main-img img {
         max-width: 500px;
         height: auto;
@@ -525,7 +526,7 @@ nav#service-agendar{
         padding-top: 20px;
     }.main-img {
         left: 66%;
-        top: 51%;
+        top: 58%;
     }.main-img img {
         max-width: 400px
     }    .main-content p {
@@ -600,7 +601,7 @@ nav#service-agendar{
 }@media (max-width: 1300px) {
     .main-img {
         left: 68%;
-        top: 51%;
+        top: 57%;
     }    .main-content {
         margin-right: 400Px;
     }
@@ -621,7 +622,7 @@ nav#service-agendar{
         padding-top: 20px;
     }.main-img {
         left: 68%;
-        top: 50%;
+        top: 56%;
     }.main-img img {
         max-width: 370px
     }.main-content p {
@@ -707,7 +708,7 @@ nav#service-agendar{
 }@media (max-width: 1062px) {
     .main-img {
         left: 66%;
-        top: 54%;
+        top: 60%;
     }
 }
 @media (max-width: 1030px) {

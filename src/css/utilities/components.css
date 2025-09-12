@@ -43,7 +43,7 @@ img {
     background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
     min-height: 100vh;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; 
 }
 .bg::before {
     content: '';
@@ -106,13 +106,18 @@ a[href*="elfsight.com"] {
     }
 }@media (min-width: 2140px) {
     .bg::before {
-        transform: translate(292.8%, -30%);
-        width: 20vw;
-        height: 120%;
+        transform: translate(254.5%, -35%);
+        width: 23vw;
+        height: 140%;
     }
 }
-
-
+@media (min-width: 2270px) {
+    .bg::before {
+        transform: translate(254.8%, -30%);
+        width: 23vw;
+        height: 140%;
+    }
+}
 
 @media (max-width: 1800px) {
     .bg::before {

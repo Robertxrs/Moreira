@@ -134,8 +134,8 @@ color: var(--color-h2-subtitle);
 }
 #how-img__two{
     margin-right: 50px;
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
 }
 p#how-img_text{
     padding-right: 400px;
@@ -265,8 +265,8 @@ nav.nav-agendar__as{
     }
     
     #how-img__two {
-        width: 500px;
-        height: 420px;
+        width: 460px;
+        height: 380px;
     }
     
     #how-text__two::before {
@@ -382,9 +382,12 @@ p#how-img_text{
     .speciality-content p {
         padding-right: 20px;
     }
-     #how-img__two, #how-img__one {
+     #how-img__one {
         width: 500px;
         height: 420px;
+    }#how-img__two{
+         width: 430px;
+        height: 410px;
     }
     p#how-img_text {
         padding-right: 200px;
