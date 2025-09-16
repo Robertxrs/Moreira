@@ -25,14 +25,19 @@
   display: flex; 
   flex: 10;
 }
-
+.menu a{
+  z-index: 999 !important;
+}
 .header-menu .menu {
   display: flex;
   list-style: none;
   gap: 40px; 
   margin: 0;
   padding: 0;
-}
+  position: relative; /* mantém no lugar */
+  z-index: 9999;      /* fica acima de outros */
+} 
+
 .header-search{
   display: flex;
   justify-content: end;

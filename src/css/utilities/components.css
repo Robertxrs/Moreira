@@ -117,7 +117,43 @@ a[href*="elfsight.com"] {
         width: 23vw;
         height: 140%;
     }
+}@media (min-width: 2460px) {
+    .bg::before {
+        transform: translate(254.8%, -27%);
+        width: 23vw;
+        height: 140%;
+    }.main-content p {
+        margin-bottom: 20px;
+        margin-right: 500px;
+    }    .main-content h1 {
+        margin-right: 605px;
+    }
+}@media (min-width: 2625px) {
+    .bg::before {
+        transform: translate(254.8%, -27.5%);
+        width: 23vw;
+        height: 160%;
+    }.main-content p {
+        margin-bottom: 20px;
+        margin-right: 700px;
+    }    .main-content h1 {
+        margin-right: 805px;
+    }
+}@media (min-width: 2820px) {
+    .bg::before {
+        transform: translate(255%, -27.5%);
+        width: 23vw;
+        height: 180%;
+    }.main-content p {
+        margin-bottom: 20px;
+        margin-right: 900px;
+    }    .main-content h1 {
+        margin-right: 985px;
+    }
 }
+
+
+
 
 @media (max-width: 1800px) {
     .bg::before {

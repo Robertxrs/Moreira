@@ -146,7 +146,28 @@ div.main-content__s{
         width: 22vw;
         height: 140%;
     }
+}@media (min-width: 2440px){
+   .bg__s::before {
+        transform: translate(241.8%, -31%);
+        width: 23vw;
+        height: 150%;
+    }
+}@media (min-width: 2600px){
+   .bg__s::before {
+        transform: translate(252.9%, -31%);
+        width: 22vw;
+        height: 150%;
+    }
+}@media (min-width: 2715px){
+   .bg__s::before {
+        transform: translate(278.5%, -33%);
+        width: 20vw;
+        height: 150%;
+    }
 }
+
+
+
 
 @media (max-width: 1700px) {
     .main-img__s{

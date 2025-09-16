@@ -231,6 +231,24 @@ div.contact-info__main h1{
         width: 25vw;
         height: 120%;
     }
+}@media (min-width: 2400px) {
+    .main-content__c h2 {
+        padding-right: 1200px;
+    }
+    .bg__c::before {
+        transform: translate(241.8%, -42%);
+        width: 23vw;
+        height: 120%;
+    }
+}@media (min-width: 2600px) {
+    .main-content__c h2 {
+        padding-right: 1200px;
+    }
+    .bg__c::before {
+        transform: translate(264.9%, -40%);
+        width: 21vw;
+        height: 120%;
+    }
 }
 @media (max-width: 1750px) {
     .main-img__c {

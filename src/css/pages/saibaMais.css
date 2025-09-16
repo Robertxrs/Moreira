@@ -177,6 +177,26 @@ p#text__sm, p#text__sm__two {
         width: 24vw;
         height: 140%;
     }
+}@media (min-width: 2440px){
+    .bg__sm::before {
+        transform: translate(231.8%, -30%);
+        width: 24vw;
+        height: 150%;
+    }p#text__sm, p#text__sm__two {
+        padding-right: 1200px;
+    }
+}@media (min-width: 2500px){
+    .bg__sm::before {
+        transform: translate(265%, -33%);
+        width: 21vw;
+        height: 150%;
+    }
+}@media (min-width: 2775px){
+    .bg__sm::before {
+        transform: translate(265%, -30%);
+        width: 21vw;
+        height: 150%;
+    }
 }
 @media (max-width: 1600px){
     p#text__sm, p#text__sm__two {

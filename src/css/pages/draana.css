@@ -195,6 +195,30 @@ nav.nav-agendar__as{
     margin-bottom: 50px;
     margin-right: 500px;
 }
+}@media (min-width: 2340px) {
+  .bg__a::before {
+    transform: translate(264.8%, -41%);
+    width: 21vw;
+    height: 150%;
+  }
+  .main-content__a{
+    margin-left: 50px;
+    margin-right: 800px;
+}.main-content__a p {
+    margin-right: 700px;
+}
+}@media (min-width: 2610px) {
+  .bg__a::before {
+    transform: translate(264.9%, -39%);
+    width: 21vw;
+    height: 150%;
+  }
+  .main-content__a{
+    margin-left: 50px;
+    margin-right: 990px;
+}.main-content__a p {
+    margin-right: 990px;
+}
 }
 @media (max-width: 1870px) {
     .main-img__a{
