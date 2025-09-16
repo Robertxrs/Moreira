@@ -163,11 +163,11 @@ nav.nav-agendar__as{
     height: 105%;
   }#how-img__two {
     margin-right: 50px;
-    width: 500px;
-    height: 400px;
+    width: 450px;
+    height: 350px;
 }#how-img__one {
-    width: 500px;
-    height: 450px;
+    width: 450px;
+    height: 400px;
 }
 }
 @media (min-width: 2010px) {
