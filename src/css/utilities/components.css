@@ -170,13 +170,13 @@ a[href*="elfsight.com"] {
 }@media (max-width: 1500px) {
     .bg::before {
         transform: translate(224.3%, -40%);
-        height: 90%;
+        height: 100%;
     }
 }
 @media (max-width: 1440px){
     .bg::before {
         transform: translate(256.5%, -36%);
-        height: 89%;
+        height: 100%;
         width: 23vw; 
     }.bg{
         min-height: 100%;
@@ -184,13 +184,13 @@ a[href*="elfsight.com"] {
 }@media (max-width: 1300px){
     .bg::before {
         transform: translate(235.7%, -36%);
-        height: 90%;
+        height: 100%;
         width: 25vw; 
     }
 }@media (max-width: 1200px){
     .bg::before {
         transform: translate(235.7%, -42%);
-        height: 83%;
+        height: 100%;
     }
 }
 @media (max-width: 1005px){
@@ -205,7 +205,7 @@ a[href*="elfsight.com"] {
 @media(max-width: 750px){
     .bg::before {
         transform: translate(256.4%, -58%);
-        height: 56%;
+        height: 100%;
     }
 }
 
@@ -215,13 +215,13 @@ a[href*="elfsight.com"] {
     }.bg::before {
         transform: translate(258.2%, -45%);
         width: 24vw;
-        height: 83%;
+        height: 100%;
     }
 }@media(max-width: 825px){
     .bg::before {
         transform: translate(258.2%, -45%);
         width: 24vw;
-        height: 72%;
+        height: 100%;
     }
 }
 @media(max-width: 455px){
@@ -230,7 +230,7 @@ a[href*="elfsight.com"] {
 }
 .bg::before {
     transform: translate(225%, -50%);
-    height: 66%;
+    height: 100%;
     width: 32vw;
 }
 }@media(max-width: 380px){
@@ -240,7 +240,7 @@ a[href*="elfsight.com"] {
 }@media (max-width: 350px) {
     .bg::before {
         transform: translate(189%, -50%);
-        height: 56%;
+        height: 100%;
         width: 38vw;
     }
 }

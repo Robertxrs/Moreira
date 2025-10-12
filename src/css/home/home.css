@@ -526,7 +526,7 @@ nav#service-agendar{
         padding-top: 20px;
     }.main-img {
         left: 66%;
-        top: 58%;
+        top: 60%;
     }.main-img img {
         max-width: 400px
     }    .main-content p {
@@ -601,7 +601,7 @@ nav#service-agendar{
 }@media (max-width: 1300px) {
     .main-img {
         left: 68%;
-        top: 57%;
+        top: 62%;
     }    .main-content {
         margin-right: 400Px;
     }
@@ -622,7 +622,7 @@ nav#service-agendar{
         padding-top: 20px;
     }.main-img {
         left: 68%;
-        top: 56%;
+        top: 62%;
     }.main-img img {
         max-width: 370px
     }.main-content p {
@@ -708,7 +708,7 @@ nav#service-agendar{
 }@media (max-width: 1062px) {
     .main-img {
         left: 66%;
-        top: 60%;
+        top: 64%;
     }
 }
 @media (max-width: 1030px) {
@@ -717,7 +717,7 @@ nav#service-agendar{
         padding-top: 20px;
     }.main-img {
         left: 74%;
-        top: 53%;
+        top: 61%;
     }
 }
 @media (max-width: 970px) {
@@ -732,7 +732,7 @@ nav#service-agendar{
         padding-top: 20px;
     }.main-img {
         left: 75%;
-        top: 52%;
+        top: 62%;
     }.main-btn {
         padding-bottom: 20px;
     }    .main-content p {
@@ -849,7 +849,7 @@ nav#service-agendar{
         max-width: 260px;
     }.main-img {
         left: 78%;
-        top: 55.3%;
+        top: 65%;
     }.about-img img {
         max-width: 230px;
         padding-right: 20px;
@@ -860,7 +860,7 @@ nav#service-agendar{
     }
 }@media (max-width: 695px) {
     .main-img {
-        top: 59%;
+        top: 67%;
     }
 }
 
@@ -881,7 +881,7 @@ nav#service-agendar{
         padding-top: 20px;
     }.main-img {
         left: 79%;
-        top: 52%;
+        top: 62%;
     }.main-btn {
         padding-bottom: 20px;
     }    .main-content p {
@@ -1012,7 +1012,7 @@ nav#service-agendar{
 
 } @media (max-width: 595px) {
     .main-img {
-        top: 55.5%;
+        top: 65%;
     }
 }   
 @media (max-width: 580px) {
@@ -1021,7 +1021,7 @@ nav#service-agendar{
     }
 }@media (max-width: 545px) {
     .main-img {
-        top: 58%;
+        top: 65%;
     }      div.service-content {
        margin-top: 20px;
     }.message-bg {
@@ -1035,7 +1035,7 @@ nav#service-agendar{
     }    .main-img img {
         max-width: 200px;
     }.main-img {
-        top: 63%;
+        top: 69%;
     }      .about-content h2 {
         margin-bottom: 0px;
     }    .about-img img {
@@ -1046,7 +1046,7 @@ nav#service-agendar{
     }
 }@media (max-width: 481px) {
     .main-img {
-        top: 64%;
+        top: 72%;
     }
 }  
 @media (max-width: 455px) {
@@ -1054,15 +1054,16 @@ nav#service-agendar{
         margin-right: 115px;
         padding-top: 20px;
     }.main-img {
-        left: 83%;
-        top: 71%;
+
+        left: 93%;
+        top: 62%;
     }.main-btn {
         padding-bottom: 20px;
     }    .main-content p {
         margin-right: 0px;
     }
     .main-img img {
-        max-width: 170px
+        max-width: 250px
     }img.main-arrow {
         width: 35px !important;
     }
@@ -1244,15 +1245,15 @@ nav#service-agendar{
     }
 }@media (max-width: 420px) {
     .main-img img {
-        max-width: 190px;
+        max-width: 240px;
     } .main-img {
-        left: 88%;
-        top: 68%;
+        left: 90%;
+        top: 66%;
     }
 }
 @media (max-width: 415px) {
         .main-img {
-        left: 89%;
+        left: 92%;
     }    .main-content {
         margin-right: 95px;
     }
@@ -1285,7 +1286,7 @@ nav#service-agendar{
 }@media (max-width: 402px) {
     .main-img {
         top: 67%;
-        left: 90%;
+        left: 93%;
     }.nav-agendar h2 {
         margin: 0px 15%;
     }    .answer-options a {
@@ -1335,11 +1336,11 @@ nav#service-agendar{
     }.main-content {
         margin-right: 110px;
     }.main-img {
-        left: 88%;
-        top: 72%;
+        left: 90%;
+        top: 70%;
     }
     .main-img img {
-        max-width: 170px;
+        max-width: 220px;
     }    .about-body > .nav-agendar {
         margin: 20px 25px 0 0px;
     }#answer-lembre {
@@ -1374,7 +1375,7 @@ nav#service-agendar{
        font-size: 14px;
     }
 }
-@media (max-width: 355px) {
+@media (max-width: 357px) {
     .about-img img {
         padding-top: 40px;
     }    .about-img img {
@@ -1391,6 +1392,9 @@ nav#service-agendar{
         padding-top: 20px;
     }.answer-options {
         margin: 0px 10px;
+    } .main-img {
+        left: 92%;
+        top: 73%;
     }
 }
 @media (max-width: 340px) {
@@ -1404,15 +1408,15 @@ nav#service-agendar{
         padding-right: 5px;
     }
     .main-img {
-        top: 78%;
-        left: 88%;
+        top: 74%;
+        left: 93%;
     }  #bttn-main{
         margin-left: 15px;
     } .nav-agendar h2 {
         margin: 0px 10%;
     }
         .main-img img {
-        max-width: 150px;
+        max-width: 190px;
     }div.about-content h2, div.about-content h1 {
         font-size: 18px;
     }
