@@ -184,8 +184,8 @@ div.contact-info__main h1{
 }
 @media (min-width: 1700px) {
     .bg__c::before {
-        transform: translate(205.4%, -50%);
-        width: 27vw;
+        transform: translate(231.2%, -48%);
+        width: 24vw;
         height: 150%;
     }
     .main-content__c h2 {
