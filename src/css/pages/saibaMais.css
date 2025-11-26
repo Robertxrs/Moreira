@@ -472,11 +472,17 @@ p#text__sm, p#text__sm__two {
     }.problem-row {
         gap: 0px;
         margin: 0px;
-    }.bg__sm::before {
-        transform: translate(199.6%, -53%);
+    }.bg__sm{
+        --gradient-split: 62%;
+    }
+    .bg__sm::before {
+        top: 54%;
+        transform: translate(221.1%, -48%);
         width: 28vw;
-        height: 100%;
-    }    div#sm.main-content__s {
+        height: 120%;
+    }   
+    
+    div#sm.main-content__s {
         padding-top: 50px;
     }    p#text__sm, p#text__sm__two {
         padding-top: 0px;
@@ -490,9 +496,12 @@ p#text__sm, p#text__sm__two {
     }.problem-row {
         gap: 0px;
         margin: 0px;
-    }.bg__sm::before {
-        transform: translate(199.6%, -53%);
-        width: 28vw;
+    }.bg__sm{
+        --gradient-split: 72%;
+    }
+    .bg__sm::before {
+        transform: translate(240%, -49%);
+        width: 30vw;
         height: 100%;
     }    p#text__sm, p#text__sm__two {
         font-size: 14px;
