@@ -223,25 +223,28 @@ a[href*="elfsight.com"] {
         width: 24vw;
         height: 100%;
     }
+}@media(max-width: 500px){
+   .bg::before {
+        top: 54%;
+        transform: translate(221.1%, -52%);
+        width: 28vw;
+        height: 120%;
+    } 
 }
 @media(max-width: 455px){
 .bg{
     --gradient-split: 72%;
 }
 .bg::before {
-    transform: translate(225%, -50%);
+    transform: translate(240%, -56%);
+    width: 30vw;
     height: 100%;
-    width: 32vw;
-}
-}@media(max-width: 380px){
-.bg::before {
-    transform: translate(225%, -50%);
 }
 }@media (max-width: 350px) {
     .bg::before {
-        transform: translate(189%, -50%);
+        transform: translate(211.4%, -58%);
         height: 100%;
-        width: 38vw;
+        width: 34vw;
     }
 }
 

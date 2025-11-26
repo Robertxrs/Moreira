@@ -627,8 +627,12 @@ div.contact-info__main h1{
     div.main-content__c, .contact-info__main {
         padding-left: 20px;
     }.bg__c::before {
-        transform: translate(206.2%, -55%);
-    }    .main-content__c h2 {
+        top: 54%;
+        transform: translate(221.1%, -48%);
+        width: 28vw;
+        height: 120%;
+    }
+    .main-content__c h2 {
         padding-right: 200px;
     }   .form-column-c button {
         margin-left: 50px;
@@ -636,6 +640,8 @@ div.contact-info__main h1{
         width: 90px;
         height: 40px;
         font-size: 12px;
+    }.main-img__c {
+        left: 82%;
     }
 }@media (max-width: 490px) {
     .main-content__c h2 {
@@ -650,9 +656,9 @@ div.contact-info__main h1{
         --gradient-split: 72%;
 
     }
-        .bg__c::before {
-        transform: translate(189.2%, -52%);
-        width: 38vw;
+    .bg__c::before {
+        transform: translate(240%, -49%);
+        width: 30vw;
         height: 100%;
     }
     .main-content__c h2 {

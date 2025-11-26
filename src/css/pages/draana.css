@@ -1153,9 +1153,9 @@ p#how-img_text{
     }    .main-content__a #text__a {
         margin-right: 25px;
     }.bg__a::before {
-        transform: translate(195.2%, -40%);
+        transform: translate(188.8%, -44%);
         height: 100%;
-        width: 32vw;
+        width: 33vw;
     }#agendar-dra a{
         font-size: 14px;
     }
@@ -1219,9 +1219,9 @@ p#how-img_text{
         top: 64%;
     }
     .bg__a::before {
-        transform: translate(194.2%, -40%);
+        transform: translate(231.9%, -44%);
+        width: 31vw;
         height: 100%;
-        width: 37vw;
     }.bg__a{
         --gradient-split: 72%;
     }    .main-img__a img {
@@ -1383,10 +1383,6 @@ p#how-img_text{
         top: 70%;
     }.nav-agendar__a a, a#service-agendar.btn-agendar {
         font-size: 13px;
-    }      .bg__a::before {
-        transform: translate(180%, -40%);
-        height: 100%;
-        width: 40vw;
     }
 }
 @media (max-width: 365px){
