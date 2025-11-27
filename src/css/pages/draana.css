@@ -125,7 +125,7 @@ color: var(--color-h2-subtitle);
     content: "";
     position: absolute;
     top: 18%;
-    left: 8%;
+    left: 9%;
     width: 90%;
     height: 65%; 
     background-color: #a2d5d7;
@@ -907,7 +907,12 @@ p#how-img_text{
 @media (max-width: 770px){
     .main-img__a{
         left: 87.2%;
+    }#how-text__two::before {
+        left: 15%;
+    }    #how-text__two {
+        padding-left: 50px;
     }
+
 }@media (max-width: 760px){
     main.main__a {
         padding-top: 50px;
@@ -1142,6 +1147,9 @@ p#how-img_text{
         width: 100%;
         height: 82%;
     }  
+    .how-bg p {
+        font-size: 1rem;
+    }
 }
 @media (max-width: 510px){
     .main-img__a{
@@ -1233,6 +1241,9 @@ p#how-img_text{
     }
     div.main-content__a {
         margin-right: 100px;
+    }
+    .how-bg p {
+        font-size: 1rem;
     }
 }@media (max-width: 440px){
 .main-content__a h1 {

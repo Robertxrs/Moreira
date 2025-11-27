@@ -68,7 +68,10 @@ img {
 
 
 .ButtonBase__Ellipsis-sc-c390884-5{
-    color: white;
+    color: white !important;
+}
+.hjYZnC {
+    color: white !important;
 }
 .iDjQuA{
     margin-top: 100px;
