@@ -1,3 +1,6 @@
+#agendar__c-mobile{
+    display: none;
+}
 .main-img__c {
     position: absolute;
     top: 65%;
@@ -262,19 +265,16 @@ div.contact-info__main h1{
         padding-top: 50px;
     }.nav-agendar__c {
         padding-top: 50px;
-    }.bg__c::before {
-        transform: translate(233%, -52%);
-        height: 120%;
     }.contact-info-c img {
         margin-right: 0px;
     }.main-img__c img {
-        max-width: 380px;
+        max-width: 500px;
     }.marca-dagua{
-        top: 79.6% !important;
+        top: 66.1% !important;
         left: 9.5%;
     }.main-img__c {
-        left: 70%;
-        top: 72%;
+        left: 76%;
+        top: 70%;
     }
 }@media (max-width: 1350px) {
     .main-content__c h2 {
@@ -286,7 +286,7 @@ div.contact-info__main h1{
 }    .main-content__c h2 {
         padding-right: 450px;
     }.marca-dagua{
-        top: 84% !important;
+        top: 63% !important;
         left: 9.5%;
     }
 }
@@ -324,7 +324,8 @@ div.contact-info__main h1{
         left:7.4%;
     }
     .main-img__c {
-        left: 69%;
+        left: 78%;
+        top: 69%;
     }.font-ti-c{
         font-size:38px;
     }.contact-bg.container {
@@ -332,14 +333,8 @@ div.contact-info__main h1{
     }.contact-map img{
         width: 400px;
         padding-right: 0px;
-    }.bg__c{
-        min-height: 100%;
     }.main-img__c img{
-        max-width: 320px;
-    }.bg__c::before {
-        transform: translate(186.3%, -47%);
-        width: 30vw;
-        height: 120%;
+        max-width: 460px;
     }.marca-dagua{
         top: 70%;
         left:6%;
@@ -371,9 +366,8 @@ div.contact-info__main h1{
         padding-right: 460px;
         padding-bottom: 40px;
     }.marca-dagua{
-        top: 67%;
-        left:8%;
-        width: 100px;
+        top: 60.5% !important;
+        left: 7.5%;
     }.form-column-c input {
         height: 80px;
     }    input#name, input#email {
@@ -416,9 +410,7 @@ div.contact-info__main h1{
         top: 64%;
         left:7.4%;
     }
-    .main-img__c {
-        left: 69%;
-    }.font-ti-c{
+    .font-ti-c{
         font-size:28px;
     }.contact-bg.container {
         padding-top: 30px;
@@ -426,8 +418,11 @@ div.contact-info__main h1{
         width: 340px;
         padding-right: 0px;
     }.main-img__c img{
-        max-width: 250px;
-    }.marca-dagua{
+        max-width: 400px;
+    }.main-img__c {
+        left: 73%;
+    }
+    .marca-dagua{
         top: 71%;
         left:8%;
         width: 80px;
@@ -478,6 +473,11 @@ div.contact-info__main h1{
     }    .main-content__c p {
         font-size: 22px;
     }
+    .main-img__c img{
+        max-width: 360px;
+    }.main-img__c {
+        left: 79%;
+    }
 }@media (max-width: 660px) {
     .main-content__c h2 {
         padding-right: 250px;
@@ -510,7 +510,8 @@ div.contact-info__main h1{
         left:7.4%;
     }
     .main-img__c {
-        left: 76%;
+        left: 78%;
+        top: 73%;
     }.font-ti-c{
         font-size:20px;
     }.contact-bg.container {
@@ -519,9 +520,9 @@ div.contact-info__main h1{
         width: 300px;
         padding-right: 0px;
     }.main-img__c img{
-        max-width: 200px;
+        max-width: 240px;
     }.marca-dagua{
-        top: 86% !important;
+        top: 75% !important;
         left:8%;
         width: 60px;
     }.marca-dagua-two {
@@ -570,6 +571,13 @@ div.contact-info__main h1{
         font-size: 18px;
     }  #endereco{
         padding-top: 10px;
+    }#agendar__c{
+        display: none;
+    }
+    #agendar__c-mobile{
+        display: flex;
+    }.contact-info__main {
+        padding-bottom: 100px;
     }
 }@media (max-width: 530px) {
     .main-content__c h2 {
@@ -609,15 +617,6 @@ div.contact-info__main h1{
     div.main-content__c, .contact-info__main {
         padding-left: 20px;
     }
-    .bg__c{
-        --gradient-split: 72%;
-
-    }
-    .bg__c::before {
-        transform: translate(240%, -49%);
-        width: 30vw;
-        height: 100%;
-    }
     .main-content__c h2 {
         padding-right: 110px;
     }    .main-content__c h1, .main-content__c h2, .main-content__c span {
@@ -647,7 +646,7 @@ div.contact-info__main h1{
     }.form-column-c {
         min-width: 100px;
     }.marca-dagua{
-        top: 88% !important;
+        top: 76% !important;
         left:9%;
         width: 50px;
     }.marca-dagua-two {
@@ -656,6 +655,9 @@ div.contact-info__main h1{
         left: 3.5%;
         min-width: 0px;
         width: 50px;
+    }
+        .contact-info__main {
+        padding-bottom: 60px;
     }
     #endereco{
         padding-top: 20px;
