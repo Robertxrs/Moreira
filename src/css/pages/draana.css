@@ -1,40 +1,21 @@
-
-
-.bg__a{
-    --gradient-split: 56%;
-    background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
-    min-height: 100vh;
-    position: relative;
-    overflow: hidden;
-}
-.bg__a::before {
-    content: '';
-    background-image: url("../../assets/icons/Aneis.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
-    position: absolute;
-    top: 57.5%;
-    left: var(--gradient-split + 5vw);
-    transform: translate(221.4%, -50%);
-    width: 25vw;
-    height: 88%;
-    max-width: 600px;
+#nav-agendar__dra-mobile{
+    display: none;
 }
 .main__a{
     position: relative;
     display: flex;
     padding: 20px;
     padding-bottom: 60px;
+    padding-top: 100px;
 }
 .main-content__a{
     margin-left: 50px;
-    margin-right: 600px;
+    margin-right: 480px;
 }
 .main-img__a{
     position: absolute;
     top: 62%;
-    left: 74%;
+    left: 85%;
     transform: translate(-60%, -50%);
 }
 .main-img__a img {
@@ -42,8 +23,8 @@
 }
 
 .main-content__a h1 {
-    margin-bottom: 50px;
-    margin-right: 410px;
+    margin-bottom: 90px;
+    margin-right: 400px;
 }
 .main-content__a span{
     color: var(--color-h2-subtitle);
@@ -58,8 +39,11 @@ color: var(--color-h2-subtitle);
 }
 .main-content__a p {
     letter-spacing: 0.86px;
-    margin-right: 300px;
+    margin-right: 700px;
 
+}#nav-agendar__dra{
+    display: block;
+    padding-top: 100px;     
 }
 .main-button{
     display: flex;
@@ -239,11 +223,11 @@ nav.nav-agendar__as{
 }@media (max-width: 1790px) {
     .main-img__a{
         top: 62%;
-        left: 75%;
+        left: 85%;
     }.main-content__a h1 {
         margin-right: 280px;
     }   .main-content__a p {
-        margin-right: 200px;
+        margin-right: 380px;
     }
 }@media (max-width: 1740px) {
     .main-content__a h1 {
@@ -254,7 +238,12 @@ nav.nav-agendar__as{
 }@media (max-width: 1710px) {
     .main-content__a h1 {
         margin-right: 198px;
-    }
+    }   .main-content__a p {
+        margin-right: 400px;
+    }#nav-agendar__dra{
+    display: block;
+    padding-top: 200px;     
+}
 }@media (max-width: 1670px) {
     .main-content__a h1 {
         margin-right: 170px;
@@ -318,7 +307,7 @@ p#how-img_text{
 }
 }@media (max-width: 1542px){
     .main-img__a{
-        left: 79%;
+        left: 85%;
     }
     }
 @media (max-width: 1537px){
@@ -331,7 +320,7 @@ p#how-img_text{
 }
 @media (max-width: 1522px){
     .main-img__a{
-    left: 79.2%;
+    left: 85%;
 }
 }
 @media (max-width: 1500px){
@@ -645,7 +634,12 @@ p#how-img_text{
         padding-right: 30px;
     }#how-img__one {
         margin-bottom: 50px;
+    }    #nav-agendar__dra {
+        display: block;
+        padding-top: 100px;
     }
+
+
 }@media (max-width: 1108px){
     #how-text__two {
         margin-left:140px;
@@ -786,7 +780,7 @@ p#how-img_text{
     }
     .main-img__a{
         left: 86%;
-        top: 60%;
+        top: 65%;
     }.bg__a{
         --gradient-split: 62.5%;
     }
@@ -831,6 +825,7 @@ p#how-img_text{
 }@media (max-width: 890px){
    .main-img__a{
         left: 86.6%;
+        top: 64%;
     }
 }@media (max-width: 862px){
         #how-text__two {
@@ -1012,6 +1007,10 @@ p#how-img_text{
         width: 84%;
         height: 60%;
     }
+        #nav-agendar__dra {
+        display: block;
+        padding-top: 20px;
+    }
 }@media (max-width: 640px){
     .main-content__a h1, .qualify-bg h1, .qualify-bg h2, .how-bg h1, .how-bg span {
         font-size: 1.8rem;
@@ -1073,6 +1072,13 @@ p#how-img_text{
         left: 88.4%;
     }.main-content__a h1 {
         margin-right: 6px;
+    }#nav-agendar__dra {
+        display: none;
+    }
+    #nav-agendar__dra-mobile {
+        display: block;
+        padding-top: 10px;
+        padding-left: 20px;
     }
 
 }@media (max-width: 604px){
@@ -1088,6 +1094,7 @@ p#how-img_text{
         height: 100%;
         width: 28vw;
     }
+    
 
 }@media (max-width: 590px){
     .main-img__a{

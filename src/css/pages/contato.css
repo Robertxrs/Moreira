@@ -1,36 +1,16 @@
-.bg__c{
-    --gradient-split: 56%;
-    background: linear-gradient(to right, white var(--gradient-split), #0D4253 var(--gradient-split));
-    min-height: 100vh;
-    position: relative;
-    overflow: hidden;
-}
-.bg__c::before {
-    content: '';
-    background-image: url("../../assets/icons/Aneis.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right center;
-    position: absolute;
-    top: 57.5%;
-    left: var(--gradient-split + 5vw);
-    transform: translate(231.1%, -48%);
-    width: 24vw;
-    height: 150%;
-    max-width: 600px;
-}
-
 .main-img__c {
     position: absolute;
-    top: 70%;
-    left: 64%;
+    top: 65%;
+    left: 80%;
     transform: translate(-50%, -50%); 
 }
 .main-img__c img {
-    max-width: 500px;
+    max-width: 660px;
+}#agendar__c{
+    padding-bottom: 150px;
 }
 div.main-content__c{
-    padding-top: 0px;
+    padding-top: 100px;
 }
 .main-content__c h1{
     padding-top: 50px;
@@ -52,7 +32,7 @@ div.main-content__c{
 }
 .marca-dagua{
     position: absolute;
-    top: 83.4% !important;
+    top: 64.4% !important;
     left: 7.5%;
     transform: translate(-60%, -50%);
     z-index: 0;
@@ -183,20 +163,11 @@ div.contact-info__main h1{
     position: relative;
 }
 @media (min-width: 1700px) {
-    .bg__c::before {
-        transform: translate(231.2%, -48%);
-        width: 24vw;
-        height: 150%;
-    }
     .main-content__c h2 {
         padding-right: 820px;
     }
 }@media (min-width: 1840px) {
-    .bg__c::before {
-        transform: translate(205.4%, -42%);
-        width: 27vw;
-        height: 150%;
-    }.main-content__c h2 {
+    .main-content__c h2 {
     padding-right: 720px;
 }
 }
@@ -205,22 +176,13 @@ div.contact-info__main h1{
         padding-right: 950px;
     }
 }@media (min-width: 2020px) {
-    .bg__c::before {
-        transform: translate(205.8%, -43%);
-        width: 27vw;
-        height: 150%;
-    }.main-content__c h2 {
+    .main-content__c h2 {
     padding-right: 920px;
 }
 }
 @media (min-width: 2110px) {
     .main-content__c h2 {
         padding-right: 950px;
-    }
-    .bg__c::before {
-        transform: translate(222.3%, -45%);
-        width: 25vw;
-        height: 160%;
     }
 }@media (min-width: 2220px) {
     .main-content__c h2 {
@@ -253,27 +215,22 @@ div.contact-info__main h1{
 @media (max-width: 1750px) {
     .main-img__c {
     top: 73%;
-    left: 64%;
+    left: 80%;
 }
 }
 @media (max-width: 1677px) {
     .marca-dagua{
-        top: 84% !important;
+        top: 64% !important;
     }
 }
 @media (max-width: 1600px) {
     .form-column-c textarea {
         height: 280px;
     }
-    .main-img__c {
-        left: 66%;
-    }
-    .main-img__c img {
-        max-width: 440px;
-    }
+
     .marca-dagua {
         left: 25%;
-         top: 84% !important;
+         top: 64% !important;
     }.form-column-c input,
     .form-column-c textarea,
     .form-column-c button {
